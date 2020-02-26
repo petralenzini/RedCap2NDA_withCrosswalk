@@ -1,0 +1,1295 @@
+study,source,dbase,Inst,hcp_variable,variable_label,variable_type,variable_options,nda_structure,nda_element,structure_label,element_label,element_description,element_values,inst_short,template,action_request,hcp_variable_upload,specialty_code,requested_python
+HCPD,REDCap,hcpdchild hcpd18 hcpdparent,,,,,,ndarsubjects01,<many>,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18 hcpdparent,,,,,,edinburgh_hand01,<many>,,,,,,,,,1,
+HCPD,REDCap,hcpd18,,asr1,,,,asr01,asr1_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr1,,"asr1=pd.to_numeric(studydata.asr1,errors='coerce')+1; studydata.asr1=asr1.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr2,,,,asr01,asr1_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr2,,"asr2=pd.to_numeric(studydata.asr2,errors='coerce')+1; studydata.asr2=asr2.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr3,,,,asr01,asr1_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr3,,"asr3=pd.to_numeric(studydata.asr3,errors='coerce')+1; studydata.asr3=asr3.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr4,,,,asr01,asr1_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr4,,"asr4=pd.to_numeric(studydata.asr4,errors='coerce')+1; studydata.asr4=asr4.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr5,,,,asr01,asr1_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr5,,"asr5=pd.to_numeric(studydata.asr5,errors='coerce')+1; studydata.asr5=asr5.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr6,,,,asr01,asr1_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr6,,"asr6=pd.to_numeric(studydata.asr6,errors='coerce')+1; studydata.asr6=asr6.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr6des,,,,asr01,asr1_6_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr7,,,,asr01,asr2_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr7,,"asr7=pd.to_numeric(studydata.asr7,errors='coerce')+1; studydata.asr7=asr7.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr8,,,,asr01,asr2_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr8,,"asr8=pd.to_numeric(studydata.asr8,errors='coerce')+1; studydata.asr8=asr8.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr9,,,,asr01,asr2_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr9,,"asr9=pd.to_numeric(studydata.asr9,errors='coerce')+1; studydata.asr9=asr9.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr9des,,,,asr01,asr2_3_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr10,,,,asr01,asr2_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr10,,"asr10=pd.to_numeric(studydata.asr10,errors='coerce')+1; studydata.asr10=asr10.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr11,,,,asr01,asr2_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr11,,"asr11=pd.to_numeric(studydata.asr11,errors='coerce')+1; studydata.asr11=asr11.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr12,,,,asr01,asr2_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr12,,"asr12=pd.to_numeric(studydata.asr12,errors='coerce')+1; studydata.asr12=asr12.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr13,,,,asr01,asr3_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr13,,"asr13=pd.to_numeric(studydata.asr13,errors='coerce')+1; studydata.asr13=asr13.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr14,,,,asr01,asr3_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr14,,"asr14=pd.to_numeric(studydata.asr14,errors='coerce')+1; studydata.asr14=asr14.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr15,,,,asr01,asr3_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr15,,"asr15=pd.to_numeric(studydata.asr15,errors='coerce')+1; studydata.asr15=asr15.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr16,,,,asr01,asr3_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr16,,"asr16=pd.to_numeric(studydata.asr16,errors='coerce')+1; studydata.asr16=asr16.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr17,,,,asr01,asr3_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr17,,"asr17=pd.to_numeric(studydata.asr17,errors='coerce')+1; studydata.asr17=asr17.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr18,,,,asr01,asr3_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr18,,"asr18=pd.to_numeric(studydata.asr18,errors='coerce')+1; studydata.asr18=asr18.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr19,,,,asr01,asr4_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr19,,"asr19=pd.to_numeric(studydata.asr19,errors='coerce')+1; studydata.asr19=asr19.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr20,,,,asr01,asr4_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr20,,"asr20=pd.to_numeric(studydata.asr20,errors='coerce')+1; studydata.asr20=asr20.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr21,,,,asr01,asr4_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr21,,"asr21=pd.to_numeric(studydata.asr21,errors='coerce')+1; studydata.asr21=asr21.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr22,,,,asr01,asr4_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr22,,"asr22=pd.to_numeric(studydata.asr22,errors='coerce')+1; studydata.asr22=asr22.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr23,,,,asr01,asr4_5,,,,,,,Please rename this column 'asr4_5' to avoid a naming conflict in our database.  Please increment your 0::2 scale to a 1::3 scale.,asr4_5,,"asr23=pd.to_numeric(studydata.asr23,errors='coerce')+1; studydata.asr23=asr23.fillna(-99).astype(int).astype(str).str.replace('-99',''); studydata['asr4_5']=studydata['asr23']"
+HCPD,REDCap,hcpd18,,asr24,,,,asr01,asr4_6,,,,,,,Please rename this column 'asr4_6' to avoid a naming conflict in our database.Please increment your 0::2 scale to a 1::3 scale.,asr4_6,,"asr24=pd.to_numeric(studydata.asr24,errors='coerce')+1; studydata.asr24=asr24.fillna(-99).astype(int).astype(str).str.replace('-99',''); studydata['asr4_6']=studydata['asr24']"
+HCPD,REDCap,hcpd18,,asr25,,,,asr01,asr5_1,,,,,,,Please rename this column 'asr5_1' to avoid a naming conflict in our database.Please increment your 0::2 scale to a 1::3 scale.,asr5_1,,"asr25=pd.to_numeric(studydata.asr25,errors='coerce')+1; studydata.asr25=asr25.fillna(-99).astype(int).astype(str).str.replace('-99',''); studydata['asr5_1']=studydata['asr25']"
+HCPD,REDCap,hcpd18,,asr26,,,,asr01,asr5_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr26,,"asr26=pd.to_numeric(studydata.asr26,errors='coerce')+1; studydata.asr26=asr26.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr27,,,,asr01,asr5_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr27,,"asr27=pd.to_numeric(studydata.asr27,errors='coerce')+1; studydata.asr27=asr27.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr28,,,,asr01,asr5_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr28,,"asr28=pd.to_numeric(studydata.asr28,errors='coerce')+1; studydata.asr28=asr28.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr29,,,,asr01,asr5_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr29,,"asr29=pd.to_numeric(studydata.asr29,errors='coerce')+1; studydata.asr29=asr29.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr29des,,,,asr01,asr5_5_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr30,,,,asr01,asr5_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr30,,"asr30=pd.to_numeric(studydata.asr30,errors='coerce')+1; studydata.asr30=asr30.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr31,,,,asr01,asr6_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr31,,"asr31=pd.to_numeric(studydata.asr31,errors='coerce')+1; studydata.asr31=asr31.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr32,,,,asr01,asr6_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr32,,"asr32=pd.to_numeric(studydata.asr32,errors='coerce')+1; studydata.asr32=asr32.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr33,,,,asr01,asr6_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr33,,"asr33=pd.to_numeric(studydata.asr33,errors='coerce')+1; studydata.asr33=asr33.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr34,,,,asr01,asr6_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr34,,"asr34=pd.to_numeric(studydata.asr34,errors='coerce')+1; studydata.asr34=asr34.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr35,,,,asr01,asr6_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr35,,"asr35=pd.to_numeric(studydata.asr35,errors='coerce')+1; studydata.asr35=asr35.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr36,,,,asr01,asr6_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr36,,"asr36=pd.to_numeric(studydata.asr36,errors='coerce')+1; studydata.asr36=asr36.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr37,,,,asr01,asr7_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr37,,"asr37=pd.to_numeric(studydata.asr37,errors='coerce')+1; studydata.asr37=asr37.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr38,,,,asr01,asr7_2,,,,,,,Please rename this column 'asr7_2' to avoid a naming conflict in our database.  Please increment your 0::2 scale to a 1::3 scale.,asr7_2,,"asr38=pd.to_numeric(studydata.asr38,errors='coerce')+1; studydata.asr38=asr38.fillna(-99).astype(int).astype(str).str.replace('-99',''); studydata['asr7_2']=studydata['asr38']"
+HCPD,REDCap,hcpd18,,asr39,,,,asr01,asr7_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr39,,"asr39=pd.to_numeric(studydata.asr39,errors='coerce')+1; studydata.asr39=asr39.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr40,,,,asr01,asr7_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr40,,"asr40=pd.to_numeric(studydata.asr40,errors='coerce')+1; studydata.asr40=asr40.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr40des,,,,asr01,asr7_4_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr41,,,,asr01,asr7_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr41,,"asr41=pd.to_numeric(studydata.asr41,errors='coerce')+1; studydata.asr41=asr41.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr42,,,,asr01,asr7_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr42,,"asr42=pd.to_numeric(studydata.asr42,errors='coerce')+1; studydata.asr42=asr42.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr43,,,,asr01,asr8_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr43,,"asr43=pd.to_numeric(studydata.asr43,errors='coerce')+1; studydata.asr43=asr43.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr44,,,,asr01,asr8_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr44,,"asr44=pd.to_numeric(studydata.asr44,errors='coerce')+1; studydata.asr44=asr44.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr45,,,,asr01,asr8_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr45,,"asr45=pd.to_numeric(studydata.asr45,errors='coerce')+1; studydata.asr45=asr45.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr46,,,,asr01,asr8_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr46,,"asr46=pd.to_numeric(studydata.asr46,errors='coerce')+1; studydata.asr46=asr46.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr46des,,,,asr01,asr8_4_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr47,,,,asr01,asr8_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr47,,"asr47=pd.to_numeric(studydata.asr47,errors='coerce')+1; studydata.asr47=asr47.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr48,,,,asr01,asr8_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr48,,"asr48=pd.to_numeric(studydata.asr48,errors='coerce')+1; studydata.asr48=asr48.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr49,,,,asr01,asr9_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr49,,"asr49=pd.to_numeric(studydata.asr49,errors='coerce')+1; studydata.asr49=asr49.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr50,,,,asr01,asr9_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr50,,"asr50=pd.to_numeric(studydata.asr50,errors='coerce')+1; studydata.asr50=asr50.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr51,,,,asr01,asr9_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr51,,"asr51=pd.to_numeric(studydata.asr51,errors='coerce')+1; studydata.asr51=asr51.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr52,,,,asr01,asr9_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr52,,"asr52=pd.to_numeric(studydata.asr52,errors='coerce')+1; studydata.asr52=asr52.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr53,,,,asr01,asr9_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr53,,"asr53=pd.to_numeric(studydata.asr53,errors='coerce')+1; studydata.asr53=asr53.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr54,,,,asr01,asr9_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr54,,"asr54=pd.to_numeric(studydata.asr54,errors='coerce')+1; studydata.asr54=asr54.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr55,,,,asr01,asr10_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr55,,"asr55=pd.to_numeric(studydata.asr55,errors='coerce')+1; studydata.asr55=asr55.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56a,,,,asr01,asr10_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56a,,"asr56a=pd.to_numeric(studydata.asr56a,errors='coerce')+1; studydata.asr56a=asr56a.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56b,,,,asr01,asr10_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56b,,"asr56b=pd.to_numeric(studydata.asr56b,errors='coerce')+1; studydata.asr56b=asr56b.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56c,,,,asr01,asr10_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56c,,"asr56c=pd.to_numeric(studydata.asr56c,errors='coerce')+1; studydata.asr56c=asr56c.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56d,,,,asr01,asr10_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56d,,"asr56d=pd.to_numeric(studydata.asr56d,errors='coerce')+1; studydata.asr56d=asr56d.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56ddes,,,,asr01,asr10_6_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr56e,,,,asr01,asr11_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56e,,"asr56e=pd.to_numeric(studydata.asr56e,errors='coerce')+1; studydata.asr56e=asr56e.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56f,,,,asr01,asr11_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56f,,"asr56f=pd.to_numeric(studydata.asr56f,errors='coerce')+1; studydata.asr56f=asr56f.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56g,,,,asr01,asr11_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56g,,"asr56g=pd.to_numeric(studydata.asr56g,errors='coerce')+1; studydata.asr56g=asr56g.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56h,,,,asr01,asr11_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56h,,"asr56h=pd.to_numeric(studydata.asr56h,errors='coerce')+1; studydata.asr56h=asr56h.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr56i,,,,asr01,asr11_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr56i,,"asr56i=pd.to_numeric(studydata.asr56i,errors='coerce')+1; studydata.asr56i=asr56i.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr57,,,,asr01,asr11_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr57,,"asr57=pd.to_numeric(studydata.asr57,errors='coerce')+1; studydata.asr57=asr57.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr58,,,,asr01,asr12_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr58,,"asr58=pd.to_numeric(studydata.asr58,errors='coerce')+1; studydata.asr58=asr58.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr58des,,,,asr01,asr12_1_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr59,,,,asr01,asr12_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr59,,"asr59=pd.to_numeric(studydata.asr59,errors='coerce')+1; studydata.asr59=asr59.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr60,,,,asr01,asr12_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr60,,"asr60=pd.to_numeric(studydata.asr60,errors='coerce')+1; studydata.asr60=asr60.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr61,,,,asr01,asr12_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr61,,"asr61=pd.to_numeric(studydata.asr61,errors='coerce')+1; studydata.asr61=asr61.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr62,,,,asr01,asr12_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr62,,"asr62=pd.to_numeric(studydata.asr62,errors='coerce')+1; studydata.asr62=asr62.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr63,,,,asr01,asr12_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr63,,"asr63=pd.to_numeric(studydata.asr63,errors='coerce')+1; studydata.asr63=asr63.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr64,,,,asr01,asr13_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr64,,"asr64=pd.to_numeric(studydata.asr64,errors='coerce')+1; studydata.asr64=asr64.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr65,,,,asr01,asr13_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr65,,"asr65=pd.to_numeric(studydata.asr65,errors='coerce')+1; studydata.asr65=asr65.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr66,,,,asr01,asr13_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr66,,"asr66=pd.to_numeric(studydata.asr66,errors='coerce')+1; studydata.asr66=asr66.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr66des,,,,asr01,asr13_3_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr67,,,,asr01,asr13_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr67,,"asr67=pd.to_numeric(studydata.asr67,errors='coerce')+1; studydata.asr67=asr67.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr68,,,,asr01,asr13_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr68,,"asr68=pd.to_numeric(studydata.asr68,errors='coerce')+1; studydata.asr68=asr68.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr69,,,,asr01,asr13_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr69,,"asr69=pd.to_numeric(studydata.asr69,errors='coerce')+1; studydata.asr69=asr69.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr70,,,,asr01,asr14_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr70,,"asr70=pd.to_numeric(studydata.asr70,errors='coerce')+1; studydata.asr70=asr70.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr70des,,,,asr01,asr14_1_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr71,,,,asr01,asr14_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr71,,"asr71=pd.to_numeric(studydata.asr71,errors='coerce')+1; studydata.asr71=asr71.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr72,,,,asr01,asr14_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr72,,"asr72=pd.to_numeric(studydata.asr72,errors='coerce')+1; studydata.asr72=asr72.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr73,,,,asr01,asr14_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr73,,"asr73=pd.to_numeric(studydata.asr73,errors='coerce')+1; studydata.asr73=asr73.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr74,,,,asr01,asr14_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr74,,"asr74=pd.to_numeric(studydata.asr74,errors='coerce')+1; studydata.asr74=asr74.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr75,,,,asr01,asr14_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr75,,"asr75=pd.to_numeric(studydata.asr75,errors='coerce')+1; studydata.asr75=asr75.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr76,,,,asr01,asr15_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr76,,"asr76=pd.to_numeric(studydata.asr76,errors='coerce')+1; studydata.asr76=asr76.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr77,,,,asr01,asr15_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr77,,"asr77=pd.to_numeric(studydata.asr77,errors='coerce')+1; studydata.asr77=asr77.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr77des,,,,asr01,asr15_2_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr78,,,,asr01,asr15_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr78,,"asr78=pd.to_numeric(studydata.asr78,errors='coerce')+1; studydata.asr78=asr78.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr79,,,,asr01,asr15_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr79,,"asr79=pd.to_numeric(studydata.asr79,errors='coerce')+1; studydata.asr79=asr79.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr79des,,,,asr01,asr15_4_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr80,,,,asr01,asr15_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr80,,"asr80=pd.to_numeric(studydata.asr80,errors='coerce')+1; studydata.asr80=asr80.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr81,,,,asr01,asr15_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr81,,"asr81=pd.to_numeric(studydata.asr81,errors='coerce')+1; studydata.asr81=asr81.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr82,,,,asr01,asr16_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr82,,"asr82=pd.to_numeric(studydata.asr82,errors='coerce')+1; studydata.asr82=asr82.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr83,,,,asr01,asr16_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr83,,"asr83=pd.to_numeric(studydata.asr83,errors='coerce')+1; studydata.asr83=asr83.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr84,,,,asr01,asr16_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr84,,"asr84=pd.to_numeric(studydata.asr84,errors='coerce')+1; studydata.asr84=asr84.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr84des,,,,asr01,asr16_3_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr85,,,,asr01,asr16_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr85,,"asr85=pd.to_numeric(studydata.asr85,errors='coerce')+1; studydata.asr85=asr85.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr85des,,,,asr01,asr16_4_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr86,,,,asr01,asr16_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr86,,"asr86=pd.to_numeric(studydata.asr86,errors='coerce')+1; studydata.asr86=asr86.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr87,,,,asr01,asr16_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr87,,"asr87=pd.to_numeric(studydata.asr87,errors='coerce')+1; studydata.asr87=asr87.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr88,,,,asr01,asr17_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr88,,"asr88=pd.to_numeric(studydata.asr88,errors='coerce')+1; studydata.asr88=asr88.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr89,,,,asr01,asr17_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr89,,"asr89=pd.to_numeric(studydata.asr89,errors='coerce')+1; studydata.asr89=asr89.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr90,,,,asr01,asr17_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr90,,"asr90=pd.to_numeric(studydata.asr90,errors='coerce')+1; studydata.asr90=asr90.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr91,,,,asr01,asr17_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr91,,"asr91=pd.to_numeric(studydata.asr91,errors='coerce')+1; studydata.asr91=asr91.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr92,,,,asr01,asr17_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr92,,"asr92=pd.to_numeric(studydata.asr92,errors='coerce')+1; studydata.asr92=asr92.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr92des,,,,asr01,asr17_5_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr93,,,,asr01,asr17_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr93,,"asr93=pd.to_numeric(studydata.asr93,errors='coerce')+1; studydata.asr93=asr93.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr94,,,,asr01,asr18_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr94,,"asr94=pd.to_numeric(studydata.asr94,errors='coerce')+1; studydata.asr94=asr94.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr95,,,,asr01,asr18_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr95,,"asr95=pd.to_numeric(studydata.asr95,errors='coerce')+1; studydata.asr95=asr95.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr96,,,,asr01,asr18_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr96,,"asr96=pd.to_numeric(studydata.asr96,errors='coerce')+1; studydata.asr96=asr96.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr97,,,,asr01,asr18_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr97,,"asr97=pd.to_numeric(studydata.asr97,errors='coerce')+1; studydata.asr97=asr97.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr98,,,,asr01,asr18_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr98,,"asr98=pd.to_numeric(studydata.asr98,errors='coerce')+1; studydata.asr98=asr98.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr99,,,,asr01,asr18_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr99,,"asr99=pd.to_numeric(studydata.asr99,errors='coerce')+1; studydata.asr99=asr99.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr100,,,,asr01,asr19_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr100,,"asr100=pd.to_numeric(studydata.asr100,errors='coerce')+1; studydata.asr100=asr100.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr100des,,,,asr01,asr19_1_text,,,,,,,,,,
+HCPD,REDCap,hcpd18,,asr101,,,,asr01,asr19_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr101,,"asr101=pd.to_numeric(studydata.asr101,errors='coerce')+1; studydata.asr101=asr101.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr102,,,,asr01,asr19_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr102,,"asr102=pd.to_numeric(studydata.asr102,errors='coerce')+1; studydata.asr102=asr102.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr103,,,,asr01,asr19_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr103,,"asr103=pd.to_numeric(studydata.asr103,errors='coerce')+1; studydata.asr103=asr103.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr104,,,,asr01,asr19_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr104,,"asr104=pd.to_numeric(studydata.asr104,errors='coerce')+1; studydata.asr104=asr104.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr105,,,,asr01,asr19_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr105,,"asr105=pd.to_numeric(studydata.asr105,errors='coerce')+1; studydata.asr105=asr105.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr106,,,,asr01,asr20_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr106,,"asr106=pd.to_numeric(studydata.asr106,errors='coerce')+1; studydata.asr106=asr106.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr107,,,,asr01,asr20_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr107,,"asr107=pd.to_numeric(studydata.asr107,errors='coerce')+1; studydata.asr107=asr107.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr108,,,,asr01,asr20_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr108,,"asr108=pd.to_numeric(studydata.asr108,errors='coerce')+1; studydata.asr108=asr108.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr109,,,,asr01,asr20_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr109,,"asr109=pd.to_numeric(studydata.asr109,errors='coerce')+1; studydata.asr109=asr109.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr110,,,,asr01,asr20_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr110,,"asr110=pd.to_numeric(studydata.asr110,errors='coerce')+1; studydata.asr110=asr110.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr111,,,,asr01,asr20_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr111,,"asr111=pd.to_numeric(studydata.asr111,errors='coerce')+1; studydata.asr111=asr111.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr112,,,,asr01,asr21_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr112,,"asr112=pd.to_numeric(studydata.asr112,errors='coerce')+1; studydata.asr112=asr112.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr113,,,,asr01,asr21_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr113,,"asr113=pd.to_numeric(studydata.asr113,errors='coerce')+1; studydata.asr113=asr113.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr114,,,,asr01,asr21_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr114,,"asr114=pd.to_numeric(studydata.asr114,errors='coerce')+1; studydata.asr114=asr114.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr115,,,,asr01,asr21_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr115,,"asr115=pd.to_numeric(studydata.asr115,errors='coerce')+1; studydata.asr115=asr115.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr116,,,,asr01,asr21_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr116,,"asr116=pd.to_numeric(studydata.asr116,errors='coerce')+1; studydata.asr116=asr116.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr117,,,,asr01,asr21_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr117,,"asr117=pd.to_numeric(studydata.asr117,errors='coerce')+1; studydata.asr117=asr117.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr118,,,,asr01,asr22_1,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr118,,"asr118=pd.to_numeric(studydata.asr118,errors='coerce')+1; studydata.asr118=asr118.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr119,,,,asr01,asr22_2,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr119,,"asr119=pd.to_numeric(studydata.asr119,errors='coerce')+1; studydata.asr119=asr119.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr120,,,,asr01,asr22_3,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr120,,"asr120=pd.to_numeric(studydata.asr120,errors='coerce')+1; studydata.asr120=asr120.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr121,,,,asr01,asr22_4,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr121,,"asr121=pd.to_numeric(studydata.asr121,errors='coerce')+1; studydata.asr121=asr121.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr122,,,,asr01,asr22_5,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr122,,"asr122=pd.to_numeric(studydata.asr122,errors='coerce')+1; studydata.asr122=asr122.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpd18,,asr123,,,,asr01,asr22_6,,,,,,,Please increment your 0::2 scale to a 1::3 scale.,asr123,,"asr123=pd.to_numeric(studydata.asr123,errors='coerce')+1; studydata.asr123=asr123.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdparent hcpd18,,med1_dose,,,,mendt01,medication1_dosage,,,,,,,,med1_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med10_dose,,,,mendt01,medication10_dose,,,,,,,,med10_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med11_dose,,,,mendt01,medication11_dosage,,,,,,,,med11_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med12_dose,,,,mendt01,medication12_dosage,,,,,,,,med12_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med13_dose,,,,mendt01,medication13_dosage,,,,,,,,med13_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med14_dose,,,,mendt01,medication14_dosage,,,,,,,,med14_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med15_dose,,,,mendt01,medication15_dosage,,,,,,,,med15_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med2_dose,,,,mendt01,medication2_dosage,,,,,,,,med2_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med3_dose,,,,mendt01,medication3_dosage,,,,,,,,med3_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med4_dose,,,,mendt01,medication4_dosage,,,,,,,,med4_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med5_dose,,,,mendt01,medication5_dosage,,,,,,,,med5_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med6_dose,,,,mendt01,medication6_dosage,,,,,,,,med6_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med7_dose,,,,mendt01,medication7_dosage,,,,,,,,med7_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med8_dose,,,,mendt01,medication8_dosage,,,,,,,,med8_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med9_dose,,,,mendt01,medication9_dosage,,,,,,,,med9_dose,,
+HCPD,REDCap,hcpdparent hcpd18,,med_yn,,,,mendt01,othmed0a,,,,,,,,med_yn,,
+HCPD,REDCap,hcpdparent hcpd18,,med_num,,,,mendt01,num_meds,,,,,,,,med_num,,
+HCPD,REDCap,hcpdparent hcpd18,,med1_frqcy,,,,mendt01,medication1_frequency,,,,,,,,med1_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med10_frqcy,,,,mendt01,medication10_frequency,,,,,,,,med10_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med11_frqcy,,,,mendt01,phi217,,,,,,,,med11_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med12_frqcy,,,,mendt01,med12_frqcy,,,,,,,,med12_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med13_frqcy,,,,mendt01,med13_frqcy,,,,,,,,med13_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med14_frqcy,,,,mendt01,med14_frqcy,,,,,,,,med14_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med15_frqcy,,,,mendt01,med15_frqcy,,,,,,,,med15_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med2_frqcy,,,,mendt01,medication2_frequency,,,,,,,,med2_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med3_frqcy,,,,mendt01,medication3_frequency,,,,,,,,med3_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med4_frqcy,,,,mendt01,medication4_frequency,,,,,,,,med4_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med5_frqcy,,,,mendt01,medication5_frequency,,,,,,,,med5_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med6_frqcy,,,,mendt01,medication6_frequency,,,,,,,,med6_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med7_frqcy,,,,mendt01,medication7_frequency,,,,,,,,med7_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med8_frqcy,,,,mendt01,medication8_frequency,,,,,,,,med8_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med9_frqcy,,,,mendt01,medication9_frequency,,,,,,,,med9_frqcy,,
+HCPD,REDCap,hcpdparent hcpd18,,med1,,,,mendt01,medication1_name,,,,,,,,med1,,
+HCPD,REDCap,hcpdparent hcpd18,,med10,,,,mendt01,medication_10_name,,,,,,,,med10,,
+HCPD,REDCap,hcpdparent hcpd18,,med11,,,,mendt01,medication11_name,,,,,,,,med11,,
+HCPD,REDCap,hcpdparent hcpd18,,med12,,,,mendt01,medication12_name,,,,,,,,med12,,
+HCPD,REDCap,hcpdparent hcpd18,,med13,,,,mendt01,medication13_name,,,,,,,,med13,,
+HCPD,REDCap,hcpdparent hcpd18,,med14,,,,mendt01,medication14_name,,,,,,,,med14,,
+HCPD,REDCap,hcpdparent hcpd18,,med15,,,,mendt01,medication15_name,,,,,,,,med15,,
+HCPD,REDCap,hcpdparent hcpd18,,med2,,,,mendt01,medication2_name,,,,,,,,med2,,
+HCPD,REDCap,hcpdparent hcpd18,,med3,,,,mendt01,medication3_name,,,,,,,,med3,,
+HCPD,REDCap,hcpdparent hcpd18,,med4,,,,mendt01,medication4_name,,,,,,,,med4,,
+HCPD,REDCap,hcpdparent hcpd18,,med5,,,,mendt01,medication5_name,,,,,,,,med5,,
+HCPD,REDCap,hcpdparent hcpd18,,med6,,,,mendt01,medication6_name,,,,,,,,med6,,
+HCPD,REDCap,hcpdparent hcpd18,,med7,,,,mendt01,medication7_name,,,,,,,,med7,,
+HCPD,REDCap,hcpdparent hcpd18,,med8,,,,mendt01,medication8_name,,,,,,,,med8,,
+HCPD,REDCap,hcpdparent hcpd18,,med9,,,,mendt01,medication9_name,,,,,,,,med9,,
+HCPD,REDCap,hcpdparent hcpd18,,dental1,,,,medh01,dental1,,,,,,,,dental1,,
+HCPD,REDCap,hcpdparent hcpd18,,dental2,,,,medh01,dental2,,,,,,,,dental2,,
+HCPD,REDCap,hcpdparent hcpd18,,dental2_1,,,,medh01,dental2_1,,,,,,,,dental2_1,,
+HCPD,REDCap,hcpdparent hcpd18,,dental3,,,,medh01,dental3,,,,,,,,dental3,,
+HCPD,REDCap,hcpdparent hcpd18,,dental3_1,,,,medh01,dental3_1,,,,,,,,dental3_1,,
+HCPD,REDCap,hcpdparent hcpd18,,dental3_2,,,,medh01,dental3_2,,,,,,,,dental3_2,,
+HCPD,REDCap,hcpdparent hcpd18,,dental4,,,,medh01,dental4,,,,,,,,dental4,,
+HCPD,REDCap,hcpdparent hcpd18,,dental4_1,,,,medh01,dental4_1,,,,,,,,dental4_1,,
+HCPD,REDCap,hcpdparent hcpd18,,dental4_2,,,,medh01,dental4_2,,,,,,,,dental4_2,,
+HCPD,REDCap,hcpdparent hcpd18,,dental5,,,,medh01,dental5,,,,,,,,dental5,,
+HCPD,REDCap,hcpdparent hcpd18,,dental5_1,,,,medh01,dental5_1,,,,,,,,dental5_1,,
+HCPD,REDCap,hcpdparent hcpd18,,dental5_2,,,,medh01,dental5_2,,,,,,,,dental5_2,,
+HCPD,REDCap,hcpdparent hcpd18,,dental6,,,,medh01,dental6,,,,,,,,dental6,,
+HCPD,REDCap,hcpdparent hcpd18,,dental6_1,,,,medh01,dental6_1,,,,,,,,dental6_1,,
+HCPD,REDCap,hcpdparent hcpd18,,dental6_2,,,,medh01,dental6_2,,,,,,,,dental6_2,,
+HCPD,REDCap,hcpdchild,,eatq_y1,,,,eatq01,eatq1_1,,,,,,,,eatq_y1,,
+HCPD,REDCap,hcpdchild,,eatq_y2,,,,eatq01,eatq1_2,,,,,,,,eatq_y2,,
+HCPD,REDCap,hcpdchild,,eatq_y3,,,,eatq01,eatq1_3,,,,,,,,eatq_y3,,
+HCPD,REDCap,hcpdchild,,eatq_y4,,,,eatq01,eatq1_4,,,,,,,,eatq_y4,,
+HCPD,REDCap,hcpdchild,,eatq_y5,,,,eatq01,eatq1_5,,,,,,,,eatq_y5,,
+HCPD,REDCap,hcpdchild,,eatq_y6,,,,eatq01,eatq1_6,,,,,,,,eatq_y6,,
+HCPD,REDCap,hcpdchild,,eatq_y7,,,,eatq01,eatq1_7,,,,,,,,eatq_y7,,
+HCPD,REDCap,hcpdchild,,eatq_y8,,,,eatq01,eatq2_1,,,,,,,,eatq_y8,,
+HCPD,REDCap,hcpdchild,,eatq_y9,,,,eatq01,eatq2_2,,,,,,,,eatq_y9,,
+HCPD,REDCap,hcpdchild,,eatq_y10,,,,eatq01,eatq2_3,,,,,,,,eatq_y10,,
+HCPD,REDCap,hcpdchild,,eatq_y11,,,,eatq01,eatq2_4,,,,,,,,eatq_y11,,
+HCPD,REDCap,hcpdchild,,eatq_y12,,,,eatq01,eatq2_5,,,,,,,,eatq_y12,,
+HCPD,REDCap,hcpdchild,,eatq_y13,,,,eatq01,eatq2_6,,,,,,,,eatq_y13,,
+HCPD,REDCap,hcpdchild,,eatq_y14,,,,eatq01,eatq2_7,,,,,,,,eatq_y14,,
+HCPD,REDCap,hcpdchild,,eatq_y15,,,,eatq01,eatq3_1,,,,,,,,eatq_y15,,
+HCPD,REDCap,hcpdchild,,eatq_y16,,,,eatq01,eatq3_2,,,,,,,,eatq_y16,,
+HCPD,REDCap,hcpdchild,,eatq_y17,,,,eatq01,eatq3_3,,,,,,,,eatq_y17,,
+HCPD,REDCap,hcpdchild,,eatq_y18,,,,eatq01,eatq3_4,,,,,,,,eatq_y18,,
+HCPD,REDCap,hcpdchild,,eatq_y19,,,,eatq01,eatq3_5,,,,,,,,eatq_y19,,
+HCPD,REDCap,hcpdchild,,eatq_y20,,,,eatq01,eatq3_6,,,,,,,,eatq_y20,,
+HCPD,REDCap,hcpdchild,,eatq_y21,,,,eatq01,eatq3_7,,,,,,,,eatq_y21,,
+HCPD,REDCap,hcpdchild,,eatq_y22,,,,eatq01,eatq4_1,,,,,,,,eatq_y22,,
+HCPD,REDCap,hcpdchild,,eatq_y23,,,,eatq01,eatq4_2,,,,,,,,eatq_y23,,
+HCPD,REDCap,hcpdchild,,eatq_y24,,,,eatq01,eatq4_3,,,,,,,,eatq_y24,,
+HCPD,REDCap,hcpdchild,,eatq_y25,,,,eatq01,eatq4_4,,,,,,,,eatq_y25,,
+HCPD,REDCap,hcpdchild,,eatq_y26,,,,eatq01,eatq4_5,,,,,,,,eatq_y26,,
+HCPD,REDCap,hcpdchild,,eatq_y27,,,,eatq01,eatq4_6,,,,,,,,eatq_y27,,
+HCPD,REDCap,hcpdchild,,eatq_y28,,,,eatq01,eatq4_7,,,,,,,,eatq_y28,,
+HCPD,REDCap,hcpdchild,,eatq_y29,,,,eatq01,eatq5_1,,,,,,,,eatq_y29,,
+HCPD,REDCap,hcpdchild,,eatq_y30,,,,eatq01,eatq5_2,,,,,,,,eatq_y30,,
+HCPD,REDCap,hcpdchild,,eatq_y31,,,,eatq01,eatq5_3,,,,,,,,eatq_y31,,
+HCPD,REDCap,hcpdchild,,eatq_y32,,,,eatq01,eatq5_4,,,,,,,,eatq_y32,,
+HCPD,REDCap,hcpdchild,,eatq_y33,,,,eatq01,eatq5_5,,,,,,,,eatq_y33,,
+HCPD,REDCap,hcpdchild,,eatq_y34,,,,eatq01,eatq5_6,,,,,,,,eatq_y34,,
+HCPD,REDCap,hcpdchild,,eatq_y35,,,,eatq01,eatq5_7,,,,,,,,eatq_y35,,
+HCPD,REDCap,hcpdchild,,eatq_y36,,,,eatq01,eatq6_1,,,,,,,,eatq_y36,,
+HCPD,REDCap,hcpdchild,,eatq_y37,,,,eatq01,eatq6_2,,,,,,,,eatq_y37,,
+HCPD,REDCap,hcpdchild,,eatq_y38,,,,eatq01,eatq6_3,,,,,,,,eatq_y38,,
+HCPD,REDCap,hcpdchild,,eatq_y39,,,,eatq01,eatq6_4,,,,,,,,eatq_y39,,
+HCPD,REDCap,hcpdchild,,eatq_y40,,,,eatq01,eatq6_5,,,,,,,,eatq_y40,,
+HCPD,REDCap,hcpdchild,,eatq_y41,,,,eatq01,eatq6_6,,,,,,,,eatq_y41,,
+HCPD,REDCap,hcpdchild,,eatq_y42,,,,eatq01,eatq6_7,,,,,,,,eatq_y42,,
+HCPD,REDCap,hcpdchild,,eatq_y43,,,,eatq01,eatq7_1,,,,,,,,eatq_y43,,
+HCPD,REDCap,hcpdchild,,eatq_y44,,,,eatq01,eatq7_2,,,,,,,,eatq_y44,,
+HCPD,REDCap,hcpdchild,,eatq_y45,,,,eatq01,eatq7_3,,,,,,,,eatq_y45,,
+HCPD,REDCap,hcpdchild,,eatq_y46,,,,eatq01,eatq7_4,,,,,,,,eatq_y46,,
+HCPD,REDCap,hcpdchild,,eatq_y47,,,,eatq01,eatq7_5,,,,,,,,eatq_y47,,
+HCPD,REDCap,hcpdchild,,eatq_y48,,,,eatq01,eatq7_6,,,,,,,,eatq_y48,,
+HCPD,REDCap,hcpdchild,,eatq_y49,,,,eatq01,eatq7_7,,,,,,,,eatq_y49,,
+HCPD,REDCap,hcpdchild,,eatq_y50,,,,eatq01,eatq8_1,,,,,,,,eatq_y50,,
+HCPD,REDCap,hcpdchild,,eatq_y51,,,,eatq01,eatq8_2,,,,,,,,eatq_y51,,
+HCPD,REDCap,hcpdchild,,eatq_y52,,,,eatq01,eatq8_3,,,,,,,,eatq_y52,,
+HCPD,REDCap,hcpdchild,,eatq_y53,,,,eatq01,eatq8_4,,,,,,,,eatq_y53,,
+HCPD,REDCap,hcpdchild,,eatq_y54,,,,eatq01,eatq8_5,,,,,,,,eatq_y54,,
+HCPD,REDCap,hcpdchild,,eatq_y55,,,,eatq01,eatq8_6,,,,,,,,eatq_y55,,
+HCPD,REDCap,hcpdchild,,eatq_y56,,,,eatq01,eatq8_7,,,,,,,,eatq_y56,,
+HCPD,REDCap,hcpdchild,,eatq_y57,,,,eatq01,eatq9_1,,,,,,,,eatq_y57,,
+HCPD,REDCap,hcpdchild,,eatq_y58,,,,eatq01,eatq9_2,,,,,,,,eatq_y58,,
+HCPD,REDCap,hcpdchild,,eatq_y59,,,,eatq01,eatq9_3,,,,,,,,eatq_y59,,
+HCPD,REDCap,hcpdchild,,eatq_y60,,,,eatq01,eatq9_4,,,,,,,,eatq_y60,,
+HCPD,REDCap,hcpdchild,,eatq_y61,,,,eatq01,eatq9_5,,,,,,,,eatq_y61,,
+HCPD,REDCap,hcpdchild,,eatq_y62,,,,eatq01,eatq10_1,,,,,,,,eatq_y62,,
+HCPD,REDCap,hcpdchild,,eatq_y63,,,,eatq01,eatq10_2,,,,,,,,eatq_y63,,
+HCPD,REDCap,hcpdchild,,eatq_y64,,,,eatq01,eatq10_3,,,,,,,,eatq_y64,,
+HCPD,REDCap,hcpdchild,,eatq_y65,,,,eatq01,eatq10_4,,,,,,,,eatq_y65,,
+HCPD,REDCap,hcpdchild hcpd18,,height,,,,vitals01,vtl007,,,,,,,Please convert heights to inches.,height,,
+HCPD,REDCap,hcpdchild hcpd18,,weight,,,,vitals01,weight_std,,,,,,,,weight,,
+HCPD,REDCap,hcpdchild hcpd18,,bpressure,,,,vitals01,bp,,,,,,,,bpressure,,
+HCPD,REDCap,hcpdchild hcpd18,,colorvsn1,,,,vision_tests01,psysoc_64,,,,,,,Please convert numeric codes of 0 and 99 to the text strings they represent.,colorvsn1,,"studydata.colorvsn1=studydata.colorvsn1.str.replace('\+',''); studydata.loc[studydata.colorvsn1=='0','colorvsn1']='No'; studydata.loc[studydata.colorvsn1=='0.00','colorvsn1']='No'; studydata.loc[studydata.colorvsn1.str.contains('99'),'colorvsn1']='Dont know'"
+HCPD,REDCap,hcpdchild hcpd18,,colorvsn2,,,,vision_tests01,colorvsn2,,,,,,,,colorvsn2,,"studydata.colorvsn2=studydata.colorvsn2.str.replace(' ','')"
+HCPD,REDCap,hcpdchild hcpd18,,colorvsn_add,,,,vision_tests01,colorvsn_add,,,,,,,,colorvsn_add,,
+HCPD,REDCap,hcpdchild hcpd18,,colorvsn3,,,,vision_tests01,colorvsn3,,,,,,,,colorvsn3,,"studydata.colorvsn3=studydata.colorvsn3.str.replace(' ','')"
+HCPD,REDCap,hcpdchild hcpd18,,colorvsn4,,,,vision_tests01,colorvsn4,,,,,,,,colorvsn4,,
+HCPD,REDCap,hcpdchild hcpd18,,contrastvsn1,,,,vision_tests01,contrastvsn1,,,,,,,,contrastvsn1,,
+HCPD,REDCap,hcpdchild hcpd18,,contrastvsn2,,,,vision_tests01,contrastvsn2,,,,,,,,contrastvsn2,,
+HCPD,REDCap,hcpdchild hcpd18,,contrastvsn3,,,,vision_tests01,contrastvsn3,,,,,,,,contrastvsn3,,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y1,,,,fenvs01,conflict_y1,,,,,,,,conflict_y1,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y2,,,,fenvs01,conflict_y2,,,,,,,,conflict_y2,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y3,,,,fenvs01,conflict_y3,,,,,,,,conflict_y3,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y4,,,,fenvs01,conflict_y4,,,,,,,,conflict_y4,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y5,,,,fenvs01,conflict_y5,,,,,,,,conflict_y5,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y6,,,,fenvs01,conflict_y6,,,,,,,,conflict_y6,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y7,,,,fenvs01,conflict_y7,,,,,,,,conflict_y7,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y8,,,,fenvs01,conflict_y8,,,,,,,,conflict_y8,1,
+HCPD,REDCap,hcpdchild hcpd18,,conflict_y9,,,,fenvs01,conflict_y9,,,,,,,,conflict_y9,1,
+HCPD,REDCap,hcpd18 hcpdparent,,fpnh_mom,,,,fenvs01,fpnh_mom,,,,,,,,fpnh_mom,2,
+HCPD,REDCap,hcpd18 hcpdparent,,fpnh_dad,,,,fenvs01,fpnh_dad,,,,,,,,fpnh_dad,2,
+HCPD,REDCap,hcpd18,,sub_adopt,,,,socdem01,dembadpt,,,,,,,,sub_adopt,,
+HCPD,REDCap,hcpd18,,sub_adopt_1,,,,socdem01,sub_adopt_1,,,,,,,,sub_adopt_1,,"studydata['sub_adopt_1unit']=studydata.sub_adopt_1unit.str.replace('1',' Months'); studydata['sub_adopt_1unit']=studydata.sub_adopt_1unit.str.replace('2',' Years'); studydata['sub_adopt_1']=studydata.sub_adopt_1+studydata.sub_adopt_1unit "
+HCPD,REDCap,hcpd18,,sub_adopt_1unit,,,,socdem01,sub_adopt_1unit,,,,,,,Age at adoption is a free-text field. Please concatenate responses from 'sub_adopt_1' and 'sub_adopt_1unit' in the 'sub_adopt_1' column.,,,
+HCPD,REDCap,hcpd18,,sub_country,,,,socdem01,country_origin,,,,,,,Please convert numeric codes to the text strings they represent.,sub_country,,"studydata['country_string']=studydata.sub_country.replace({'840' : 'United States' , '4' : 'Afghanistan' , '248' : 'Aland Islands' , '8' : 'Albania' , '12' : 'Algeria' , '16' : 'American Samoa' , '20' : 'Andorra' , '24' : 'Angola' , '660' : 'Anguilla' , '10' : 'Antarctica' , '28' : 'Antigua and Barbuda' , '32' : 'Argentina' , '51' : 'Armenia' , '533' : 'Aruba' , '36' : 'Australia' , '40' : 'Austria' , '31' : 'Azerbaijan' , '44' : 'Bahamas' , '48' : 'Bahrain' , '50' : 'Bangladesh' , '52' : 'Barbados' , '112' : 'Belarus' , '56' : 'Belgium' , '84' : 'Belize' , '204' : 'Benin' , '60' : 'Bermuda' , '64' : 'Bhutan' , '68' : 'Plurinational State of Bolivia' , '535' : 'Bonaire Sint Eustatius and Saba' , '70' : 'Bosnia and Herzegovina' , '72' : 'Botswana' , '74' : 'Bouvet Island' , '76' : 'Brazil' , '86' : 'British Indian Ocean Territory' , '96' : 'Brunei Darussalam' , '100' : 'Bulgaria' , '854' : 'Burkina Faso' , '108' : 'Burundi' , '116' : 'Cambodia' , '120' : 'Cameroon' , '124' : 'Canada' , '132' : 'Cape Verde' , '136' : 'Cayman Islands' , '140' : 'Central African Republic' , '148' : 'Chad' , '152' : 'Chile' , '156' : 'China' , '162' : 'Christmas Island' , '166' : 'Cocos (Keeling) Islands' , '170' : 'Colombia' , '174' : 'Comoros' , '178' : 'Congo' , '180' : 'the Democratic Republic of the Congo' , '184' : 'Cook Islands' , '188' : 'Costa Rica' , '384' : 'Cote dIvoire' , '191' : 'Croatia' , '192' : 'Cuba' , '531' : 'Curacao' , '196' : 'Cyprus' , '203' : 'Czech Republic' , '208' : 'Denmark' , '262' : 'Djibouti' , '212' : 'Dominica' , '214' : 'Dominican Republic' , '218' : 'Ecuador' , '818' : 'Egypt' , '222' : 'El Salvador' , '226' : 'Equatorial Guinea' , '232' : 'Eritrea' , '233' : 'Estonia' , '231' : 'Ethiopia' , '238' : 'Falkland Islands (Malvinas)' , '234' : 'Faroe Islands' , '242' : 'Fiji' , '246' : 'Finland' , '250' : 'France' , '254' : 'French Guiana' , '258' : 'French Polynesia' , '260' : 'French Southern Territories' , '266' : 'Gabon' , '270' : 'Gambia' , '268' : 'Georgia' , '276' : 'Germany' , '288' : 'Ghana' , '292' : 'Gibraltar' , '300' : 'Greece' , '304' : 'Greenland' , '308' : 'Grenada' , '312' : 'Guadeloupe' , '316' : 'Guam' , '320' : 'Guatemala' , '831' : 'Guernsey' , '324' : 'Guinea' , '624' : 'Guinea-Bissau' , '328' : 'Guyana' , '332' : 'Haiti' , '334' : 'Heard Island and McDonald Islands' , '336' : 'Holy See (Vatican City State)' , '340' : 'Honduras' , '344' : 'Hong Kong' , '348' : 'Hungary' , '352' : 'Iceland' , '356' : 'India' , '360' : 'Indonesia' , '364' : 'Islamic Republic of Iran' , '368' : 'Iraq' , '372' : 'Ireland' , '833' : 'Isle of Man' , '376' : 'Israel' , '380' : 'Italy' , '388' : 'Jamaica' , '392' : 'Japan' , '832' : 'Jersey' , '400' : 'Jordan' , '398' : 'Kazakhstan' , '404' : 'Kenya' , '296' : 'Kiribati' , '408' :  'Democratic Peoples Republic of Korea' , '410'  : 'Republic of Korea' , '414' : 'Kuwait' , '417' : 'Kyrgyzstan' , '418' : 'Lao Peoples Democratic Republic' , '428' : 'Latvia' , '422' : 'Lebanon' , '426' : 'Lesotho' , '430' : 'Liberia' , '434' : 'Libya' , '438' : 'Liechtenstein' , '440' : 'Lithuania' , '442' : 'Luxembourg' , '446' : 'Macao' , '807' : 'the former Yugoslav Republic of Macedonia' , '450' : 'Madagascar' , '454' : 'Malawi' , '458' : 'Malaysia' , '462' : 'Maldives' , '466' : 'Mali' , '470' : 'Malta' , '584' : 'Marshall Islands' , '474' : 'Martinique' , '478' : 'Mauritania' , '480' : 'Mauritius' , '175' : 'Mayotte' , '484' : 'Mexico' , '583' : 'Federated States of Micronesia' , '498' : 'Republic of Maldova' , '492' : 'Monaco' , '496' : 'Mongolia' , '499' : 'Montenegro' , '500' : 'Montserrat' , '504' : 'Morocco' , '508' : 'Mozambique' , '104' : 'Myanmar' , '516' : 'Namibia' , '520' : 'Nauru' , '524' : 'Nepal' , '528' : 'Netherlands' , '540' : 'New Caledonia' , '554' : 'New Zealand' , '558' : 'Nicaragua' , '562' : 'Niger' , '566' : 'Nigeria' , '570' : 'Niue' , '574' : 'Norfolk Island' , '580' : 'Northern Mariana Islands' , '578' : 'Norway' , '512' : 'Oman' , '586' : 'Pakistan' , '585' : 'Palau' , '275' : 'Occupied Palestinian Territory' , '591' : 'Panama' , '598' : 'Papua New Guinea' , '600' : 'Paraguay' , '604' : 'Peru' , '608' : 'Philippines' , '612' : 'Pitcairn' , '616' : 'Poland' , '620' : 'Portugal' , '630' : 'Puerto Rico' , '634' : 'Qatar' , '638' : 'Reunion' , '642' : 'Romania' , '643' : 'Russian Federation' , '646' : 'Rwanda' , '652' : 'Saint Barthelemy' , '654' : 'Saint Helena Ascension and Tristan da Cunha' , '659' : 'Saint Kitts and Nevis' , '662' : 'Saint Lucia' , '663' : 'Saint Martin (French part)' , '666' : 'Saint Pierre and Miquelon' , '670' : 'Saint Vincent and the Grenadines' , '882' : 'Samoa' , '674' : 'San Marino' , '678' : 'Sao Tome and Principe' , '682' : 'Saudi Arabia' , '686' : 'Senegal' , '688' : 'Serbia' , '690' : 'Seychelles' , '694' : 'Sierra Leone' , '702' : 'Singapore' , '534' : 'Sint Maarten (Dutch part)' , '703' : 'Slovakia' , '705' : 'Slovenia' , '90' : 'Solomon Islands' , '706' : 'Somalia' , '710' : 'South Africa' , '239' : 'South Georgia and the South Sandwich Islands' , '728' : 'South Sudan' , '724' : 'Spain' , '144' : 'Sri Lanka' , '729' : 'Sudan' , '740' : 'Suriname' , '744' : 'Svalbard and Jan Mayen' , '748' : 'Swaziland' , '752' : 'Sweden' , '756' : 'Switzerland' , '760' : 'Syrian Arab Republic' , '158' : 'Taiwan Province of China' , '762' : 'Tajikistan' , '834' : 'United Republic of Tanzania' , '764' : 'Thailand' , '626' : 'Timor-Leste' , '768' : 'Togo' , '772' : 'Tokelau' , '776' : 'Tonga' , '780' : 'Trinidad and Tobago' , '788' : 'Tunisia' , '792' : 'Turkey' , '795' : 'Turkmenistan' , '796' : 'Turks and Caicos Islands' , '798' : 'Tuvalu' , '800' : 'Uganda' , '804' : 'Ukraine' , '784' : 'United Arab Emirates' , '826' : 'United Kingdom' , '581' : 'United States Minor Outlying Islands' , '858' : 'Uruguay' , '860' : 'Uzbekistan' , '548' : 'Vanuatu' , '862' : 'Bolivarian Republic of Venezuela' , '704' : 'Viet Nam' , '92' : 'British Virgin Islands' , '850' :  'U.S. Virgin Islands' , '876' : 'Wallis and Futuna' , '732' : 'Western Sahara' , '887' : 'Yemen' , '263' : 'Zimbabwe' , '99' : 'Dont Know'}); studydata['sub_country']=studydata.country_string"
+HCPD,REDCap,hcpd18,,sub_yrs_in_usa,,,,socdem01,ustime_coded,,,,,,,,sub_yrs_in_usa,,
+HCPD,REDCap,hcpd18,,sub_gender,,,,socdem01,fspgod,,,,,,,,sub_gender,,"studydata['sub_gender_string']=studydata.sub_gender.replace({'1' : 'MALE' , '2' : 'FEMALE'  , '3' : 'Trans male/Trans man', '4': 'Trans female/Trans woman', '5': 'Genderqueer/Gender non-conforming','6':'Different identity:','7':'REFUSED','8':'DONT KNOW'}); studydata['sub_gender_string']=studydata.sub_gender_string+studydata.sub_gender_different; studydata['sub_gender']=studydata.sub_gender_string"
+HCPD,REDCap,hcpd18,,sub_gender_different,,,,socdem01,sub_gender_different,,,,,,,Gender identity is a free-text field. Please concatenate responses from 'sub_gender' and 'sub_gender_different' in the 'sub_gender' column.,,,
+HCPD,REDCap,hcpd18,,sub_marriage,,,,socdem01,das1ms,,,,,,,Please convert numeric codes to the text strings they represent.,sub_marriage,,"studydata['sub_marriage']=studydata.sub_marriage.replace({'1' : 'MARRIED' , '2' : 'WIDOWED'  , '3' : 'DIVORCED', '4': 'SEPARATED', '5': 'NEVER MARRIED','6':'LIVING WITH PARTNER','7':'REFUSED','9':'DONT KNOW'})"
+HCPD,REDCap,hcpd18,,sub_grade,,,,socdem01,bkgrnd_education,,,,,,,Please convert numeric codes to the text strings they represent.,sub_grade,,"studydata['sub_grade']=studydata.sub_grade.replace({'0' : 'KINDERGARTEN' , '1' : '1ST GRADE' , '2' : '2ND GRADE' , '3' : '3RD GRADE' , '4' : '4TH GRADE' , '5' : '5TH GRADE' , '6' : '6TH GRADE' , '7' : '7TH GRADE' , '8' : '8TH GRADE' , '9' : '9TH GRADE' , '10' : '10TH GRADE' , '11' : '11TH GRADE' , '12' : '12TH GRADE NO DIPLOMA' , '13' : 'HIGH SCHOOL GRADUATE' , '14' : 'GED OR EQUIVALENT' , '15' : 'SOME COLLEGE NO DEGREE' , '16' : 'ASSOCIATE DEGREE: OCCUPATIONAL TECHNICAL OR VOCATIONAL PROGRAM' , '17' : 'ASSOCIATE DEGREE: ACADEMIC PROGRAM' , '18' : 'BACHELORS DEGREE (EXAMPLE: BA AB BS BBA)' , '19' : 'MASTERS DEGREE (EXAMPLE: MA MS MEng MEd MBA)' , '20' : 'PROFESSIONAL SCHOOL DEGREE (EXAMPLE: MD DDS DVM JD)' , '21' : 'DOCTORAL DEGREE (EXAMPLE:PhD EdD)' , '77' : 'REFUSED' , '99' : 'DONT KNOW'})"
+HCPD,REDCap,hcpd18,,sub_job,,,,socdem01,area4_explain,,,,,,,Please convert numeric codes to the text strings they represent.,sub_job,,"studydata['sub_job']=studydata.sub_job.replace({'1': 'WORKING NOW', '2': 'ONLY TEMPORARILY LAID OFF', '2.1': 'SICK LEAVE', '2.2': 'MATERNITY LEAVE', '3.1': 'UNEMPLOYED LOOKING FOR WORK','3.2' : 'UNEMPLOYED NOT LOOKING FOR WORK', '4': 'RETIRED', '5': 'DISABLED PERMANENTLY OR TEMPORARILY', '6' : 'TAKING CARE OF CHILDREN AND/OR RAISING CHILDREN AND/OR CARING FOR AGING PARENTS' , '7': 'STUDENT', '8' : 'OTHER: '})"
+HCPD,REDCap,hcpd18,,sub_job1_1,,,,socdem01,employcur,,,,,,,,sub_job1_1,,
+HCPD,REDCap,hcpd18,,sub_job7_1,,,,socdem01,paofwork5,,,,,,,,sub_job7_1,,
+HCPD,REDCap,hcpd18,,sub_job8_1,,,,socdem01,sub_job8_1,,,,,,,"Because 'sub_job' is a free-text field, please concatenate subjects' specified answers with 'sub_job' answers.",,,studydata['sub_job']=studydata.sub_job+studydata.sub_job8_1
+HCPD,REDCap,hcpd18,,sub_business,,,,socdem01,ind_type,,,,,,,,sub_business,,
+HCPD,REDCap,hcpd18,,sub_work,,,,socdem01,jobh,,,,,,,,sub_work,,
+HCPD,REDCap,hcpd18,,sub_income_num,,,,socdem01,calm_inc1,,,,,,,"Please us 98 as the missing code, rather than 999999.",sub_income_num,,"studydata.loc[studydata.sub_income_num.str.contains('99'),'sub_income_num']='98'"
+HCPD,REDCap,hcpd18,,sub_income,,,,socdem01,sub_income,,,,,,,,sub_income,,
+HCPD,REDCap,hcpd18,,sub_income_fam,,,,socdem01,annual_fam_inc,,,,,,,,sub_income_fam,,
+HCPD,REDCap,hcpd18,,sub_income_famcode,,,,socdem01,sub_income_famcode,,,,,,,,sub_income_famcode,,
+HCPD,REDCap,hcpd18,,sub_income_fampl,,,,socdem01,household_number_in_house,,,,,,,,sub_income_fampl,,
+HCPD,REDCap,hcpd18,,sub_momage,,,,socdem01,preg_age_mom,,,,,,,,sub_momage,,
+HCPD,REDCap,hcpd18,,sub_dadage,,,,socdem01,preg_age_dad,,,,,,,,sub_dadage,,
+HCPD,REDCap,hcpd18,,sub_bio_f_country,,,,socdem01,birthcountry_dad,,,,,,,Please convert numeric codes to the text strings they represent.,sub_bio_f_country,,"studydata['sub_bio_f_country']=studydata.sub_bio_f_country.replace({'840' : 'United States' , '4' : 'Afghanistan' , '248' : 'Aland Islands' , '8' : 'Albania' , '12' : 'Algeria' , '16' : 'American Samoa' , '20' : 'Andorra' , '24' : 'Angola' , '660' : 'Anguilla' , '10' : 'Antarctica' , '28' : 'Antigua and Barbuda' , '32' : 'Argentina' , '51' : 'Armenia' , '533' : 'Aruba' , '36' : 'Australia' , '40' : 'Austria' , '31' : 'Azerbaijan' , '44' : 'Bahamas' , '48' : 'Bahrain' , '50' : 'Bangladesh' , '52' : 'Barbados' , '112' : 'Belarus' , '56' : 'Belgium' , '84' : 'Belize' , '204' : 'Benin' , '60' : 'Bermuda' , '64' : 'Bhutan' , '68' : 'Plurinational State of Bolivia' , '535' : 'Bonaire Sint Eustatius and Saba' , '70' : 'Bosnia and Herzegovina' , '72' : 'Botswana' , '74' : 'Bouvet Island' , '76' : 'Brazil' , '86' : 'British Indian Ocean Territory' , '96' : 'Brunei Darussalam' , '100' : 'Bulgaria' , '854' : 'Burkina Faso' , '108' : 'Burundi' , '116' : 'Cambodia' , '120' : 'Cameroon' , '124' : 'Canada' , '132' : 'Cape Verde' , '136' : 'Cayman Islands' , '140' : 'Central African Republic' , '148' : 'Chad' , '152' : 'Chile' , '156' : 'China' , '162' : 'Christmas Island' , '166' : 'Cocos (Keeling) Islands' , '170' : 'Colombia' , '174' : 'Comoros' , '178' : 'Congo' , '180' : 'the Democratic Republic of the Congo' , '184' : 'Cook Islands' , '188' : 'Costa Rica' , '384' : 'Cote dIvoire' , '191' : 'Croatia' , '192' : 'Cuba' , '531' : 'Curacao' , '196' : 'Cyprus' , '203' : 'Czech Republic' , '208' : 'Denmark' , '262' : 'Djibouti' , '212' : 'Dominica' , '214' : 'Dominican Republic' , '218' : 'Ecuador' , '818' : 'Egypt' , '222' : 'El Salvador' , '226' : 'Equatorial Guinea' , '232' : 'Eritrea' , '233' : 'Estonia' , '231' : 'Ethiopia' , '238' : 'Falkland Islands (Malvinas)' , '234' : 'Faroe Islands' , '242' : 'Fiji' , '246' : 'Finland' , '250' : 'France' , '254' : 'French Guiana' , '258' : 'French Polynesia' , '260' : 'French Southern Territories' , '266' : 'Gabon' , '270' : 'Gambia' , '268' : 'Georgia' , '276' : 'Germany' , '288' : 'Ghana' , '292' : 'Gibraltar' , '300' : 'Greece' , '304' : 'Greenland' , '308' : 'Grenada' , '312' : 'Guadeloupe' , '316' : 'Guam' , '320' : 'Guatemala' , '831' : 'Guernsey' , '324' : 'Guinea' , '624' : 'Guinea-Bissau' , '328' : 'Guyana' , '332' : 'Haiti' , '334' : 'Heard Island and McDonald Islands' , '336' : 'Holy See (Vatican City State)' , '340' : 'Honduras' , '344' : 'Hong Kong' , '348' : 'Hungary' , '352' : 'Iceland' , '356' : 'India' , '360' : 'Indonesia' , '364' : 'Islamic Republic of Iran' , '368' : 'Iraq' , '372' : 'Ireland' , '833' : 'Isle of Man' , '376' : 'Israel' , '380' : 'Italy' , '388' : 'Jamaica' , '392' : 'Japan' , '832' : 'Jersey' , '400' : 'Jordan' , '398' : 'Kazakhstan' , '404' : 'Kenya' , '296' : 'Kiribati' , '408' :  'Democratic Peoples Republic of Korea' , '410'  : 'Republic of Korea' , '414' : 'Kuwait' , '417' : 'Kyrgyzstan' , '418' : 'Lao Peoples Democratic Republic' , '428' : 'Latvia' , '422' : 'Lebanon' , '426' : 'Lesotho' , '430' : 'Liberia' , '434' : 'Libya' , '438' : 'Liechtenstein' , '440' : 'Lithuania' , '442' : 'Luxembourg' , '446' : 'Macao' , '807' : 'the former Yugoslav Republic of Macedonia' , '450' : 'Madagascar' , '454' : 'Malawi' , '458' : 'Malaysia' , '462' : 'Maldives' , '466' : 'Mali' , '470' : 'Malta' , '584' : 'Marshall Islands' , '474' : 'Martinique' , '478' : 'Mauritania' , '480' : 'Mauritius' , '175' : 'Mayotte' , '484' : 'Mexico' , '583' : 'Federated States of Micronesia' , '498' : 'Republic of Maldova' , '492' : 'Monaco' , '496' : 'Mongolia' , '499' : 'Montenegro' , '500' : 'Montserrat' , '504' : 'Morocco' , '508' : 'Mozambique' , '104' : 'Myanmar' , '516' : 'Namibia' , '520' : 'Nauru' , '524' : 'Nepal' , '528' : 'Netherlands' , '540' : 'New Caledonia' , '554' : 'New Zealand' , '558' : 'Nicaragua' , '562' : 'Niger' , '566' : 'Nigeria' , '570' : 'Niue' , '574' : 'Norfolk Island' , '580' : 'Northern Mariana Islands' , '578' : 'Norway' , '512' : 'Oman' , '586' : 'Pakistan' , '585' : 'Palau' , '275' : 'Occupied Palestinian Territory' , '591' : 'Panama' , '598' : 'Papua New Guinea' , '600' : 'Paraguay' , '604' : 'Peru' , '608' : 'Philippines' , '612' : 'Pitcairn' , '616' : 'Poland' , '620' : 'Portugal' , '630' : 'Puerto Rico' , '634' : 'Qatar' , '638' : 'Reunion' , '642' : 'Romania' , '643' : 'Russian Federation' , '646' : 'Rwanda' , '652' : 'Saint Barthelemy' , '654' : 'Saint Helena Ascension and Tristan da Cunha' , '659' : 'Saint Kitts and Nevis' , '662' : 'Saint Lucia' , '663' : 'Saint Martin (French part)' , '666' : 'Saint Pierre and Miquelon' , '670' : 'Saint Vincent and the Grenadines' , '882' : 'Samoa' , '674' : 'San Marino' , '678' : 'Sao Tome and Principe' , '682' : 'Saudi Arabia' , '686' : 'Senegal' , '688' : 'Serbia' , '690' : 'Seychelles' , '694' : 'Sierra Leone' , '702' : 'Singapore' , '534' : 'Sint Maarten (Dutch part)' , '703' : 'Slovakia' , '705' : 'Slovenia' , '90' : 'Solomon Islands' , '706' : 'Somalia' , '710' : 'South Africa' , '239' : 'South Georgia and the South Sandwich Islands' , '728' : 'South Sudan' , '724' : 'Spain' , '144' : 'Sri Lanka' , '729' : 'Sudan' , '740' : 'Suriname' , '744' : 'Svalbard and Jan Mayen' , '748' : 'Swaziland' , '752' : 'Sweden' , '756' : 'Switzerland' , '760' : 'Syrian Arab Republic' , '158' : 'Taiwan Province of China' , '762' : 'Tajikistan' , '834' : 'United Republic of Tanzania' , '764' : 'Thailand' , '626' : 'Timor-Leste' , '768' : 'Togo' , '772' : 'Tokelau' , '776' : 'Tonga' , '780' : 'Trinidad and Tobago' , '788' : 'Tunisia' , '792' : 'Turkey' , '795' : 'Turkmenistan' , '796' : 'Turks and Caicos Islands' , '798' : 'Tuvalu' , '800' : 'Uganda' , '804' : 'Ukraine' , '784' : 'United Arab Emirates' , '826' : 'United Kingdom' , '581' : 'United States Minor Outlying Islands' , '858' : 'Uruguay' , '860' : 'Uzbekistan' , '548' : 'Vanuatu' , '862' : 'Bolivarian Republic of Venezuela' , '704' : 'Viet Nam' , '92' : 'British Virgin Islands' , '850' :  'U.S. Virgin Islands' , '876' : 'Wallis and Futuna' , '732' : 'Western Sahara' , '887' : 'Yemen' , '263' : 'Zimbabwe' , '99' : 'Dont Know'})"
+HCPD,REDCap,hcpd18,,sub_bio_m_county,,,,socdem01,birthcountry_mom,,,,,,,Please convert numeric codes to the text strings they represent.,sub_bio_m_county,,"studydata['sub_bio_m_county']=studydata.sub_bio_m_county.replace({'840' : 'United States' , '4' : 'Afghanistan' , '248' : 'Aland Islands' , '8' : 'Albania' , '12' : 'Algeria' , '16' : 'American Samoa' , '20' : 'Andorra' , '24' : 'Angola' , '660' : 'Anguilla' , '10' : 'Antarctica' , '28' : 'Antigua and Barbuda' , '32' : 'Argentina' , '51' : 'Armenia' , '533' : 'Aruba' , '36' : 'Australia' , '40' : 'Austria' , '31' : 'Azerbaijan' , '44' : 'Bahamas' , '48' : 'Bahrain' , '50' : 'Bangladesh' , '52' : 'Barbados' , '112' : 'Belarus' , '56' : 'Belgium' , '84' : 'Belize' , '204' : 'Benin' , '60' : 'Bermuda' , '64' : 'Bhutan' , '68' : 'Plurinational State of Bolivia' , '535' : 'Bonaire Sint Eustatius and Saba' , '70' : 'Bosnia and Herzegovina' , '72' : 'Botswana' , '74' : 'Bouvet Island' , '76' : 'Brazil' , '86' : 'British Indian Ocean Territory' , '96' : 'Brunei Darussalam' , '100' : 'Bulgaria' , '854' : 'Burkina Faso' , '108' : 'Burundi' , '116' : 'Cambodia' , '120' : 'Cameroon' , '124' : 'Canada' , '132' : 'Cape Verde' , '136' : 'Cayman Islands' , '140' : 'Central African Republic' , '148' : 'Chad' , '152' : 'Chile' , '156' : 'China' , '162' : 'Christmas Island' , '166' : 'Cocos (Keeling) Islands' , '170' : 'Colombia' , '174' : 'Comoros' , '178' : 'Congo' , '180' : 'the Democratic Republic of the Congo' , '184' : 'Cook Islands' , '188' : 'Costa Rica' , '384' : 'Cote dIvoire' , '191' : 'Croatia' , '192' : 'Cuba' , '531' : 'Curacao' , '196' : 'Cyprus' , '203' : 'Czech Republic' , '208' : 'Denmark' , '262' : 'Djibouti' , '212' : 'Dominica' , '214' : 'Dominican Republic' , '218' : 'Ecuador' , '818' : 'Egypt' , '222' : 'El Salvador' , '226' : 'Equatorial Guinea' , '232' : 'Eritrea' , '233' : 'Estonia' , '231' : 'Ethiopia' , '238' : 'Falkland Islands (Malvinas)' , '234' : 'Faroe Islands' , '242' : 'Fiji' , '246' : 'Finland' , '250' : 'France' , '254' : 'French Guiana' , '258' : 'French Polynesia' , '260' : 'French Southern Territories' , '266' : 'Gabon' , '270' : 'Gambia' , '268' : 'Georgia' , '276' : 'Germany' , '288' : 'Ghana' , '292' : 'Gibraltar' , '300' : 'Greece' , '304' : 'Greenland' , '308' : 'Grenada' , '312' : 'Guadeloupe' , '316' : 'Guam' , '320' : 'Guatemala' , '831' : 'Guernsey' , '324' : 'Guinea' , '624' : 'Guinea-Bissau' , '328' : 'Guyana' , '332' : 'Haiti' , '334' : 'Heard Island and McDonald Islands' , '336' : 'Holy See (Vatican City State)' , '340' : 'Honduras' , '344' : 'Hong Kong' , '348' : 'Hungary' , '352' : 'Iceland' , '356' : 'India' , '360' : 'Indonesia' , '364' : 'Islamic Republic of Iran' , '368' : 'Iraq' , '372' : 'Ireland' , '833' : 'Isle of Man' , '376' : 'Israel' , '380' : 'Italy' , '388' : 'Jamaica' , '392' : 'Japan' , '832' : 'Jersey' , '400' : 'Jordan' , '398' : 'Kazakhstan' , '404' : 'Kenya' , '296' : 'Kiribati' , '408' :  'Democratic Peoples Republic of Korea' , '410'  : 'Republic of Korea' , '414' : 'Kuwait' , '417' : 'Kyrgyzstan' , '418' : 'Lao Peoples Democratic Republic' , '428' : 'Latvia' , '422' : 'Lebanon' , '426' : 'Lesotho' , '430' : 'Liberia' , '434' : 'Libya' , '438' : 'Liechtenstein' , '440' : 'Lithuania' , '442' : 'Luxembourg' , '446' : 'Macao' , '807' : 'the former Yugoslav Republic of Macedonia' , '450' : 'Madagascar' , '454' : 'Malawi' , '458' : 'Malaysia' , '462' : 'Maldives' , '466' : 'Mali' , '470' : 'Malta' , '584' : 'Marshall Islands' , '474' : 'Martinique' , '478' : 'Mauritania' , '480' : 'Mauritius' , '175' : 'Mayotte' , '484' : 'Mexico' , '583' : 'Federated States of Micronesia' , '498' : 'Republic of Maldova' , '492' : 'Monaco' , '496' : 'Mongolia' , '499' : 'Montenegro' , '500' : 'Montserrat' , '504' : 'Morocco' , '508' : 'Mozambique' , '104' : 'Myanmar' , '516' : 'Namibia' , '520' : 'Nauru' , '524' : 'Nepal' , '528' : 'Netherlands' , '540' : 'New Caledonia' , '554' : 'New Zealand' , '558' : 'Nicaragua' , '562' : 'Niger' , '566' : 'Nigeria' , '570' : 'Niue' , '574' : 'Norfolk Island' , '580' : 'Northern Mariana Islands' , '578' : 'Norway' , '512' : 'Oman' , '586' : 'Pakistan' , '585' : 'Palau' , '275' : 'Occupied Palestinian Territory' , '591' : 'Panama' , '598' : 'Papua New Guinea' , '600' : 'Paraguay' , '604' : 'Peru' , '608' : 'Philippines' , '612' : 'Pitcairn' , '616' : 'Poland' , '620' : 'Portugal' , '630' : 'Puerto Rico' , '634' : 'Qatar' , '638' : 'Reunion' , '642' : 'Romania' , '643' : 'Russian Federation' , '646' : 'Rwanda' , '652' : 'Saint Barthelemy' , '654' : 'Saint Helena Ascension and Tristan da Cunha' , '659' : 'Saint Kitts and Nevis' , '662' : 'Saint Lucia' , '663' : 'Saint Martin (French part)' , '666' : 'Saint Pierre and Miquelon' , '670' : 'Saint Vincent and the Grenadines' , '882' : 'Samoa' , '674' : 'San Marino' , '678' : 'Sao Tome and Principe' , '682' : 'Saudi Arabia' , '686' : 'Senegal' , '688' : 'Serbia' , '690' : 'Seychelles' , '694' : 'Sierra Leone' , '702' : 'Singapore' , '534' : 'Sint Maarten (Dutch part)' , '703' : 'Slovakia' , '705' : 'Slovenia' , '90' : 'Solomon Islands' , '706' : 'Somalia' , '710' : 'South Africa' , '239' : 'South Georgia and the South Sandwich Islands' , '728' : 'South Sudan' , '724' : 'Spain' , '144' : 'Sri Lanka' , '729' : 'Sudan' , '740' : 'Suriname' , '744' : 'Svalbard and Jan Mayen' , '748' : 'Swaziland' , '752' : 'Sweden' , '756' : 'Switzerland' , '760' : 'Syrian Arab Republic' , '158' : 'Taiwan Province of China' , '762' : 'Tajikistan' , '834' : 'United Republic of Tanzania' , '764' : 'Thailand' , '626' : 'Timor-Leste' , '768' : 'Togo' , '772' : 'Tokelau' , '776' : 'Tonga' , '780' : 'Trinidad and Tobago' , '788' : 'Tunisia' , '792' : 'Turkey' , '795' : 'Turkmenistan' , '796' : 'Turks and Caicos Islands' , '798' : 'Tuvalu' , '800' : 'Uganda' , '804' : 'Ukraine' , '784' : 'United Arab Emirates' , '826' : 'United Kingdom' , '581' : 'United States Minor Outlying Islands' , '858' : 'Uruguay' , '860' : 'Uzbekistan' , '548' : 'Vanuatu' , '862' : 'Bolivarian Republic of Venezuela' , '704' : 'Viet Nam' , '92' : 'British Virgin Islands' , '850' :  'U.S. Virgin Islands' , '876' : 'Wallis and Futuna' , '732' : 'Western Sahara' , '887' : 'Yemen' , '263' : 'Zimbabwe' , '99' : 'Dont Know'})"
+HCPD,REDCap,hcpd18,,sub_mgrade,,,,socdem01,mother_edu_cat,,,,,,,"Please recode 13 as 14 (for ""High school graduate""), 14 as 13 (for ""GED or equivalent""), 15 as 16 (for ""Some college, no degree""), 16 as 17 (for ""Associate degree: occupational/technical/vocational program""), 17 as 18 (for ""Associate degree: academic program""), 18 as 20 (for ""Bachelor degree (e.g., BA, AB, BS, BBA)""), 19 as 22 (for ""Master's degree (e.g., MA, MS, MEng, MEd, MBA)""), 20 as 23 (for ""Professional school degree (e.g., MD, DDS, DVM, JD)""), and 21 as 24 (for ""Doctoral degree (e.g., PhD, EdD)"").",sub_mgrade,,"studydata['sub_mgradeswitch']=studydata.sub_mgrade.replace({'13':'14','14':'13','15':'16','16':'17','17':'18','18':'20','19':'22','20':'23','21':'24'});  studydata['sub_mgrade']=studydata.sub_mgradeswitch"
+HCPD,REDCap,hcpd18,,sub_fgrade,,,,socdem01,father_edu_cat,,,,,,,"Please recode 13 as 14 (for ""High school graduate""), 14 as 13 (for ""GED or equivalent""), 15 as 16 (for ""Some college, no degree""), 16 as 17 (for ""Associate degree: occupational/technical/vocational program""), 17 as 18 (for ""Associate degree: academic program""), 18 as 20 (for ""Bachelor degree (e.g., BA, AB, BS, BBA)""), 19 as 22 (for ""Master's degree (e.g., MA, MS, MEng, MEd, MBA)""), 20 as 23 (for ""Professional school degree (e.g., MD, DDS, DVM, JD)""), and 21 as 24 (for ""Doctoral degree (e.g., PhD, EdD)"").",sub_fgrade,,"studydata['sub_fgradeswitch']=studydata.sub_fgrade.replace({'13':'14','14':'13','15':'16','16':'17','17':'18','18':'20','19':'22','20':'23','21':'24'});  studydata['sub_fgrade']=studydata.sub_fgradeswitch"
+HCPD,REDCap,hcpd18,,family_income_dfct1,,,,socdem01,family_income_dfct1,,,,,,,,family_income_dfct1,,
+HCPD,REDCap,hcpd18,,family_income_dfct2,,,,socdem01,family_income_dfct2,,,,,,,,family_income_dfct2,,
+HCPD,REDCap,hcpd18,,family_income_dfct3,,,,socdem01,family_income_dfct3,,,,,,,,family_income_dfct3,,
+HCPD,REDCap,hcpd18,,family_income_dfct4,,,,socdem01,family_income_dfct4,,,,,,,,family_income_dfct4,,
+HCPD,REDCap,hcpd18,,family_income_dfct5,,,,socdem01,family_income_dfct5,,,,,,,,family_income_dfct5,,
+HCPD,REDCap,hcpd18,,family_income_dfct6,,,,socdem01,family_income_dfct6,,,,,,,,family_income_dfct6,,
+HCPD,REDCap,hcpd18,,family_income_dfct7,,,,socdem01,family_income_dfct7,,,,,,,,family_income_dfct7,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan_know,,,,leap01,lan_know,,,,,,,,lan_know,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan11,,,,leap01,lan11,,,,,,,,lan11,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan12,,,,leap01,lan12,,,,,,,,lan12,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan13,,,,leap01,lan13,,,,,,,,lan13,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan14,,,,leap01,lan14,,,,,,,,lan14,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan21,,,,leap01,lan21,,,,,,,,lan21,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan22,,,,leap01,lan22,,,,,,,,lan22,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan23,,,,leap01,lan23,,,,,,,,lan23,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan24,,,,leap01,lan24,,,,,,,,lan24,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan31,,,,leap01,lan31,,,,,,,,lan31,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan32,,,,leap01,lan32,,,,,,,,lan32,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan33,,,,leap01,lan33,,,,,,,,lan33,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan34,,,,leap01,lan34,,,,,,,,lan34,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan3err,,,,leap01,lan3err,,,,,,,,lan3err,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan41,,,,leap01,lan41,,,,,,,,lan41,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan42,,,,leap01,lan42,,,,,,,,lan42,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan43,,,,leap01,lan43,,,,,,,,lan43,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan44,,,,leap01,lan44,,,,,,,,lan44,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan4err,,,,leap01,lan4err,,,,,,,,lan4err,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan511,,,,leap01,lan511,,,,,,,,lan511,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan512,,,,leap01,lan512,,,,,,,,lan512,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan513,,,,leap01,lan513,,,,,,,,lan513,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan514,,,,leap01,lan514,,,,,,,,lan514,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan521,,,,leap01,lan521,,,,,,,,lan521,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan522,,,,leap01,lan522,,,,,,,,lan522,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan523,,,,leap01,lan523,,,,,,,,lan523,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan524,,,,leap01,lan524,,,,,,,,lan524,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan531,,,,leap01,lan531,,,,,,,,lan531,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan532,,,,leap01,lan532,,,,,,,,lan532,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan533,,,,leap01,lan533,,,,,,,,lan533,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan534,,,,leap01,lan534,,,,,,,,lan534,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan541,,,,leap01,lan541,,,,,,,,lan541,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan542,,,,leap01,lan542,,,,,,,,lan542,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan543,,,,leap01,lan543,,,,,,,,lan543,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan544,,,,leap01,lan544,,,,,,,,lan544,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan611,,,,leap01,lan611,,,,,,,,lan611,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan612,,,,leap01,lan612,,,,,,,,lan612,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan613,,,,leap01,lan613,,,,,,,,lan613,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan621,,,,leap01,lan621,,,,,,,,lan621,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan622,,,,leap01,lan622,,,,,,,,lan622,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan623,,,,leap01,lan623,,,,,,,,lan623,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan631,,,,leap01,lan631,,,,,,,,lan631,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan632,,,,leap01,lan632,,,,,,,,lan632,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan633,,,,leap01,lan633,,,,,,,,lan633,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan641,,,,leap01,lan641,,,,,,,,lan641,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan642,,,,leap01,lan642,,,,,,,,lan642,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan643,,,,leap01,lan643,,,,,,,,lan643,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan71,,,,leap01,lan71,,,,,,,,lan71,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan72,,,,leap01,lan72,,,,,,,,lan72,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan73,,,,leap01,lan73,,,,,,,,lan73,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan74,,,,leap01,lan74,,,,,,,,lan74,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan81,,,,leap01,lan81,,,,,,,,lan81,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan82,,,,leap01,lan82,,,,,,,,lan82,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan83,,,,leap01,lan83,,,,,,,,lan83,,
+HCPD,REDCap,hcpd18 hcpdparent,,lan84,,,,leap01,lan84,,,,,,,,lan84,,
+HCPD,REDCap,hcpdchild,,dummy_var14,,,,mctq01,version_form,,,,,,,"Please specify a time range of ""Past 4 weeks"" for all records.",version_form,,studydata['version_form']='Past 4 weeks'
+HCPD,REDCap,hcpdchild,,mctq_school_yn,,,,mctq01,regsch,,,,,,,,mctq_school_yn,,
+HCPD,REDCap,hcpdchild,,mctq_school_days,,,,mctq01,eo20,,,,,,,,mctq_school_days,,
+HCPD,REDCap,hcpdchild,,mctq_school1,,,,mctq01,wkbed,,,,,,,,mctq_school1,,
+HCPD,REDCap,hcpdchild,,mctq_school3,,,,mctq01,wkslp,,,,,,,,mctq_school3,,
+HCPD,REDCap,hcpdchild,,mctq_school4,,,,mctq01,wkmnslp,,,,,,,,mctq_school4,,
+HCPD,REDCap,hcpdchild,,mctq_school5,,,,mctq01,wkwakup,,,,,,,,mctq_school5,,
+HCPD,REDCap,hcpdchild,,mctq_school6,,,,mctq01,wkmnup,,,,,,,,mctq_school6,,
+HCPD,REDCap,hcpdchild,,mctq_school7,,,,mctq01,wkalarm,,,,,,,,mctq_school7,,
+HCPD,REDCap,hcpdchild,,mctq_school8,,,,mctq01,mctq_school8,,,,,,,,mctq_school8,,
+HCPD,REDCap,hcpdchild,,mctq_free1,,,,mctq01,frbed,,,,,,,,mctq_free1,,
+HCPD,REDCap,hcpdchild,,mctq_free3,,,,mctq01,frslp,,,,,,,,mctq_free3,,
+HCPD,REDCap,hcpdchild,,mctq_free4,,,,mctq01,frmnslp,,,,,,,,mctq_free4,,
+HCPD,REDCap,hcpdchild,,mctq_free5,,,,mctq01,frwakup,,,,,,,,mctq_free5,,
+HCPD,REDCap,hcpdchild,,mctq_free6,,,,mctq01,frmnup,,,,,,,,mctq_free6,,
+HCPD,REDCap,hcpdchild,,mctq_free7,,,,mctq01,fralarm,,,,,,,,mctq_free7,,
+HCPD,REDCap,hcpdchild,,mctq_free8,,,,mctq01,frprntslp,,,,,,,,mctq_free8,,
+HCPD,REDCap,hcpdchild,,mctq_free9,,,,mctq01,frprnts,,,,,,,Please combine mctq_free9 and mctq_free10 under one column (either name would be fine). Please also convert mctq_free9's numeric codes to the text strings they represent.,,,"studydata['mctq_free9']=studydata.mctq_free9.str.replace('1','Familymembers/pet(s)'); studydata['mctq_free9']=studydata.mctq_free9.str.replace('2','Hobbies'); studydata['mctq_free9']=studydata.mctq_free9.str.replace('3','Other: ');"
+HCPD,REDCap,hcpdchild,,mctq_free10,,,,mctq01,frprnts,,,,,,,Please combine mctq_free9 and mctq_free10 under one column (either name would be fine). Please also convert mctq_free9's numeric codes to the text strings they represent.,mctq_free10,,studydata.mctq_free10=studydata.mctq_free9+studydata.mctq_free10
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_1,,,,mmse01,mmse01,,,,,,,,mmse1_1,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_2,,,,mmse01,mmse02,,,,,,,,mmse1_2,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_3,,,,mmse01,mmse03,,,,,,,,mmse1_3,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_4,,,,mmse01,mmse04,,,,,,,,mmse1_4,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_5,,,,mmse01,mmse05,,,,,,,,mmse1_5,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_6,,,,mmse01,mmse06,,,,,,,,mmse1_6,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_7,,,,mmse01,mmse07,,,,,,,,mmse1_7,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_8,,,,mmse01,mmse08,,,,,,,,mmse1_8,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_9,,,,mmse01,mmse09,,,,,,,,mmse1_9,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse1_10,,,,mmse01,mmse10,,,,,,,,mmse1_10,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse2_1,,,,mmse01,mmse11,,,,,,,,mmse2_1,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse2_2,,,,mmse01,mmse12,,,,,,,,mmse2_2,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse2_3,,,,mmse01,mmse13,,,,,,,,mmse2_3,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse2_trials,,,,mmse01,mmse13a,,,,,,,,mmse2_trials,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3a_1,,,,mmse01,mms14,,,,,,,,mmse3a_1,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3a_2,,,,mmse01,mms15,,,,,,,,mmse3a_2,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3a_3,,,,mmse01,mms16,,,,,,,,mmse3a_3,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3a_4,,,,mmse01,mms17,,,,,,,,mmse3a_4,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3a_5,,,,mmse01,mms18,,,,,,,,mmse3a_5,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3b_1,,,,mmse01,mmse14,,,,,,,,mmse3b_1,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3b_2,,,,mmse01,mmse15,,,,,,,,mmse3b_2,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3b_3,,,,mmse01,mmse16,,,,,,,,mmse3b_3,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3b_4,,,,mmse01,mmse17,,,,,,,,mmse3b_4,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3b_5,,,,mmse01,mmse18,,,,,,,,mmse3b_5,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3a_sum,,,,mmse01,att_calc_tot,,,,,,,,mmse3a_sum,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3b_sum,,,,mmse01,alt_tot,,,,,,,,mmse3b_sum,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse3c,,,,mmse01,mmses4,,,,,,,,mmse3c,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse4_1,,,,mmse01,mmse19,,,,,,,,mmse4_1,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse4_2,,,,mmse01,mmse20,,,,,,,,mmse4_2,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse4_3,,,,mmse01,mmse21,,,,,,,,mmse4_3,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5a_1,,,,mmse01,mmse22,,,,,,,,mmse5a_1,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5a_2,,,,mmse01,mmse23,,,,,,,,mmse5a_2,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5b,,,,mmse01,mmse24,,,,,,,,mmse5b,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5c_1,,,,mmse01,mmse25,,,,,,,,mmse5c_1,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5c_2,,,,mmse01,mmse26,,,,,,,,mmse5c_2,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5c_3,,,,mmse01,mmse27,,,,,,,,mmse5c_3,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5d,,,,mmse01,mmse28,,,,,,,,mmse5d,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5e,,,,mmse01,mmse29,,,,,,,,mmse5e,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse5f,,,,mmse01,mmse30,,,,,,,,mmse5f,,
+HCPD,REDCap,hcpdchild hcpd18,,mmse_total,,,,mmse01,mmse_ts,,,,,,,,mmse_total,,
+HCPD,REDCap,hcpdchild hcpd18,,neo1,,,,neo_ffi_form_s_adult_200301,neo_q1,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo1,,"neo1=pd.to_numeric(studydata.neo1,errors='coerce')-1; studydata.neo1=neo1.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo2,,,,neo_ffi_form_s_adult_200301,neo_q2,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo2,,"neo2=pd.to_numeric(studydata.neo2,errors='coerce')-1; studydata.neo2=neo2.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo3,,,,neo_ffi_form_s_adult_200301,neo_q3,,,,,,,"Please decrement your 1::5 scale to a 0::4 scale, reverse-coding where the manual calls for it, and recalculating scores accordingly.",neo3,,"neo3=4-(pd.to_numeric(studydata.neo3,errors='coerce')-1); studydata.neo3=neo3.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo4,,,,neo_ffi_form_s_adult_200301,neo_q4,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo4,,"neo4=pd.to_numeric(studydata.neo4,errors='coerce')-1; studydata.neo4=neo4.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo5,,,,neo_ffi_form_s_adult_200301,neo_q5,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo5,,"neo5=pd.to_numeric(studydata.neo5,errors='coerce')-1; studydata.neo5=neo5.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo6,,,,neo_ffi_form_s_adult_200301,neo_q6,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo6,,"neo6=pd.to_numeric(studydata.neo6,errors='coerce')-1; studydata.neo6=neo6.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo7,,,,neo_ffi_form_s_adult_200301,neo_q7,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo7,,"neo7=pd.to_numeric(studydata.neo7,errors='coerce')-1; studydata.neo7=neo7.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo8,,,,neo_ffi_form_s_adult_200301,neo_q8,,,,,,,"Please decrement your 1::5 scale to a 0::4 scale, reverse-coding where the manual calls for it, and recalculating scores accordingly.",neo8,,"neo8=4-(pd.to_numeric(studydata.neo8,errors='coerce')-1); studydata.neo8=neo8.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo9,,,,neo_ffi_form_s_adult_200301,neo_q9,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo9,,"neo9=pd.to_numeric(studydata.neo9,errors='coerce')-1; studydata.neo9=neo9.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo10,,,,neo_ffi_form_s_adult_200301,neo_q10,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo10,,"neo10=pd.to_numeric(studydata.neo10,errors='coerce')-1; studydata.neo10=neo10.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo11,,,,neo_ffi_form_s_adult_200301,neo_q11,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo11,,"neo11=pd.to_numeric(studydata.neo11,errors='coerce')-1; studydata.neo11=neo11.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo12,,,,neo_ffi_form_s_adult_200301,neo_q12,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo12,,"neo12=pd.to_numeric(studydata.neo12,errors='coerce')-1; studydata.neo12=neo12.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo13,,,,neo_ffi_form_s_adult_200301,neo_q13,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo13,,"neo13=pd.to_numeric(studydata.neo13,errors='coerce')-1; studydata.neo13=neo13.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo14,,,,neo_ffi_form_s_adult_200301,neo_q14,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo14,,"neo14=pd.to_numeric(studydata.neo14,errors='coerce')-1; studydata.neo14=neo14.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo15,,,,neo_ffi_form_s_adult_200301,neo_q15,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo15,,"neo15=pd.to_numeric(studydata.neo15,errors='coerce')-1; studydata.neo15=neo15.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo16,,,,neo_ffi_form_s_adult_200301,neo_q16,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo16,,"neo16=pd.to_numeric(studydata.neo16,errors='coerce')-1; studydata.neo16=neo16.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo17,,,,neo_ffi_form_s_adult_200301,neo_q17,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo17,,"neo17=pd.to_numeric(studydata.neo17,errors='coerce')-1; studydata.neo17=neo17.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo18,,,,neo_ffi_form_s_adult_200301,neo_q18,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo18,,"neo18=pd.to_numeric(studydata.neo18,errors='coerce')-1; studydata.neo18=neo18.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo19,,,,neo_ffi_form_s_adult_200301,neo_q19,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo19,,"neo19=pd.to_numeric(studydata.neo19,errors='coerce')-1; studydata.neo19=neo19.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo20,,,,neo_ffi_form_s_adult_200301,neo_q20,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo20,,"neo20=pd.to_numeric(studydata.neo20,errors='coerce')-1; studydata.neo20=neo20.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo21,,,,neo_ffi_form_s_adult_200301,neo_q21,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo21,,"neo21=pd.to_numeric(studydata.neo21,errors='coerce')-1; studydata.neo21=neo21.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo22,,,,neo_ffi_form_s_adult_200301,neo_q22,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo22,,"neo22=pd.to_numeric(studydata.neo22,errors='coerce')-1; studydata.neo22=neo22.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo23,,,,neo_ffi_form_s_adult_200301,neo_q23,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo23,,"neo23=pd.to_numeric(studydata.neo23,errors='coerce')-1; studydata.neo23=neo23.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo24,,,,neo_ffi_form_s_adult_200301,neo_q24,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo24,,"neo24=pd.to_numeric(studydata.neo24,errors='coerce')-1; studydata.neo24=neo24.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo25,,,,neo_ffi_form_s_adult_200301,neo_q25,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo25,,"neo25=pd.to_numeric(studydata.neo25,errors='coerce')-1; studydata.neo25=neo25.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo26,,,,neo_ffi_form_s_adult_200301,neo_q26,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo26,,"neo26=pd.to_numeric(studydata.neo26,errors='coerce')-1; studydata.neo26=neo26.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo27,,,,neo_ffi_form_s_adult_200301,neo_q27,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo27,,"neo27=pd.to_numeric(studydata.neo27,errors='coerce')-1; studydata.neo27=neo27.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo28,,,,neo_ffi_form_s_adult_200301,neo_q28,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo28,,"neo28=pd.to_numeric(studydata.neo28,errors='coerce')-1; studydata.neo28=neo28.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo29,,,,neo_ffi_form_s_adult_200301,neo_q29,,,,,,,"Please decrement your 1::5 scale to a 0::4 scale, reverse-coding where the manual calls for it, and recalculating scores accordingly.",neo29,,"neo29=4-(pd.to_numeric(studydata.neo29,errors='coerce')-1); studydata.neo29=neo29.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo30,,,,neo_ffi_form_s_adult_200301,neo_q30,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo30,,"neo30=pd.to_numeric(studydata.neo30,errors='coerce')-1; studydata.neo30=neo30.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo31,,,,neo_ffi_form_s_adult_200301,neo_q31,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo31,,"neo31=pd.to_numeric(studydata.neo31,errors='coerce')-1; studydata.neo31=neo31.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo32,,,,neo_ffi_form_s_adult_200301,neo_q32,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo32,,"neo32=pd.to_numeric(studydata.neo32,errors='coerce')-1; studydata.neo32=neo32.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo33,,,,neo_ffi_form_s_adult_200301,neo_q33,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo33,,"neo33=pd.to_numeric(studydata.neo33,errors='coerce')-1; studydata.neo33=neo33.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo34,,,,neo_ffi_form_s_adult_200301,neo_q34,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo34,,"neo34=pd.to_numeric(studydata.neo34,errors='coerce')-1; studydata.neo34=neo34.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo35,,,,neo_ffi_form_s_adult_200301,neo_q35,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo35,,"neo35=pd.to_numeric(studydata.neo35,errors='coerce')-1; studydata.neo35=neo35.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo36,,,,neo_ffi_form_s_adult_200301,neo_q36,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo36,,"neo36=pd.to_numeric(studydata.neo36,errors='coerce')-1; studydata.neo36=neo36.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo37,,,,neo_ffi_form_s_adult_200301,neo_q37,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo37,,"neo37=pd.to_numeric(studydata.neo37,errors='coerce')-1; studydata.neo37=neo37.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo38,,,,neo_ffi_form_s_adult_200301,neo_q38,,,,,,,"Please decrement your 1::5 scale to a 0::4 scale, reverse-coding where the manual calls for it, and recalculating scores accordingly.",neo38,,"neo38=4-(pd.to_numeric(studydata.neo38,errors='coerce')-1); studydata.neo38=neo38.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo39,,,,neo_ffi_form_s_adult_200301,neo_q39,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo39,,"neo39=pd.to_numeric(studydata.neo39,errors='coerce')-1; studydata.neo39=neo39.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo40,,,,neo_ffi_form_s_adult_200301,neo_q40,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo40,,"neo40=pd.to_numeric(studydata.neo40,errors='coerce')-1; studydata.neo40=neo40.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo41,,,,neo_ffi_form_s_adult_200301,neo_q41,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo41,,"neo41=pd.to_numeric(studydata.neo41,errors='coerce')-1; studydata.neo41=neo41.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo42,,,,neo_ffi_form_s_adult_200301,neo_q42,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo42,,"neo42=pd.to_numeric(studydata.neo42,errors='coerce')-1; studydata.neo42=neo42.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo43,,,,neo_ffi_form_s_adult_200301,neo_q43,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo43,,"neo43=pd.to_numeric(studydata.neo43,errors='coerce')-1; studydata.neo43=neo43.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo44,,,,neo_ffi_form_s_adult_200301,neo_q44,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo44,,"neo44=pd.to_numeric(studydata.neo44,errors='coerce')-1; studydata.neo44=neo44.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo45,,,,neo_ffi_form_s_adult_200301,neo_q45,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo45,,"neo45=pd.to_numeric(studydata.neo45,errors='coerce')-1; studydata.neo45=neo45.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo46,,,,neo_ffi_form_s_adult_200301,neo_q46,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo46,,"neo46=pd.to_numeric(studydata.neo46,errors='coerce')-1; studydata.neo46=neo46.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo47,,,,neo_ffi_form_s_adult_200301,neo_q47,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo47,,"neo47=pd.to_numeric(studydata.neo47,errors='coerce')-1; studydata.neo47=neo47.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo48,,,,neo_ffi_form_s_adult_200301,neo_q48,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo48,,"neo48=pd.to_numeric(studydata.neo48,errors='coerce')-1; studydata.neo48=neo48.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo49,,,,neo_ffi_form_s_adult_200301,neo_q49,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo49,,"neo49=pd.to_numeric(studydata.neo49,errors='coerce')-1; studydata.neo49=neo49.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo50,,,,neo_ffi_form_s_adult_200301,neo_q50,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo50,,"neo50=pd.to_numeric(studydata.neo50,errors='coerce')-1; studydata.neo50=neo50.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo51,,,,neo_ffi_form_s_adult_200301,neo_q51,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo51,,"neo51=pd.to_numeric(studydata.neo51,errors='coerce')-1; studydata.neo51=neo51.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo52,,,,neo_ffi_form_s_adult_200301,neo_q52,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo52,,"neo52=pd.to_numeric(studydata.neo52,errors='coerce')-1; studydata.neo52=neo52.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo53,,,,neo_ffi_form_s_adult_200301,neo_q53,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo53,,"neo53=pd.to_numeric(studydata.neo53,errors='coerce')-1; studydata.neo53=neo53.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo54,,,,neo_ffi_form_s_adult_200301,neo_q54,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo54,,"neo54=pd.to_numeric(studydata.neo54,errors='coerce')-1; studydata.neo54=neo54.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo55,,,,neo_ffi_form_s_adult_200301,neo_q55,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo55,,"neo55=pd.to_numeric(studydata.neo55,errors='coerce')-1; studydata.neo55=neo55.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo56,,,,neo_ffi_form_s_adult_200301,neo_q56,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo56,,"neo56=pd.to_numeric(studydata.neo56,errors='coerce')-1; studydata.neo56=neo56.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo57,,,,neo_ffi_form_s_adult_200301,neo_q57,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo57,,"neo57=pd.to_numeric(studydata.neo57,errors='coerce')-1; studydata.neo57=neo57.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo58,,,,neo_ffi_form_s_adult_200301,neo_q58,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo58,,"neo58=pd.to_numeric(studydata.neo58,errors='coerce')-1; studydata.neo58=neo58.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo59,,,,neo_ffi_form_s_adult_200301,neo_q59,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo59,,"neo59=pd.to_numeric(studydata.neo59,errors='coerce')-1; studydata.neo59=neo59.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,neo60,,,,neo_ffi_form_s_adult_200301,neo_q60,,,,,,,Please decrement your 1::5 scale to a 0::4 scale,neo60,,"neo60=pd.to_numeric(studydata.neo60,errors='coerce')-1; studydata.neo60=neo60.fillna(-99).astype(int).astype(str).str.replace('-99','')"
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var15,,,,gbi01,version_form,,,,,,,"Please use the 'version_form' column to label all rows ""S7up Self Report"".",version_form,,studydata['version_form']='S7up Self Report'
+HCPD,REDCap,hcpdchild hcpd18,,s7upchildself1,,,,gbi01,gbi4,,,,,,,,s7upchildself1,,
+HCPD,REDCap,hcpdchild hcpd18,,s7upchildself2,,,,gbi01,s7upchildself2,,,,,,,,s7upchildself2,,
+HCPD,REDCap,hcpdchild hcpd18,,s7upchildself3,,,,gbi01,gbi6,,,,,,,,s7upchildself3,,
+HCPD,REDCap,hcpdchild hcpd18,,s7upchildself4,,,,gbi01,s7upchildself4,,,,,,,,s7upchildself4,,
+HCPD,REDCap,hcpdchild hcpd18,,s7upchildself5,,,,gbi01,s7upchildself5,,,,,,,,s7upchildself5,,
+HCPD,REDCap,hcpdchild hcpd18,,s7upchildself6,,,,gbi01,s7upchildself6,,,,,,,,s7upchildself6,,
+HCPD,REDCap,hcpdchild hcpd18,,s7upchildself7,,,,gbi01,gbi10,,,,,,,,s7upchildself7,,
+HCPD,REDCap,hcpdchild,,ysra_item1,,,,ysr01,ysr_1,,,,,,,,ysra_item1,,
+HCPD,REDCap,hcpdchild,,ysra_item2_1,,,,ysr01,ysr2,,,,,,,,ysra_item2_1,,
+HCPD,REDCap,hcpdchild,,ysra_item2_2,,,,ysr01,cbcl1_2_text,,,,,,,,ysra_item2_2,,
+HCPD,REDCap,hcpdchild,,ysra_item3,,,,ysr01,ysr_3,,,,,,,,ysra_item3,,
+HCPD,REDCap,hcpdchild,,ysra_item4,,,,ysr01,tr04,,,,,,,,ysra_item4,,
+HCPD,REDCap,hcpdchild,,ysra_item5,,,,ysr01,ysr5,,,,,,,,ysra_item5,,
+HCPD,REDCap,hcpdchild,,ysra_item6,,,,ysr01,ysr_6,,,,,,,,ysra_item6,,
+HCPD,REDCap,hcpdchild,,ysra_item7,,,,ysr01,ysr_7,,,,,,,,ysra_item7,,
+HCPD,REDCap,hcpdchild,,ysra_item8,,,,ysr01,ysr_8,,,,,,,,ysra_item8,,
+HCPD,REDCap,hcpdchild,,ysra_item9_1,,,,ysr01,ysr_9,,,,,,,,ysra_item9_1,,
+HCPD,REDCap,hcpdchild,,ysra_item9_2,,,,ysr01,cbcl2_3_text,,,,,,,,ysra_item9_2,,
+HCPD,REDCap,hcpdchild,,ysra_item10,,,,ysr01,ysr_10,,,,,,,,ysra_item10,,
+HCPD,REDCap,hcpdchild,,ysra_item11,,,,ysr01,ysr_11,,,,,,,,ysra_item11,,
+HCPD,REDCap,hcpdchild,,ysra_item12,,,,ysr01,ysr_12,,,,,,,,ysra_item12,,
+HCPD,REDCap,hcpdchild,,ysra_item13,,,,ysr01,ysr_13,,,,,,,,ysra_item13,,
+HCPD,REDCap,hcpdchild,,ysra_item14,,,,ysr01,ysr_14,,,,,,,,ysra_item14,,
+HCPD,REDCap,hcpdchild,,ysra_item15,,,,ysr01,ysr_15,,,,,,,,ysra_item15,,
+HCPD,REDCap,hcpdchild,,ysra_item16,,,,ysr01,ysr_16,,,,,,,,ysra_item16,,
+HCPD,REDCap,hcpdchild,,ysra_item17,,,,ysr01,ysr_17,,,,,,,,ysra_item17,,
+HCPD,REDCap,hcpdchild,,ysra_item18,,,,ysr01,ysr_18,,,,,,,,ysra_item18,,
+HCPD,REDCap,hcpdchild,,ysra_item19,,,,ysr01,ysr_19,,,,,,,,ysra_item19,,
+HCPD,REDCap,hcpdchild,,ysra_item20,,,,ysr01,ysr_20,,,,,,,,ysra_item20,,
+HCPD,REDCap,hcpdchild,,ysra_item21,,,,ysr01,ysr_21,,,,,,,,ysra_item21,,
+HCPD,REDCap,hcpdchild,,ysra_item22,,,,ysr01,ysr_22,,,,,,,,ysra_item22,,
+HCPD,REDCap,hcpdchild,,ysra_item23,,,,ysr01,ysr_23,,,,,,,,ysra_item23,,
+HCPD,REDCap,hcpdchild,,ysra_item24,,,,ysr01,ysr_24,,,,,,,,ysra_item24,,
+HCPD,REDCap,hcpdchild,,ysra_item25,,,,ysr01,ysr_25,,,,,,,,ysra_item25,,
+HCPD,REDCap,hcpdchild,,ysra_item26,,,,ysr01,ysr_26,,,,,,,,ysra_item26,,
+HCPD,REDCap,hcpdchild,,ysra_item27,,,,ysr01,ysr_27,,,,,,,,ysra_item27,,
+HCPD,REDCap,hcpdchild,,ysra_item28,,,,ysr01,ysr28,,,,,,,,ysra_item28,,
+HCPD,REDCap,hcpdchild,,ysra_item29_1,,,,ysr01,ysr_29,,,,,,,,ysra_item29_1,,
+HCPD,REDCap,hcpdchild,,ysra_item29_2,,,,ysr01,cbcl5_2_text,,,,,,,,ysra_item29_2,,
+HCPD,REDCap,hcpdchild,,ysra_item30,,,,ysr01,ysr_30,,,,,,,,ysra_item30,,
+HCPD,REDCap,hcpdchild,,ysra_item31,,,,ysr01,ysr_31,,,,,,,,ysra_item31,,
+HCPD,REDCap,hcpdchild,,ysra_item32,,,,ysr01,ysr_32,,,,,,,,ysra_item32,,
+HCPD,REDCap,hcpdchild,,ysra_item33,,,,ysr01,ysr_33,,,,,,,,ysra_item33,,
+HCPD,REDCap,hcpdchild,,ysra_item34,,,,ysr01,ysr_34,,,,,,,,ysra_item34,,
+HCPD,REDCap,hcpdchild,,ysra_item35,,,,ysr01,ysr_35,,,,,,,,ysra_item35,,
+HCPD,REDCap,hcpdchild,,ysra_item36,,,,ysr01,ysr_36,,,,,,,,ysra_item36,,
+HCPD,REDCap,hcpdchild,,ysra_item37,,,,ysr01,ysr_37,,,,,,,,ysra_item37,,
+HCPD,REDCap,hcpdchild,,ysra_item38,,,,ysr01,ysr_38,,,,,,,,ysra_item38,,
+HCPD,REDCap,hcpdchild,,ysra_item39,,,,ysr01,ysr_39,,,,,,,,ysra_item39,,
+HCPD,REDCap,hcpdchild,,ysra_item40_1,,,,ysr01,ysr_40,,,,,,,,ysra_item40_1,,
+HCPD,REDCap,hcpdchild,,ysra_item40_2,,,,ysr01,cbcl6_6_text,,,,,,,,ysra_item40_2,,
+HCPD,REDCap,hcpdchild,,ysra_item41,,,,ysr01,ysr_41,,,,,,,,ysra_item41,,
+HCPD,REDCap,hcpdchild,,ysra_item42,,,,ysr01,ysr_42,,,,,,,,ysra_item42,,
+HCPD,REDCap,hcpdchild,,ysra_item43,,,,ysr01,ysr_43,,,,,,,,ysra_item43,,
+HCPD,REDCap,hcpdchild,,ysra_item44,,,,ysr01,ysr_44,,,,,,,,ysra_item44,,
+HCPD,REDCap,hcpdchild,,ysra_item45,,,,ysr01,ysr_45,,,,,,,,ysra_item45,,
+HCPD,REDCap,hcpdchild,,ysra_item46_1,,,,ysr01,ysr_46,,,,,,,,ysra_item46_1,,
+HCPD,REDCap,hcpdchild,,ysra_item46_2,,,,ysr01,cbcl7_3_text,,,,,,,,ysra_item46_2,,
+HCPD,REDCap,hcpdchild,,ysra_item47,,,,ysr01,ysr_47,,,,,,,,ysra_item47,,
+HCPD,REDCap,hcpdchild,,ysra_item48,,,,ysr01,ysr_48,,,,,,,,ysra_item48,,
+HCPD,REDCap,hcpdchild,,ysra_item49,,,,ysr01,ysr_49,,,,,,,,ysra_item49,,
+HCPD,REDCap,hcpdchild,,ysra_item50,,,,ysr01,ysr_50,,,,,,,,ysra_item50,,
+HCPD,REDCap,hcpdchild,,ysra_item51,,,,ysr01,ysr_51,,,,,,,,ysra_item51,,
+HCPD,REDCap,hcpdchild,,ysra_item52,,,,ysr01,ysr_52,,,,,,,,ysra_item52,,
+HCPD,REDCap,hcpdchild,,ysra_item53,,,,ysr01,ysr_53,,,,,,,,ysra_item53,,
+HCPD,REDCap,hcpdchild,,ysra_item54,,,,ysr01,ysr_54,,,,,,,,ysra_item54,,
+HCPD,REDCap,hcpdchild,,ysra_item55,,,,ysr01,ysr_55,,,,,,,,ysra_item55,,
+HCPD,REDCap,hcpdchild,,ysra_item56_1,,,,ysr01,ysr_56,,,,,,,,ysra_item56_1,,
+HCPD,REDCap,hcpdchild,,ysra_item56_2,,,,ysr01,ysr_57,,,,,,,,ysra_item56_2,,
+HCPD,REDCap,hcpdchild,,ysra_item56_3,,,,ysr01,ysr_58,,,,,,,,ysra_item56_3,,
+HCPD,REDCap,hcpdchild,,ysra_item56_4_1,,,,ysr01,ysr_59,,,,,,,,ysra_item56_4_1,,
+HCPD,REDCap,hcpdchild,,ysra_item56_4_2,,,,ysr01,cbcl9_2_text,,,,,,,,ysra_item56_4_2,,
+HCPD,REDCap,hcpdchild,,ysra_item56_5,,,,ysr01,ysr_60,,,,,,,,ysra_item56_5,,
+HCPD,REDCap,hcpdchild,,ysra_item56_6,,,,ysr01,ysr_61,,,,,,,,ysra_item56_6,,
+HCPD,REDCap,hcpdchild,,ysra_item56_7,,,,ysr01,ysr_62,,,,,,,,ysra_item56_7,,
+HCPD,REDCap,hcpdchild,,ysra_item56_8_1,,,,ysr01,ysr_63,,,,,,,,ysra_item56_8_1,,
+HCPD,REDCap,hcpdchild,,ysra_item56_8_2,,,,ysr01,cbcl56h_des,,,,,,,,ysra_item56_8_2,,
+HCPD,REDCap,hcpdchild,,ysra_item57,,,,ysr01,ysr_64,,,,,,,,ysra_item57,,
+HCPD,REDCap,hcpdchild,,ysra_item58_1,,,,ysr01,ysr_65,,,,,,,,ysra_item58_1,,
+HCPD,REDCap,hcpdchild,,ysra_item58_2,,,,ysr01,cbcl10_1_text,,,,,,,,ysra_item58_2,,
+HCPD,REDCap,hcpdchild,,ysra_item59,,,,ysr01,ysr_66,,,,,,,,ysra_item59,,
+HCPD,REDCap,hcpdchild,,ysra_item60,,,,ysr01,ysr_67,,,,,,,,ysra_item60,,
+HCPD,REDCap,hcpdchild,,ysra_item61,,,,ysr01,ysr_68,,,,,,,,ysra_item61,,
+HCPD,REDCap,hcpdchild,,ysra_item62,,,,ysr01,ysr_69,,,,,,,,ysra_item62,,
+HCPD,REDCap,hcpdchild,,ysra_item63,,,,ysr01,ysr_70,,,,,,,,ysra_item63,,
+HCPD,REDCap,hcpdchild,,ysra_item64,,,,ysr01,ysr_71,,,,,,,,ysra_item64,,
+HCPD,REDCap,hcpdchild,,ysra_item65,,,,ysr01,ysr_72,,,,,,,,ysra_item65,,
+HCPD,REDCap,hcpdchild,,ysra_item66_1,,,,ysr01,ysr_73,,,,,,,,ysra_item66_1,,
+HCPD,REDCap,hcpdchild,,ysra_item66_2,,,,ysr01,cbcl11_2_text,,,,,,,,ysra_item66_2,,
+HCPD,REDCap,hcpdchild,,ysra_item67,,,,ysr01,ysr_74,,,,,,,,ysra_item67,,
+HCPD,REDCap,hcpdchild,,ysra_item68,,,,ysr01,ysr_75,,,,,,,,ysra_item68,,
+HCPD,REDCap,hcpdchild,,ysra_item69,,,,ysr01,ysr_76,,,,,,,,ysra_item69,,
+HCPD,REDCap,hcpdchild,,ysra_item70_1,,,,ysr01,ysr_77,,,,,,,,ysra_item70_1,,
+HCPD,REDCap,hcpdchild,,ysra_item70_2,,,,ysr01,cbcl11_6_text,,,,,,,,ysra_item70_2,,
+HCPD,REDCap,hcpdchild,,ysra_item71,,,,ysr01,ysr_78,,,,,,,,ysra_item71,,
+HCPD,REDCap,hcpdchild,,ysra_item72,,,,ysr01,ysr_79,,,,,,,,ysra_item72,,
+HCPD,REDCap,hcpdchild,,ysra_item73_1,,,,ysr01,ysr_80,,,,,,,,ysra_item73_1,,
+HCPD,REDCap,hcpdchild,,ysra_item74,,,,ysr01,ysr_81,,,,,,,,ysra_item74,,
+HCPD,REDCap,hcpdchild,,ysra_item75,,,,ysr01,ysr_82,,,,,,,,ysra_item75,,
+HCPD,REDCap,hcpdchild,,ysra_item76,,,,ysr01,ysr_83,,,,,,,,ysra_item76,,
+HCPD,REDCap,hcpdchild,,ysra_item77_1,,,,ysr01,ysr_84,,,,,,,,ysra_item77_1,,
+HCPD,REDCap,hcpdchild,,ysra_item77_2,,,,ysr01,cbcl12_6_text,,,,,,,,ysra_item77_2,,
+HCPD,REDCap,hcpdchild,,ysra_item78,,,,ysr01,tr78,,,,,,,,ysra_item78,,
+HCPD,REDCap,hcpdchild,,ysra_item79_1,,,,ysr01,ysr_86,,,,,,,,ysra_item79_1,,
+HCPD,REDCap,hcpdchild,,ysra_item79_2,,,,ysr01,cbcl13_1_text,,,,,,,,ysra_item79_2,,
+HCPD,REDCap,hcpdchild,,ysra_item80,,,,ysr01,ysr_87,,,,,,,,ysra_item80,,
+HCPD,REDCap,hcpdchild,,ysra_item81,,,,ysr01,ysr_88,,,,,,,,ysra_item81,,
+HCPD,REDCap,hcpdchild,,ysra_item82,,,,ysr01,ysr_89,,,,,,,,ysra_item82,,
+HCPD,REDCap,hcpdchild,,ysra_item83_1,,,,ysr01,ysr_90,,,,,,,,ysra_item83_1,,
+HCPD,REDCap,hcpdchild,,ysra_item83_2,,,,ysr01,cbcl13_5_text,,,,,,,,ysra_item83_2,,
+HCPD,REDCap,hcpdchild,,ysra_item84_1,,,,ysr01,ysr_91,,,,,,,,ysra_item84_1,,
+HCPD,REDCap,hcpdchild,,ysra_item84_2,,,,ysr01,cbcl13_6_text,,,,,,,,ysra_item84_2,,
+HCPD,REDCap,hcpdchild,,ysra_item85_1,,,,ysr01,ysr_92,,,,,,,,ysra_item85_1,,
+HCPD,REDCap,hcpdchild,,ysra_item85_2,,,,ysr01,cbcl13_7_text,,,,,,,,ysra_item85_2,,
+HCPD,REDCap,hcpdchild,,ysra_item86,,,,ysr01,ysr_93,,,,,,,,ysra_item86,,
+HCPD,REDCap,hcpdchild,,ysra_item87,,,,ysr01,ysr_94,,,,,,,,ysra_item87,,
+HCPD,REDCap,hcpdchild,,ysra_item88,,,,ysr01,ysr_95,,,,,,,,ysra_item88,,
+HCPD,REDCap,hcpdchild,,ysra_item89,,,,ysr01,ysr_96,,,,,,,,ysra_item89,,
+HCPD,REDCap,hcpdchild,,ysra_item90,,,,ysr01,ysr_97,,,,,,,,ysra_item90,,
+HCPD,REDCap,hcpdchild,,ysra_item91,,,,ysr01,ysr_98,,,,,,,,ysra_item91,,
+HCPD,REDCap,hcpdchild,,ysra_item92_1,,,,ysr01,ysr_99,,,,,,,,ysra_item92_1,,
+HCPD,REDCap,hcpdchild,,ysra_item93,,,,ysr01,ysr_100,,,,,,,,ysra_item93,,
+HCPD,REDCap,hcpdchild,,ysra_item94,,,,ysr01,ysr_101,,,,,,,,ysra_item94,,
+HCPD,REDCap,hcpdchild,,ysra_item95,,,,ysr01,ysr_102,,,,,,,,ysra_item95,,
+HCPD,REDCap,hcpdchild,,ysra_item96,,,,ysr01,ysr_103,,,,,,,,ysra_item96,,
+HCPD,REDCap,hcpdchild,,ysra_item97,,,,ysr01,ysr_104,,,,,,,,ysra_item97,,
+HCPD,REDCap,hcpdchild,,ysra_item98,,,,ysr01,ysr_105,,,,,,,,ysra_item98,,
+HCPD,REDCap,hcpdchild,,ysra_item99,,,,ysr01,cbcl99,,,,,,,,ysra_item99,,
+HCPD,REDCap,hcpdchild,,ysra_item100_1,,,,ysr01,ysr_107,,,,,,,,ysra_item100_1,,
+HCPD,REDCap,hcpdchild,,ysra_item100_2,,,,ysr01,cbcl16_1_text,,,,,,,,ysra_item100_2,,
+HCPD,REDCap,hcpdchild,,ysra_item101,,,,ysr01,ysr_108,,,,,,,,ysra_item101,,
+HCPD,REDCap,hcpdchild,,ysra_item102,,,,ysr01,ysr_109,,,,,,,,ysra_item102,,
+HCPD,REDCap,hcpdchild,,ysra_item103,,,,ysr01,ysr_110,,,,,,,,ysra_item103,,
+HCPD,REDCap,hcpdchild,,ysra_item104,,,,ysr01,ysr_111,,,,,,,,ysra_item104,,
+HCPD,REDCap,hcpdchild,,ysra_item105_1,,,,ysr01,ysr_112,,,,,,,,ysra_item105_1,,
+HCPD,REDCap,hcpdchild,,ysra_item105_2,,,,ysr01,cbcl16_6_text,,,,,,,,ysra_item105_2,,
+HCPD,REDCap,hcpdchild,,ysra_item106,,,,ysr01,ysr_113,,,,,,,,ysra_item106,,
+HCPD,REDCap,hcpdchild,,ysra_item107,,,,ysr01,ysr_114,,,,,,,,ysra_item107,,
+HCPD,REDCap,hcpdchild,,ysra_item108,,,,ysr01,ysr_115,,,,,,,,ysra_item108,,
+HCPD,REDCap,hcpdchild,,ysra_item109,,,,ysr01,ysr_116,,,,,,,,ysra_item109,,
+HCPD,REDCap,hcpdchild,,ysra_item110,,,,ysr01,ysr_117,,,,,,,,ysra_item110,,
+HCPD,REDCap,hcpdchild,,ysra_item111,,,,ysr01,ysr_118,,,,,,,,ysra_item111,,
+HCPD,REDCap,hcpdchild,,ysra_item112,,,,ysr01,ysr_119,,,,,,,,ysra_item112,,
+HCPD,REDCap,hcpdchild hcpd18,,ale1,,,,phenx_su01,fam_mem_died,,,,,,, ,ale1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale1_1,,,,phenx_su01,fam_mem_died_exp,,,,,,,,ale1_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale1_2,,,,phenx_su01,fam_mem_died_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale1_2,,"studydata.ale1_2=studydata.ale1_2.str.replace('2','3'); studydata.ale1_2.str.replace('1','2');studydata.ale1_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale2,,,,phenx_su01,fam_mem_injured,,,,,,,,ale2,,
+HCPD,REDCap,hcpdchild hcpd18,,ale2_1,,,,phenx_su01,fam_mem_injured_exp,,,,,,,,ale2_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale2_2,,,,phenx_su01,fam_mem_injured_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale2_2,,"studydata.ale2_2=studydata.ale2_2.str.replace('2','3'); studydata.ale2_2.str.replace('1','2');studydata.ale2_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale3,,,,phenx_su01,saw_crime_accident,,,,,,,,ale3,,
+HCPD,REDCap,hcpdchild hcpd18,,ale3_1,,,,phenx_su01,saw_crime_accident_exp,,,,,,,,ale3_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale3_2,,,,phenx_su01,saw_crime_accident_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale3_2,,"studydata.ale3_2=studydata.ale3_2.str.replace('2','3'); studydata.ale3_2.str.replace('1','2');studydata.ale3_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale4,,,,phenx_su01,lost_close_friend,,,,,,,,ale4,,
+HCPD,REDCap,hcpdchild hcpd18,,ale4_1,,,,phenx_su01,lost_close_friend_exp,,,,,,,,ale4_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale4_2,,,,phenx_su01,lost_close_friend_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale4_2,,"studydata.ale4_2=studydata.ale4_2.str.replace('2','3'); studydata.ale4_2.str.replace('1','2');studydata.ale4_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale5,,,,phenx_su01,close_friend_sick_injured,,,,,,,,ale5,,
+HCPD,REDCap,hcpdchild hcpd18,,ale5_1,,,,phenx_su01,close_friend_sick_injured_exp,,,,,,,,ale5_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale5_2,,,,phenx_su01,close_friend_sick_injured_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale5_2,,"studydata.ale5_2=studydata.ale5_2.str.replace('2','3'); studydata.ale5_2.str.replace('1','2');studydata.ale5_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale6,,,,phenx_su01,parents_fin_situation,,,,,,,,ale6,,
+HCPD,REDCap,hcpdchild hcpd18,,ale6_1,,,,phenx_su01,parents_fin_situation_exp,,,,,,,,ale6_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale6_2,,,,phenx_su01,parents_fin_situation_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale6_2,,"studydata.ale6_2=studydata.ale6_2.str.replace('2','3'); studydata.ale6_2.str.replace('1','2');studydata.ale6_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale7,,,,phenx_su01,fam_mem_drug_alc,,,,,,,,ale7,,
+HCPD,REDCap,hcpdchild hcpd18,,ale7_1,,,,phenx_su01,fam_mem_drug_alc_exp,,,,,,,,ale7_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale7_2,,,,phenx_su01,fam_mem_drug_alc_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale7_2,,"studydata.ale7_2=studydata.ale7_2.str.replace('2','3'); studydata.ale7_2.str.replace('1','2');studydata.ale7_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale8,,,,phenx_su01,sick_injured,,,,,,,,ale8,,
+HCPD,REDCap,hcpdchild hcpd18,,ale8_1,,,,phenx_su01,sick_injured_exp,,,,,,,,ale8_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale8_2,,,,phenx_su01,sick_injured_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale8_2,,"studydata.ale8_2=studydata.ale8_2.str.replace('2','3'); studydata.ale8_2.str.replace('1','2');studydata.ale8_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale9,,,,phenx_su01,parents_argue,,,,,,,,ale9,,
+HCPD,REDCap,hcpdchild hcpd18,,ale9_1,,,,phenx_su01,parents_argue_exp,,,,,,,,ale9_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale9_2,,,,phenx_su01,parents_argue_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale9_2,,"studydata.ale9_2=studydata.ale9_2.str.replace('2','3'); studydata.ale9_2.str.replace('1','2');studydata.ale9_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale10,,,,phenx_su01,mother_father_lostjob,,,,,,,,ale10,,
+HCPD,REDCap,hcpdchild hcpd18,,ale10_1,,,,phenx_su01,mother_father_lostjob_exp,,,,,,,,ale10_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale10_2,,,,phenx_su01,mother_father_lostjob_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale10_2,,"studydata.ale10_2=studydata.ale10_2.str.replace('2','3'); studydata.ale10_2.str.replace('1','2');studydata.ale10_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale11,,,,phenx_su01,parent_away_home,,,,,,,,ale11,,
+HCPD,REDCap,hcpdchild hcpd18,,ale11_1,,,,phenx_su01,parent_away_home_exp,,,,,,,,ale11_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale11_2,,,,phenx_su01,parent_away_home_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale11_2,,"studydata.ale11_2=studydata.ale11_2.str.replace('2','3'); studydata.ale11_2.str.replace('1','2');studydata.ale11_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale12,,,,phenx_su01,fam_mem_arrest,,,,,,,,ale12,,
+HCPD,REDCap,hcpdchild hcpd18,,ale12_1,,,,phenx_su01,fam_mem_arrest_exp,,,,,,,,ale12_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale12_2,,,,phenx_su01,fam_mem_arrest_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale12_2,,"studydata.ale12_2=studydata.ale12_2.str.replace('2','3'); studydata.ale12_2.str.replace('1','2');studydata.ale12_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale13,,,,phenx_su01,close_friend_died,,,,,,,,ale13,,
+HCPD,REDCap,hcpdchild hcpd18,,ale13_1,,,,phenx_su01,close_friend_died_exp,,,,,,,,ale13_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale13_2,,,,phenx_su01,close_friend_died_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale13_2,,"studydata.ale13_2=studydata.ale13_2.str.replace('2','3'); studydata.ale13_2.str.replace('1','2');studydata.ale13_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale14,,,,phenx_su01,fam_mem_emo_mental,,,,,,,,ale14,,
+HCPD,REDCap,hcpdchild hcpd18,,ale14_1,,,,phenx_su01,fam_mem_emo_mental_exp,,,,,,,,ale14_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale14_2,,,,phenx_su01,fam_mem_emo_mental_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale14_2,,"studydata.ale14_2=studydata.ale14_2.str.replace('2','3'); studydata.ale14_2.str.replace('1','2');studydata.ale14_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale15,,,,phenx_su01,sibling_left_home,,,,,,,,ale15,,
+HCPD,REDCap,hcpdchild hcpd18,,ale15_1,,,,phenx_su01,sibling_left_home_exp,,,,,,,,ale15_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale15_2,,,,phenx_su01,sibling_left_home_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale15_2,,"studydata.ale15_2=studydata.ale15_2.str.replace('2','3'); studydata.ale15_2.str.replace('1','2');studydata.ale15_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale16,,,,phenx_su01,victim_crime_assualt,,,,,,,,ale16,,
+HCPD,REDCap,hcpdchild hcpd18,,ale16_1,,,,phenx_su01,victim_crime_assualt_exp,,,,,,,,ale16_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale16_2,,,,phenx_su01,victim_crime_assualt_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale16_2,,"studydata.ale16_2=studydata.ale16_2.str.replace('2','3'); studydata.ale16_2.str.replace('1','2');studydata.ale16_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale17,,,,phenx_su01,parents_sep_12mons,,,,,,,,ale17,,
+HCPD,REDCap,hcpdchild hcpd18,,ale17_1,,,,phenx_su01,parents_sep_12mons_exp,,,,,,,,ale17_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale17_2,,,,phenx_su01,parents_sep_12mons_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale17_2,,"studydata.ale17_2=studydata.ale17_2.str.replace('2','3'); studydata.ale17_2.str.replace('1','2');studydata.ale17_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale18,,,,phenx_su01,parents_trouble_law,,,,,,,,ale18,,
+HCPD,REDCap,hcpdchild hcpd18,,ale18_1,,,,phenx_su01,parents_trouble_law_exp,,,,,,,,ale18_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale18_2,,,,phenx_su01,parents_trouble_law_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale18_2,,"studydata.ale18_2=studydata.ale18_2.str.replace('2','3'); studydata.ale18_2.str.replace('1','2');studydata.ale18_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale19,,,,phenx_su01,attended_new_school,,,,,,,,ale19,,
+HCPD,REDCap,hcpdchild hcpd18,,ale19_1,,,,phenx_su01,attended_new_school_exp,,,,,,,,ale19_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale19_2,,,,phenx_su01,attended_new_school_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale19_2,,"studydata.ale19_2=studydata.ale19_2.str.replace('2','3'); studydata.ale19_2.str.replace('1','2');studydata.ale19_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale20,,,,phenx_su01,family_moved,,,,,,,,ale20,,
+HCPD,REDCap,hcpdchild hcpd18,,ale20_1,,,,phenx_su01,family_moved_exp,,,,,,,,ale20_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale20_2,,,,phenx_su01,family_moved_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale20_2,,"studydata.ale20_2=studydata.ale20_2.str.replace('2','3'); studydata.ale20_2.str.replace('1','2');studydata.ale20_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale21,,,,phenx_su01,parents_divorced,,,,,,,,ale21,,
+HCPD,REDCap,hcpdchild hcpd18,,ale21_1,,,,phenx_su01,parents_divorced_exp,,,,,,,,ale21_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale21_2,,,,phenx_su01,parents_divorced_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale21_2,,"studydata.ale21_2=studydata.ale21_2.str.replace('2','3'); studydata.ale21_2.str.replace('1','2');studydata.ale21_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale22,,,,phenx_su01,parent_went_to_jail,,,,,,,,ale22,,
+HCPD,REDCap,hcpdchild hcpd18,,ale22_1,,,,phenx_su01,parent_went_to_jail_exp,,,,,,,,ale22_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale22_2,,,,phenx_su01,parent_went_to_jail_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale22_2,,"studydata.ale22_2=studydata.ale22_2.str.replace('2','3'); studydata.ale22_2.str.replace('1','2');studydata.ale22_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale23,,,,phenx_su01,new_stepparent,,,,,,,,ale23,,
+HCPD,REDCap,hcpdchild hcpd18,,ale23_1,,,,phenx_su01,new_stepparent_exp,,,,,,,,ale23_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale23_2,,,,phenx_su01,new_stepparent_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale23_2,,"studydata.ale23_2=studydata.ale23_2.str.replace('2','3'); studydata.ale23_2.str.replace('1','2');studydata.ale23_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale24,,,,phenx_su01,parent_new_job,,,,,,,,ale24,,
+HCPD,REDCap,hcpdchild hcpd18,,ale24_1,,,,phenx_su01,parent_new_job_exp,,,,,,,,ale24_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale24_2,,,,phenx_su01,parent_new_job_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale24_2,,"studydata.ale24_2=studydata.ale24_2.str.replace('2','3'); studydata.ale24_2.str.replace('1','2');studydata.ale24_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,ale25,,,,phenx_su01,new_sibling,,,,,,,,ale25,,
+HCPD,REDCap,hcpdchild hcpd18,,ale25_1,,,,phenx_su01,new_sibling_exp,,,,,,,,ale25_1,,
+HCPD,REDCap,hcpdchild hcpd18,,ale25_2,,,,phenx_su01,new_sibling_aff,,,,,,,"Please increment codes of 0, 1, and 2, but leave code 4 as it is.",ale25_2,,"studydata.ale25_2=studydata.ale25_2.str.replace('2','3'); studydata.ale25_2.str.replace('1','2');studydata.ale25_2.str.replace('0','1')"
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var16,,,,phenx_su01,version_form,,,,,,,"Please use the 'version_form' column to label each row ""Past year"".",version_form,,studydata['version_form']='Past year'
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_alclife1,,,,phenx_su01,alc_lifetime_use,,,,,,,,nida_y_alclife1,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_alclife2,,,,phenx_su01,alc_first_use_age,,,,,,,,nida_y_alclife2,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_alclife3,,,,phenx_su01,alc_30day_freq,,,,,,,,nida_y_alclife3,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_alclife4,,,,phenx_su01,alc_30day_quantity,,,,,,,,nida_y_alclife4,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco,,,,phenx_su01,cig_smoking,,,,,,,,nida_y_tobaco,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco1,,,,phenx_su01,cig_smoking1_100,,,,,,,,nida_y_tobaco1,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco2,,,,phenx_su01,cig_smoking1_current,,,,,,,,nida_y_tobaco2,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco3,,,,phenx_su01,cig_smoking_evryday_1mon,,,,,,,Please recode 999 as 97.,nida_y_tobaco3,,"studydata.nida_y_tobaco3=studydata.nida_y_tobaco3.str.replace('999','97')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco_type,,,,phenx_su01,nida_y_tobaco_type,,,,,,,,nida_y_tobaco_type,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco4,,,,phenx_su01,first_cig_smoke_evryday_age1,,,,,,,,nida_y_tobaco4,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco5,,,,phenx_su01,first_cig_smoke_reg_age,,,,,,,,nida_y_tobaco5,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco6,,,,phenx_su01,cigarette_30day_smoking,,,,,,,,nida_y_tobaco6,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco6a,,,,phenx_su01,freq_30day_count,,,,,,,,nida_y_tobaco6a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco6b,,,,phenx_su01,freq_30day_estimate,,,,,,,Please recode 3 as 2 and 6 as 3.,nida_y_tobaco6b,,"studydata.nida_y_tobaco6b=studydata.nida_y_tobaco6b.str.replace('3','2');studydata.nida_y_tobaco6b.str.replace('6','3')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_tobaco7,,,,phenx_su01,quantity_30day,,,,,,,"Please recode 1 as 2, 2 as 3, and 6 as 4.",nida_y_tobaco7,,"studydata.nida_y_tobaco7=studydata.nida_y_tobaco7.str.replace('6','4'); studydata.nida_y_tobaco7=studydata.nida_y_tobaco7.str.replace('2','3');studydata.nida_y_tobaco7=studydata.nida_y_tobaco7.str.replace('1','2')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug1,,,,phenx_su01,lifetime_use_sedatives,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug1,,"studydata.nida_y_drug1=studydata.nida_y_drug1.str.replace('1','Yes'); studydata.nida_y_drug1=studydata.nida_y_drug1.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug1a,,,,phenx_su01,first_use_age_sedatives,,,,,,,,nida_y_drug1a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug1b,,,,phenx_su01,frquency_sedatives_code,,,,,,,,nida_y_drug1b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug2,,,,phenx_su01,lifetime_use_tranq,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug2,,"studydata.nida_y_drug2=studydata.nida_y_drug2.str.replace('1','Yes'); studydata.nida_y_drug2=studydata.nida_y_drug2.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug2a,,,,phenx_su01,first_use_age_tranq,,,,,,,,nida_y_drug2a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug2b,,,,phenx_su01,frquency_tranquilzers_code,,,,,,,,nida_y_drug2b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug3,,,,phenx_su01,lifetime_use_painkillers,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug3,,"studydata.nida_y_drug3=studydata.nida_y_drug3.str.replace('1','Yes'); studydata.nida_y_drug3=studydata.nida_y_drug3.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug3a,,,,phenx_su01,first_use_age_painkillers,,,,,,,,nida_y_drug3a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug3b,,,,phenx_su01,frquency_painkillers_code,,,,,,,,nida_y_drug3b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug4,,,,phenx_su01,lifetime_use_stimulants,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug4,,"studydata.nida_y_drug4=studydata.nida_y_drug4.str.replace('1','Yes'); studydata.nida_y_drug4=studydata.nida_y_drug4.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug4a,,,,phenx_su01,first_use_age_stimulants,,,,,,,,nida_y_drug4a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug4b,,,,phenx_su01,frquency_stimulants_code,,,,,,,,nida_y_drug4b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug5,,,,phenx_su01,lifetime_use_marijuana,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug5,,"studydata.nida_y_drug5=studydata.nida_y_drug5.str.replace('1','Yes'); studydata.nida_y_drug5=studydata.nida_y_drug5.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug5a,,,,phenx_su01,first_use_age_marijuana,,,,,,,,nida_y_drug5a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug5b,,,,phenx_su01,frquency_marijuana_code,,,,,,,,nida_y_drug5b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug6,,,,phenx_su01,lifetime_use_cocaine,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug6,,"studydata.nida_y_drug6=studydata.nida_y_drug6.str.replace('1','Yes'); studydata.nida_y_drug6=studydata.nida_y_drug6.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug6a,,,,phenx_su01,first_use_age_cocaine,,,,,,,,nida_y_drug6a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug6b,,,,phenx_su01,frquency_cocaine_code,,,,,,,,nida_y_drug6b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug7,,,,phenx_su01,lifetime_use_halluc,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug7,,"studydata.nida_y_drug7=studydata.nida_y_drug7.str.replace('1','Yes'); studydata.nida_y_drug7=studydata.nida_y_drug7.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug7a,,,,phenx_su01,first_use_age_halluc,,,,,,,,nida_y_drug7a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug7b,,,,phenx_su01,frquency_hallucinogens_code,,,,,,,,nida_y_drug7b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug8,,,,phenx_su01,lifetime_use_inhalant,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug8,,"studydata.nida_y_drug8=studydata.nida_y_drug8.str.replace('1','Yes'); studydata.nida_y_drug8=studydata.nida_y_drug8.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug8a,,,,phenx_su01,first_use_age_inhalant,,,,,,,,nida_y_drug8a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug8b,,,,phenx_su01,frquency_inhalant_code,,,,,,,,nida_y_drug8b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug9,,,,phenx_su01,lifetime_use_heroin,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug9,,"studydata.nida_y_drug9=studydata.nida_y_drug9.str.replace('1','Yes'); studydata.nida_y_drug9=studydata.nida_y_drug9.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug9a,,,,phenx_su01,first_use_age_heroin,,,,,,,,nida_y_drug9a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug9b,,,,phenx_su01,frquency_heroin_code,,,,,,,,nida_y_drug9b,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug10,,,,phenx_su01,llifetime_use_other,,,,,,,Please recode 1 as Yes and 2 as No.,nida_y_drug10,,"studydata.nida_y_drug10=studydata.nida_y_drug10.str.replace('1','Yes'); studydata.nida_y_drug10=studydata.nida_y_drug10.str.replace('2','No')"
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug10other,,,,phenx_su01,otdrug,,,,,,,,nida_y_drug10other,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug10a,,,,phenx_su01,first_use_age_other,,,,,,,,nida_y_drug10a,,
+HCPD,REDCap,hcpdchild hcpd18,,nida_y_drug10b,,,,phenx_su01,frquency_other_code,,,,,,,,nida_y_drug10b,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_1,,,,pds01,pds_1,,,,,,,,pds_sub_1,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_2,,,,pds01,pds_2,,,,,,,,pds_sub_2,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_3,,,,pds01,pds_3,,,,,,,,pds_sub_3,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_b4,,,,pds01,pds_4,,,,,,,,pds_sub_b4,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_b5,,,,pds01,pds_5,,,,,,,,pds_sub_b5,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_g4,,,,pds01,pds_6,,,,,,,,pds_sub_g4,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_g5a,,,,pds01,pds_7,,,,,,,,pds_sub_g5a,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_mss_date,,,,pds01,pubertyg_15,,,,,,,,pds_sub_mss_date,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_mss_last,,,,pds01,menstrualcycle1_y,,,,,,,,pds_sub_mss_last,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_mss_average,,,,pds01,menstrualcycle2_y,,,,,,,,pds_sub_mss_average,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_mss_regular,,,,pds01,gynecological_hist_6,,,,,,,,pds_sub_mss_regular,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_mss_bcontrol,,,,pds01,menstrualcycle4_y,,,,,,,,pds_sub_mss_bcontrol,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_mss_premenstrual,,,,pds01,menstrualcycle5_y,,,,,,,,pds_sub_mss_premenstrual,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_mss_relation,,,,pds01,menstrualcycle6_y,,,,,,,,pds_sub_mss_relation,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_10,,,,pds01,pds_7b_pv,,,,,,,,pds_sub_10,,
+HCPD,REDCap,hcpdchild hcpd18,,pds_sub_score,,,,pds01,pds_pv_boy_tanner,,,,,,,Please split this column into two separate columns. Male participants' data can go to 'pds_pv_boy_tanner'. Female participants' data belong in 'pds_pv_girl_tanner'.,pds_pv_boy_tanner,,"studydata['pds_pv_boy_tanner']=studydata.pds_sub_score; studydata.loc[studydata.gender=='F','pds_pv_boy_tanner']='';"
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var11,,,,pds01,pds_pv_girl_tanner,,,,,,,,pds_pv_girl_tanner,,"studydata['pds_pv_girl_tanner']=studydata.pds_sub_score; studydata.loc[studydata.gender=='M','pds_pv_girl_tanner']='';"
+HCPD,REDCap,hcpdchild hcpd18,,pubertal_sub_fb,,,,pds01,pubertyg_19,,,,,,,,pubertal_sub_fb,,
+HCPD,REDCap,hcpdchild hcpd18,,pubertal_sub_fp,,,,pds01,pubertyg_20,,,,,,,,pubertal_sub_fp,,
+HCPD,REDCap,hcpdchild hcpd18,,mstrl_sub1a,,,,pds01,midihist_029a,,,,,,,Please change numeric codes to the text strings they represent.,mstrl_sub1a,,"studydata.loc[studydata.mstrl_sub1a=='1','mstrl_sub1a']='Hypothyroidism'; studydata.loc[studydata.mstrl_sub1a=='2','mstrl_sub1a']='No hypothyroidism'"
+HCPD,REDCap,hcpdchild hcpd18,,mstrl_sub1b,,,,pds01,midihist_030a,,,,,,,Please change numeric codes to the text strings they represent.,mstrl_sub1b,,"studydata.loc[studydata.mstrl_sub1b=='1','mstrl_sub1b']='Hyperthyroidism'; studydata.loc[studydata.mstrl_sub1b=='2','mstrl_sub1b']='No hyperthyroidism'"
+HCPD,REDCap,hcpdchild hcpd18,,mstrl_sub1c,,,,pds01,scq_24_a,,,,,,,,mstrl_sub1c,,
+HCPD,REDCap,hcpdchild hcpd18,,mstrl_sub1a_age,,,,pds01,hypoage,,,,,,,,mstrl_sub1a_age,,
+HCPD,REDCap,hcpdchild hcpd18,,mstrl_sub1b_age,,,,pds01,hyperage,,,,,,,,mstrl_sub1b_age,,
+HCPD,REDCap,hcpdchild hcpd18,,mstrl_sub1c_age,,,,pds01,cirsg_13_endocrine_condn,,,,,,,"Please prepend ""Age at onset: "" to ages.",mstrl_sub1c_age,,"studydata['newstring']='Age at onset: '+studydata.mstrl_sub1c_age; studydata.loc[studydata.mstrl_sub1c_age=='','newstring']=''"
+HCPD,REDCap,hcpdchild hcpd18,,pubertal_sub_mp,,,,pds01,pubertyb_17,,,,,,,,pubertal_sub_mp,,
+HCPD,REDCap,hcpdchild hcpd18,,pubertal_sub_mh,,,,pds01,pubertyb_18,,,,,,,,pubertal_sub_mh,,
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.valid_code,,,,er4001,version_form,,,,,,,,K_ER40D_valid_code,,penn['K_ER40D_valid_code']=penn['K_ER40D.valid_code']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_CR,,,,er4001,er40_c_cr,,,,,,,,K_ER40D_ER40_CR,,penn['K_ER40D_ER40_CR']=penn['K_ER40D.ER40_CR']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_CRT,,,,er4001,er40_c_rtcr,,,,,,,,K_ER40D_ER40_CRT,,penn['K_ER40D_ER40_CRT']=penn['K_ER40D.ER40_CRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40ANG,,,,er4001,er40_c_ang,,,,,,,,K_ER40D_ER40ANG,,penn['K_ER40D_ER40ANG']=penn['K_ER40D.ER40ANG']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40FEAR,,,,er4001,er40_c_fear,,,,,,,,K_ER40D_ER40FEAR,,penn['K_ER40D_ER40FEAR']=penn['K_ER40D.ER40FEAR']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40HAP,,,,er4001,er40_c_hap,,,,,,,,K_ER40D_ER40HAP,,penn['K_ER40D_ER40HAP']=penn['K_ER40D.ER40HAP']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40NOE,,,,er4001,er40_c_noe,,,,,,,,K_ER40D_ER40NOE,,penn['K_ER40D_ER40NOE']=penn['K_ER40D.ER40NOE']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40SAD,,,,er4001,er40_c_sad,,,,,,,,K_ER40D_ER40SAD,,penn['K_ER40D_ER40SAD']=penn['K_ER40D.ER40SAD']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40ANGRT,,,,er4001,er40_d_angrt,,,,,,,,K_ER40D_ER40ANGRT,,penn['K_ER40D_ER40ANGRT']=penn['K_ER40D.ER40ANGRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40FEARRT,,,,er4001,er40_d_fearrt,,,,,,,,K_ER40D_ER40FEARRT,,penn['K_ER40D_ER40FEARRT']=penn['K_ER40D.ER40FEARRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40HAPRT,,,,er4001,er40_d_haprt,,,,,,,,K_ER40D_ER40HAPRT,,penn['K_ER40D_ER40HAPRT']=penn['K_ER40D.ER40HAPRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40NOERT,,,,er4001,er40_d_noert,,,,,,,,K_ER40D_ER40NOERT,,penn['K_ER40D_ER40NOERT']=penn['K_ER40D.ER40NOERT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40SADRT,,,,er4001,er40_d_sadrt,,,,,,,,K_ER40D_ER40SADRT,,penn['K_ER40D_ER40SADRT']=penn['K_ER40D.ER40SADRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPA,,,,er4001,er40_c_fpa,,,,,,,,K_ER40D_ER40_FPA,,penn['K_ER40D_ER40_FPA']=penn['K_ER40D.ER40_FPA']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPF,,,,er4001,er40_c_fpf,,,,,,,,K_ER40D_ER40_FPF,,penn['K_ER40D_ER40_FPF']=penn['K_ER40D.ER40_FPF']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPH,,,,er4001,er40_c_fph,,,,,,,,K_ER40D_ER40_FPH,,penn['K_ER40D_ER40_FPH']=penn['K_ER40D.ER40_FPH']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPN,,,,er4001,er40_c_fpn,,,,,,,,K_ER40D_ER40_FPN,,penn['K_ER40D_ER40_FPN']=penn['K_ER40D.ER40_FPN']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPS,,,,er4001,er40_c_fps,,,,,,,,K_ER40D_ER40_FPS,,penn['K_ER40D_ER40_FPS']=penn['K_ER40D.ER40_FPS']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPART,,,,er4001,er40_c_fpart,,,,,,,,K_ER40D_ER40_FPART,,penn['K_ER40D_ER40_FPART']=penn['K_ER40D.ER40_FPART']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPFRT,,,,er4001,er40_c_fpfrt,,,,,,,,K_ER40D_ER40_FPFRT,,penn['K_ER40D_ER40_FPFRT']=penn['K_ER40D.ER40_FPFRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPHRT,,,,er4001,er40_c_fphrt,,,,,,,,K_ER40D_ER40_FPHRT,,penn['K_ER40D_ER40_FPHRT']=penn['K_ER40D.ER40_FPHRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPNRT,,,,er4001,er40_c_fpnrt,,,,,,,,K_ER40D_ER40_FPNRT,,penn['K_ER40D_ER40_FPNRT']=penn['K_ER40D.ER40_FPNRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FPSRT,,,,er4001,er40_c_fpsrt,,,,,,,,K_ER40D_ER40_FPSRT,,penn['K_ER40D_ER40_FPSRT']=penn['K_ER40D.ER40_FPSRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_FC,,,,er4001,er40_d_fc,,,,,,,,K_ER40D_ER40_FC,,penn['K_ER40D_ER40_FC']=penn['K_ER40D.ER40_FC']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40_MC,,,,er4001,er40_d_mc,,,,,,,,K_ER40D_ER40_MC,,penn['K_ER40D_ER40_MC']=penn['K_ER40D.ER40_MC']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40FCRT,,,,er4001,er40_c_fcrt,,,,,,,,K_ER40D_ER40FCRT,,penn['K_ER40D_ER40FCRT']=penn['K_ER40D.ER40FCRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,K_ER40D.ER40MCRT,,,,er4001,er40_c_mcrt,,,,,,,,K_ER40D_ER40MCRT,,penn['K_ER40D_ER40MCRT']=penn['K_ER40D.ER40MCRT']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC_valid,,,,deldisk01,version_form,,,,,,,,DDISC_valid,,
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_1mo_200,,,,deldisk01,sv_1mo_200,,,,,,,,DDISC_SV_1mo_200,,penn['DDISC_SV_1mo_200']=penn['DDISC.SV_1mo_200']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_6mo_200,,,,deldisk01,sv_6mo_200,,,,,,,,DDISC_SV_6mo_200,,penn['DDISC_SV_6mo_200']=penn['DDISC.SV_6mo_200']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_1yr_200,,,,deldisk01,sv_1yr_200,,,,,,,,DDISC_SV_1yr_200,,penn['DDISC_SV_1yr_200']=penn['DDISC.SV_1yr_200']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_3yr_200,,,,deldisk01,sv_3yr_200,,,,,,,,DDISC_SV_3yr_200,,penn['DDISC_SV_3yr_200']=penn['DDISC.SV_3yr_200']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_5yr_200,,,,deldisk01,sv_5yr_200,,,,,,,,DDISC_SV_5yr_200,,penn['DDISC_SV_5yr_200']=penn['DDISC.SV_5yr_200']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_10yr_200,,,,deldisk01,sv_10yr_200,,,,,,,,DDISC_SV_10yr_200,,penn['DDISC_SV_10yr_200']=penn['DDISC.SV_10yr_200']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_1mo_40000,,,,deldisk01,sv_1mo_40000,,,,,,,,DDISC_SV_1mo_40000,,penn['DDISC_SV_1mo_40000']=penn['DDISC.SV_1mo_40000']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_6mo_40000,,,,deldisk01,sv_6mo_40000,,,,,,,,DDISC_SV_6mo_40000,,penn['DDISC_SV_6mo_40000']=penn['DDISC.SV_6mo_40000']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_1yr_40000,,,,deldisk01,sv_1yr_40000,,,,,,,,DDISC_SV_1yr_40000,,penn['DDISC_SV_1yr_40000']=penn['DDISC.SV_1yr_40000']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_3yr_40000,,,,deldisk01,sv_3yr_40000,,,,,,,,DDISC_SV_3yr_40000,,penn['DDISC_SV_3yr_40000']=penn['DDISC.SV_3yr_40000']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_5yr_40000,,,,deldisk01,sv_5yr_40000,,,,,,,,DDISC_SV_5yr_40000,,penn['DDISC_SV_5yr_40000']=penn['DDISC.SV_5yr_40000']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.SV_10yr_40000,,,,deldisk01,sv_10yr_40000,,,,,,,,DDISC_SV_10yr_40000,,penn['DDISC_SV_10yr_40000']=penn['DDISC.SV_10yr_40000']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.AUC_200,,,,deldisk01,auc_200,,,,,,,,DDISC_AUC_200,,penn['DDISC_AUC_200']=penn['DDISC.AUC_200']
+HCPD,box.wustl.edu,592325063896,Behavioral Data - Snapshots/UPenn CNP/PennCNP_Snapshot_*.csv,DDISC.AUC_40000,,,,deldisk01,auc_40000,,,,,,,,DDISC_AUC_40000,,penn['DDISC_AUC_40000']=penn['DDISC.AUC_40000']
+HCPD,REDCap,hcpdparent,,pds_p_1,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_2,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_3,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_b4,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_b5,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_g4,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_g5a,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_mss_date,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_mss_last,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_mss_average,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_mss_regular,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_mss_bcontrol,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_mss_premenstrual,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_mss_relation,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_10,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pds_p_score,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,dummy_var12,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pubertal_p_fb,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pubertal_p_fp,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,mstrl_p1a,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,mstrl_p1b,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,mstrl_p1c,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,mstrl_p1a_age,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,mstrl_p1b_age,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,mstrl_p1c_age,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pubertal_p_mp,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdparent,,pubertal_p_mh,,,,,,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,upps3_y,,,,upps01,upps_p4,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps5_y,,,,upps01,upps_p14,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps6_y,,,,upps01,upps_p16,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps7_y,,,,upps01,upps_p17,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps9_y,,,,upps01,upps_p19,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps11_y,,,,upps01,upps_p22,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps12_y,,,,upps01,upps_p23,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps15_y,,,,upps01,upps_p27,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps16_y,,,,upps01,upps_p28,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps17_y,,,,upps01,upps_p29,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps18_y,,,,upps01,upps_p31,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps19_y,,,,upps01,upps_p32,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps20_y,,,,upps01,upps_p34,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps21_y,,,,upps01,upps_p36,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps22_y,,,,upps01,upps_p37,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps23_y,,,,upps01,upps_p38,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps24_y,,,,upps01,upps_p42,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps27_y,,,,upps01,upps_p46,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps28_y,,,,upps01,upps_p48,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps35_y,,,,upps01,upps_p10,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps36_y,,,,upps01,upps_p57,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps37_y,,,,upps01,upps_p5,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps39_y,,,,upps01,upps_p20,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps_neg,,,,upps01,upps_negu,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps_plan,,,,upps01,premed_score,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps_sens,,,,upps01,senseek_score,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps_pos,,,,upps01,upps_posu,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,upps_prsv,,,,upps01,persev_score,,,,,,,,,,
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var13,,,,upps01,version_form,,,,,,,"Please indicate ""Short Form"" for each row using the column 'version_form'.",version_form,,studydata['version_form']='Short Form'
+HCPD,REDCap,hcpdparent,,upps_p1,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p2,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p3,,,,,,,,,,,,,  ,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p4,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p5,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p6,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p7,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p8,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p9,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p10,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p11,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p12,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p13,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p14,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p15,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p16,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p17,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p18,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p19,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p20,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p21,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p22,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p23,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p24,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p25,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p26,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p27,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p28,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p29,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p30,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p31,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p32,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p33,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p34,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p35,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p36,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p37,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p38,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p39,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,upps_p40,,,,,,,,,,,,,,"5-16 year olds  parent report, >=8 year old child report",
+HCPD,REDCap,hcpdparent,,dummy_var17,,,,upps01,version_form,,,,,,,"Please indicate ""Parent"" for each row using the column 'version_form'.",version_form,"5-16 year olds  parent report, >=8 year old child report",studydata['version_form']='Parent'
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_score,,,,wisc_v01,matrixreason_score,,,,,,,,matrixreason_score,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,scaled_matrix,,,,wisc_v01,scaled_matrix,,,,,,,,scaled_matrix,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,SubtestTypeDK,,,,wisc_v01,SubtestTypeDK,,,,,,,,SubtestTypeDK,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,SubtestTypeNR,,,,wisc_v01,SubtestTypeNR,,,,,,,,SubtestTypeNR,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,SubtestTypeSC,,,,wisc_v01,SubtestTypeSC,,,,,,,,SubtestTypeSC,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,SubtestTypeSV,,,,wisc_v01,SubtestTypeSV,,,,,,,,SubtestTypeSV,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrix_completion,,,,wisc_v01,matrix_completion,,,,,,,,matrix_completion,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,discontinue,,,,wisc_v01,discontinue,,,,,,,,discontinue,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,reverse,,,,wisc_v01,reverse,,,,,,,,reverse,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,pea_wiscv_item_a_rs,,,,wisc_v01,pea_wiscv_item_a_rs,,,,,,,,pea_wiscv_item_a_rs,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,pea_wiscv_item_b_rs,,,,wisc_v01,pea_wiscv_item_b_rs,,,,,,,,pea_wiscv_item_b_rs,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item1,,,,wisc_v01,matrixreason_item1,,,,,,,,matrixreason_item1,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item2,,,,wisc_v01,matrixreason_item2,,,,,,,,matrixreason_item2,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item3,,,,wisc_v01,matrixreason_item3,,,,,,,,matrixreason_item3,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item4,,,,wisc_v01,matrixreason_item4,,,,,,,,matrixreason_item4,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item5,,,,wisc_v01,matrixreason_item5,,,,,,,,matrixreason_item5,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item6,,,,wisc_v01,matrixreason_item6,,,,,,,,matrixreason_item6,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item7,,,,wisc_v01,matrixreason_item7,,,,,,,,matrixreason_item7,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item8,,,,wisc_v01,matrixreason_item8,,,,,,,,matrixreason_item8,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item9,,,,wisc_v01,matrixreason_item9,,,,,,,,matrixreason_item9,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item10,,,,wisc_v01,matrixreason_item10,,,,,,,,matrixreason_item10,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item11,,,,wisc_v01,matrixreason_item11,,,,,,,,matrixreason_item11,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item12,,,,wisc_v01,matrixreason_item12,,,,,,,,matrixreason_item12,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item13,,,,wisc_v01,matrixreason_item13,,,,,,,,matrixreason_item13,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item14,,,,wisc_v01,matrixreason_item14,,,,,,,,matrixreason_item14,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item15,,,,wisc_v01,matrixreason_item15,,,,,,,,matrixreason_item15,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item16,,,,wisc_v01,matrixreason_item16,,,,,,,,matrixreason_item16,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item17,,,,wisc_v01,matrixreason_item17,,,,,,,,matrixreason_item17,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item18,,,,wisc_v01,matrixreason_item18,,,,,,,,matrixreason_item18,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item19,,,,wisc_v01,matrixreason_item19,,,,,,,,matrixreason_item19,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item20,,,,wisc_v01,matrixreason_item20,,,,,,,,matrixreason_item20,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item21,,,,wisc_v01,matrixreason_item21,,,,,,,,matrixreason_item21,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item22,,,,wisc_v01,matrixreason_item22,,,,,,,,matrixreason_item22,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item23,,,,wisc_v01,matrixreason_item23,,,,,,,,matrixreason_item23,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item24,,,,wisc_v01,matrixreason_item24,,,,,,,,matrixreason_item24,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item25,,,,wisc_v01,matrixreason_item25,,,,,,,,matrixreason_item25,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item26,,,,wisc_v01,matrixreason_item26,,,,,,,,matrixreason_item26,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item27,,,,wisc_v01,matrixreason_item27,,,,,,,,matrixreason_item27,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item28,,,,wisc_v01,matrixreason_item28,,,,,,,,matrixreason_item28,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item29,,,,wisc_v01,matrixreason_item29,,,,,,,,matrixreason_item29,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item30,,,,wisc_v01,matrixreason_item30,,,,,,,,matrixreason_item30,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item31,,,,wisc_v01,matrixreason_item31,,,,,,,,matrixreason_item31,,
+HCPD,box.wustl.edu,561127515733,Behavioral Data - Snapshots/Q/Q_WISC_Snapshot_*.csv,matrixreason_item32,,,,wisc_v01,matrixreason_item32,,,,,,,,matrixreason_item32,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,wppsi_mxr_rawscre,,,,wppsi_v01,wppsi_mxr_rawscre,,,,,,,,wppsi_mxr_rawscre,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,wppsi_mxr_scldscre,,,,wppsi_v01,wppsi_mxr_scldscre,,,,,,,,wppsi_mxr_scldscre,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,wppsi_mxr_dk,,,,wppsi_v01,wppsi_mxr_dk,,,,,,,,wppsi_mxr_dk,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,wppsi_mxr_nr,,,,wppsi_v01,wppsi_mxr_nr,,,,,,,,wppsi_mxr_nr,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,wppsi_mxr_p,,,,wppsi_v01,wppsi_mxr_p,,,,,,,,wppsi_mxr_p,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrix_completion,,,,wppsi_v01,matrix_completion,,,,,,,,matrix_completion,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,discontinue,,,,wppsi_v01,discontinue,,,,,,,,discontinue,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,reverse,,,,wppsi_v01,reverse,,,,,,,,reverse,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,pea_wiscv_item_a_rs,,,,wppsi_v01,pea_wiscv_item_a_rs,,,,,,,,pea_wiscv_item_a_rs,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,pea_wiscv_item_b_rs,,,,wppsi_v01,pea_wiscv_item_b_rs,,,,,,,,pea_wiscv_item_b_rs,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,pea_wiscv_item_c_rs,,,,wppsi_v01,pea_wiscv_item_c_rs,,,,,,,,pea_wiscv_item_c_rs,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item1,,,,wppsi_v01,matrixreason_item1,,,,,,,,matrixreason_item1,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item2,,,,wppsi_v01,matrixreason_item2,,,,,,,,matrixreason_item2,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item3,,,,wppsi_v01,matrixreason_item3,,,,,,,,matrixreason_item3,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item4,,,,wppsi_v01,matrixreason_item4,,,,,,,,matrixreason_item4,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item5,,,,wppsi_v01,matrixreason_item5,,,,,,,,matrixreason_item5,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item6,,,,wppsi_v01,matrixreason_item6,,,,,,,,matrixreason_item6,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item7,,,,wppsi_v01,matrixreason_item7,,,,,,,,matrixreason_item7,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item8,,,,wppsi_v01,matrixreason_item8,,,,,,,,matrixreason_item8,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item9,,,,wppsi_v01,matrixreason_item9,,,,,,,,matrixreason_item9,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item10,,,,wppsi_v01,matrixreason_item10,,,,,,,,matrixreason_item10,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item11,,,,wppsi_v01,matrixreason_item11,,,,,,,,matrixreason_item11,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item12,,,,wppsi_v01,matrixreason_item12,,,,,,,,matrixreason_item12,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item13,,,,wppsi_v01,matrixreason_item13,,,,,,,,matrixreason_item13,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item14,,,,wppsi_v01,matrixreason_item14,,,,,,,,matrixreason_item14,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item15,,,,wppsi_v01,matrixreason_item15,,,,,,,,matrixreason_item15,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item16,,,,wppsi_v01,matrixreason_item16,,,,,,,,matrixreason_item16,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item17,,,,wppsi_v01,matrixreason_item17,,,,,,,,matrixreason_item17,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item18,,,,wppsi_v01,matrixreason_item18,,,,,,,,matrixreason_item18,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item19,,,,wppsi_v01,matrixreason_item19,,,,,,,,matrixreason_item19,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item20,,,,wppsi_v01,matrixreason_item20,,,,,,,,matrixreason_item20,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item21,,,,wppsi_v01,matrixreason_item21,,,,,,,,matrixreason_item21,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item22,,,,wppsi_v01,matrixreason_item22,,,,,,,,matrixreason_item22,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item23,,,,wppsi_v01,matrixreason_item23,,,,,,,,matrixreason_item23,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item24,,,,wppsi_v01,matrixreason_item24,,,,,,,,matrixreason_item24,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item25,,,,wppsi_v01,matrixreason_item25,,,,,,,,matrixreason_item25,,
+HCPD,box.wustl.edu,561118926466,Behavioral Data - Snapshots/Q/Q_WPPSI_Snapshot_*.csv,matrixreason_item26,,,,wppsi_v01,matrixreason_item26,,,,,,,,matrixreason_item26,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,scoring_matrixreasoning_raw,,,,wais_v01,scoring_matrixreasoning_raw,,,,,,,,scoring_matrixreasoning_raw,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,scoring_matrixreasoning_scaled,,,,wais_v01,scoring_matrixreasoning_scaled,,,,,,,,scoring_matrixreasoning_scaled,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,wais_dk,,,,wais_v01,wais_dk,,,,,,,,wais_dk,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,wais_nr,,,,wais_v01,wais_nr,,,,,,,,wais_nr,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,wais_p,,,,wais_v01,wais_p,,,,,,,,wais_p,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrix_completion,,,,wais_v01,matrix_completion,,,,,,,,matrix_completion,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,discontinue,,,,wais_v01,discontinue,,,,,,,,discontinue,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,reverse,,,,wais_v01,reverse,,,,,,,,reverse,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_a_resp,,,,wais_v01,matrixreasoning_a_resp,,,,,,,,matrixreasoning_a_resp,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_b_resp,,,,wais_v01,matrixreasoning_b_resp,,,,,,,,matrixreasoning_b_resp,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_1_score,,,,wais_v01,matrixreasoning_1_score,,,,,,,,matrixreasoning_1_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_2_score,,,,wais_v01,matrixreasoning_2_score,,,,,,,,matrixreasoning_2_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_3_score,,,,wais_v01,matrixreasoning_3_score,,,,,,,,matrixreasoning_3_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_4_score,,,,wais_v01,matrixreasoning_4_score,,,,,,,,matrixreasoning_4_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_5_score,,,,wais_v01,matrixreasoning_5_score,,,,,,,,matrixreasoning_5_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_6_score,,,,wais_v01,matrixreasoning_6_score,,,,,,,,matrixreasoning_6_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_7_score,,,,wais_v01,matrixreasoning_7_score,,,,,,,,matrixreasoning_7_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_8_score,,,,wais_v01,matrixreasoning_8_score,,,,,,,,matrixreasoning_8_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_9_score,,,,wais_v01,matrixreasoning_9_score,,,,,,,,matrixreasoning_9_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_10_score,,,,wais_v01,matrixreasoning_10_score,,,,,,,,matrixreasoning_10_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_11_score,,,,wais_v01,matrixreasoning_11_score,,,,,,,,matrixreasoning_11_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_12_score,,,,wais_v01,matrixreasoning_12_score,,,,,,,,matrixreasoning_12_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_13_score,,,,wais_v01,matrixreasoning_13_score,,,,,,,,matrixreasoning_13_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_14_score,,,,wais_v01,matrixreasoning_14_score,,,,,,,,matrixreasoning_14_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_15_score,,,,wais_v01,matrixreasoning_15_score,,,,,,,,matrixreasoning_15_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_16_score,,,,wais_v01,matrixreasoning_16_score,,,,,,,,matrixreasoning_16_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_17_score,,,,wais_v01,matrixreasoning_17_score,,,,,,,,matrixreasoning_17_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_18_score,,,,wais_v01,matrixreasoning_18_score,,,,,,,,matrixreasoning_18_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_19_score,,,,wais_v01,matrixreasoning_19_score,,,,,,,,matrixreasoning_19_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_20_score,,,,wais_v01,matrixreasoning_20_score,,,,,,,,matrixreasoning_20_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_21_score,,,,wais_v01,matrixreasoning_21_score,,,,,,,,matrixreasoning_21_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_22_score,,,,wais_v01,matrixreasoning_22_score,,,,,,,,matrixreasoning_22_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_23_score,,,,wais_v01,matrixreasoning_23_score,,,,,,,,matrixreasoning_23_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_24_score,,,,wais_v01,matrixreasoning_24_score,,,,,,,,matrixreasoning_24_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_25_score,,,,wais_v01,matrixreasoning_25_score,,,,,,,,matrixreasoning_25_score,,
+HCPD,box.wustl.edu,561127456173,Behavioral Data - Snapshots/Q/Q_WAIS_Snapshot_*.csv,matrixreasoning_26_score,,,,wais_v01,matrixreasoning_26_score,,,,,,,,matrixreasoning_26_score,,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_session,,,,drugscr01,caffeine_session,,,,,,,,,"parent has caffeine vars, but not including parent about self at this time",
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var18,,,,drugscr01,version_form,,,,,,,,version_form,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1yn,,,,drugscr01,caffeine_s1yn,,,,,,,,caffeine_s1yn,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1,,,,drugscr01,caffeine_s1,,,,,,,,caffeine_s1,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1pretype,,,,drugscr01,caffeine_s1pretype,,,,,,,,caffeine_s1pretype,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1pretime,,,,drugscr01,caffeine_s1pretime,,,,,,,,caffeine_s1pretime,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1preday,,,,drugscr01,caffeine_s1preday,,,,,,,,caffeine_s1preday,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1vsttype1,,,,drugscr01,caffeine_s1vsttype1,,,,,,,,caffeine_s1vsttype1,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1vsttime1,,,,drugscr01,caffeine_s1vsttime1,,,,,,,,caffeine_s1vsttime1,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1vsttype2,,,,drugscr01,caffeine_s1vsttype2,,,,,,,,caffeine_s1vsttype2,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s1vsttime2,,,,drugscr01,caffeine_s1vsttime2,,,,,,,,caffeine_s1vsttime2,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2yn,,,,drugscr01,caffeine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2,,,,drugscr01,caffeine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2pretype,,,,drugscr01,caffeine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2pretime,,,,drugscr01,caffeine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2preday,,,,drugscr01,caffeine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2vsttype1,,,,drugscr01,caffeine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2vsttime1,,,,drugscr01,caffeine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2vsttype2,,,,drugscr01,caffeine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s2vsttime2,,,,drugscr01,caffeine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3yn,,,,drugscr01,caffeine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3,,,,drugscr01,caffeine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3pretype,,,,drugscr01,caffeine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3pretime,,,,drugscr01,caffeine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3preday,,,,drugscr01,caffeine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3vsttype1,,,,drugscr01,caffeine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3vsttime1,,,,drugscr01,caffeine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3vsttype2,,,,drugscr01,caffeine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s3vsttime2,,,,drugscr01,caffeine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4yn,,,,drugscr01,caffeine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4,,,,drugscr01,caffeine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4pretype,,,,drugscr01,caffeine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4pretime,,,,drugscr01,caffeine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4preday,,,,drugscr01,caffeine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4vsttype1,,,,drugscr01,caffeine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4vsttime1,,,,drugscr01,caffeine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4vsttype2,,,,drugscr01,caffeine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s4vsttime2,,,,drugscr01,caffeine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5yn,,,,drugscr01,caffeine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5,,,,drugscr01,caffeine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5pretype,,,,drugscr01,caffeine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5pretime,,,,drugscr01,caffeine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5preday,,,,drugscr01,caffeine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5vsttype1,,,,drugscr01,caffeine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5vsttime1,,,,drugscr01,caffeine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5vsttype2,,,,drugscr01,caffeine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s5vsttime2,,,,drugscr01,caffeine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6yn,,,,drugscr01,caffeine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6,,,,drugscr01,caffeine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6pretype,,,,drugscr01,caffeine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6pretime,,,,drugscr01,caffeine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6preday,,,,drugscr01,caffeine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6vsttype1,,,,drugscr01,caffeine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6vsttime1,,,,drugscr01,caffeine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6vsttype2,,,,drugscr01,caffeine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,caffeine_s6vsttime2,,,,drugscr01,caffeine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_session,,,,drugscr01,nicotine_session,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1yn,,,,drugscr01,nicotine_s1yn,,,,,,,,nicotine_s1yn,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1,,,,drugscr01,nicotine_s1,,,,,,,,nicotine_s1,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1pretype,,,,drugscr01,nicotine_s1pretype,,,,,,,,nicotine_s1pretype,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1pretime,,,,drugscr01,nicotine_s1pretime,,,,,,,,nicotine_s1pretime,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1preday,,,,drugscr01,nicotine_s1preday,,,,,,,,nicotine_s1preday,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1vsttype1,,,,drugscr01,nicotine_s1vsttype1,,,,,,,,nicotine_s1vsttype1,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1vsttime1,,,,drugscr01,nicotine_s1vsttime1,,,,,,,,nicotine_s1vsttime1,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1vsttype2,,,,drugscr01,nicotine_s1vsttype2,,,,,,,,nicotine_s1vsttype2,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s1vsttime2,,,,drugscr01,nicotine_s1vsttime2,,,,,,,,nicotine_s1vsttime2,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2yn,,,,drugscr01,nicotine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2,,,,drugscr01,nicotine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2pretype,,,,drugscr01,nicotine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2pretime,,,,drugscr01,nicotine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2preday,,,,drugscr01,nicotine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2vsttype1,,,,drugscr01,nicotine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2vsttime1,,,,drugscr01,nicotine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2vsttype2,,,,drugscr01,nicotine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s2vsttime2,,,,drugscr01,nicotine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3yn,,,,drugscr01,nicotine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3,,,,drugscr01,nicotine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3pretype,,,,drugscr01,nicotine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3pretime,,,,drugscr01,nicotine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3preday,,,,drugscr01,nicotine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3vsttype1,,,,drugscr01,nicotine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3vsttime1,,,,drugscr01,nicotine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3vsttype2,,,,drugscr01,nicotine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s3vsttime2,,,,drugscr01,nicotine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4yn,,,,drugscr01,nicotine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4,,,,drugscr01,nicotine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4pretype,,,,drugscr01,nicotine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4pretime,,,,drugscr01,nicotine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4preday,,,,drugscr01,nicotine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4vsttype1,,,,drugscr01,nicotine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4vsttime1,,,,drugscr01,nicotine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4vsttype2,,,,drugscr01,nicotine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s4vsttime2,,,,drugscr01,nicotine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5yn,,,,drugscr01,nicotine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5,,,,drugscr01,nicotine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5pretype,,,,drugscr01,nicotine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5pretime,,,,drugscr01,nicotine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5preday,,,,drugscr01,nicotine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5vsttype1,,,,drugscr01,nicotine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5vsttime1,,,,drugscr01,nicotine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5vsttype2,,,,drugscr01,nicotine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s5vsttime2,,,,drugscr01,nicotine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6yn,,,,drugscr01,nicotine_s1yn,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6,,,,drugscr01,nicotine_s1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6pretype,,,,drugscr01,nicotine_s1pretype,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6pretime,,,,drugscr01,nicotine_s1pretime,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6preday,,,,drugscr01,nicotine_s1preday,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6vsttype1,,,,drugscr01,nicotine_s1vsttype1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6vsttime1,,,,drugscr01,nicotine_s1vsttime1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6vsttype2,,,,drugscr01,nicotine_s1vsttype2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,nicotine_s6vsttime2,,,,drugscr01,nicotine_s1vsttime2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,alc,,,,drugscr01,alc,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,alc_breath1,,,,drugscr01,alc_breath1,,,,,,,,alc_breath1,1,
+HCPD,REDCap,hcpdchild hcpd18,,alc_breath2,,,,drugscr01,alc_breath2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,alc_breath3,,,,drugscr01,alc_breath3,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,alc_breath4,,,,drugscr01,alc_breath4,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,alc_breath5,,,,drugscr01,alc_breath5,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,alc_breath6,,,,drugscr01,alc_breath6,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug,,,,drugscr01,drug,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug1_1,,,,drugscr01,drug1_1,,,,,,,,drug1_1,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug1_2,,,,drugscr01,drug1_2,,,,,,,,drug1_2,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug1_3,,,,drugscr01,drug1_3,,,,,,,,drug1_3,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug1_4,,,,drugscr01,drug1_4,,,,,,,,drug1_4,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug1_5,,,,drugscr01,drug1_5,,,,,,,,drug1_5,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug1_6,,,,drugscr01,drug1_6,,,,,,,,drug1_6,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug2_1,,,,drugscr01,drug1_1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug2_2,,,,drugscr01,drug1_2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug2_3,,,,drugscr01,drug1_3,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug2_4,,,,drugscr01,drug1_4,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug2_5,,,,drugscr01,drug1_5,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug2_6,,,,drugscr01,drug1_6,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug3_1,,,,drugscr01,drug1_1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug3_2,,,,drugscr01,drug1_2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug3_3,,,,drugscr01,drug1_3,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug3_4,,,,drugscr01,drug1_4,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug3_5,,,,drugscr01,drug1_5,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug3_6,,,,drugscr01,drug1_6,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug4_1,,,,drugscr01,drug1_1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug4_2,,,,drugscr01,drug1_2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug4_3,,,,drugscr01,drug1_3,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug4_4,,,,drugscr01,drug1_4,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug4_5,,,,drugscr01,drug1_5,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug4_6,,,,drugscr01,drug1_6,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug5_1,,,,drugscr01,drug1_1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug5_2,,,,drugscr01,drug1_2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug5_3,,,,drugscr01,drug1_3,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug5_4,,,,drugscr01,drug1_4,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug5_5,,,,drugscr01,drug1_5,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug5_6,,,,drugscr01,drug1_6,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug6_1,,,,drugscr01,drug1_1,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug6_2,,,,drugscr01,drug1_2,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug6_3,,,,drugscr01,drug1_3,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug6_4,,,,drugscr01,drug1_4,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug6_5,,,,drugscr01,drug1_5,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,drug6_6,,,,drugscr01,drug1_6,,,,,,,,,1,
+HCPD,REDCap,hcpdchild hcpd18,,screen1_wkdy_y,,,,screentime01,screentime1_wkdy_y,,,,,,,,screen1_wkdy_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen2_wkdy_y,,,,screentime01,screentime2_wkdy_y,,,,,,,,screen2_wkdy_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen3_wkdy_y,,,,screentime01,screentime3_wkdy_y,,,,,,,,screen3_wkdy_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen4_wkdy_y,,,,screentime01,screentime4_wkdy_y,,,,,,,,screen4_wkdy_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen5_wkdy_y,,,,screentime01,screentime5_wkdy_y,,,,,,,,screen5_wkdy_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen6_wkdy_y,,,,screentime01,screentime6_wkdy_y,,,,,,,,screen6_wkdy_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen7_wknd_y,,,,screentime01,screentime7_wknd_y,,,,,,,,screen7_wknd_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen8_wknd_y,,,,screentime01,screentime8_wknd_y,,,,,,,,screen8_wknd_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen9_wknd_y,,,,screentime01,screentime9_wknd_y,,,,,,,,screen9_wknd_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen10_wknd_y,,,,screentime01,screentime10_wknd_y,,,,,,,,screen10_wknd_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen11_wknd_y,,,,screentime01,screentime11_wknd_y,,,,,,,,screen11_wknd_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen12_wknd_y,,,,screentime01,screentime12_wknd_y,,,,,,,,screen12_wknd_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen13_y,,,,screentime01,screentime13_y,,,,,,,,screen13_y,,
+HCPD,REDCap,hcpdchild hcpd18,,screen14_y,,,,screentime01,screentime14_y,,,,,,,,screen14_y,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa1,,,,srs02,parentreport_1,,,,,,,,srsa1,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa2,,,,srs02,parentreport_2,,,,,,,,srsa2,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa3,,,,srs02,parentreport_3,,,,,,,,srsa3,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa4,,,,srs02,parentreport_4,,,,,,,,srsa4,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa5,,,,srs02,parentreport_5,,,,,,,,srsa5,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa6,,,,srs02,parentreport_6,,,,,,,,srsa6,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa7,,,,srs02,parentreport_7,,,,,,,,srsa7,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa8,,,,srs02,parentreport_8,,,,,,,,srsa8,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa9,,,,srs02,parentreport_9,,,,,,,,srsa9,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa10,,,,srs02,parentreport_10,,,,,,,,srsa10,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa11,,,,srs02,parentreport_11,,,,,,,,srsa11,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa12,,,,srs02,parentreport_12,,,,,,,,srsa12,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa13,,,,srs02,parentreport_13,,,,,,,,srsa13,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa14,,,,srs02,parentreport_14,,,,,,,,srsa14,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa15,,,,srs02,parentreport_15,,,,,,,,srsa15,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa16,,,,srs02,parentreport_16,,,,,,,,srsa16,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa17,,,,srs02,parentreport_17,,,,,,,,srsa17,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa18,,,,srs02,parentreport_18,,,,,,,,srsa18,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa19,,,,srs02,parentreport_19,,,,,,,,srsa19,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa20,,,,srs02,parentreport_20,,,,,,,,srsa20,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa21,,,,srs02,parentreport_21,,,,,,,,srsa21,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa22,,,,srs02,parentreport_22,,,,,,,,srsa22,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa23,,,,srs02,parentreport_23,,,,,,,,srsa23,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa24,,,,srs02,parentreport_24,,,,,,,,srsa24,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa25,,,,srs02,parentreport_25,,,,,,,,srsa25,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa26,,,,srs02,parentreport_26,,,,,,,,srsa26,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa27,,,,srs02,parentreport_27,,,,,,,,srsa27,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa28,,,,srs02,parentreport_28,,,,,,,,srsa28,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa29,,,,srs02,parentreport_29,,,,,,,,srsa29,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa30,,,,srs02,parentreport_30,,,,,,,,srsa30,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa31,,,,srs02,parentreport_31,,,,,,,,srsa31,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa32,,,,srs02,parentreport_32,,,,,,,,srsa32,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa33,,,,srs02,parentreport_33,,,,,,,,srsa33,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa34,,,,srs02,parentreport_34,,,,,,,,srsa34,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa35,,,,srs02,parentreport_35,,,,,,,,srsa35,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa36,,,,srs02,parentreport_36,,,,,,,,srsa36,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa37,,,,srs02,parentreport_37,,,,,,,,srsa37,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa38,,,,srs02,parentreport_38,,,,,,,,srsa38,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa39,,,,srs02,parentreport_39,,,,,,,,srsa39,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa40,,,,srs02,parentreport_40,,,,,,,,srsa40,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa41,,,,srs02,parentreport_41,,,,,,,,srsa41,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa42,,,,srs02,parentreport_42,,,,,,,,srsa42,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa43,,,,srs02,parentreport_43,,,,,,,,srsa43,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa44,,,,srs02,parentreport_44,,,,,,,,srsa44,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa45,,,,srs02,parentreport_45,,,,,,,,srsa45,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa46,,,,srs02,parentreport_46,,,,,,,,srsa46,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa47,,,,srs02,parentreport_47,,,,,,,,srsa47,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa48,,,,srs02,parentreport_48,,,,,,,,srsa48,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa49,,,,srs02,parentreport_49,,,,,,,,srsa49,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa50,,,,srs02,parentreport_50,,,,,,,,srsa50,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa51,,,,srs02,parentreport_51,,,,,,,,srsa51,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa52,,,,srs02,srsa52,,,,,,,,srsa52,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa53,,,,srs02,parentreport_53,,,,,,,,srsa53,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa54,,,,srs02,parentreport_54,,,,,,,,srsa54,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa55,,,,srs02,parentreport_55,,,,,,,,srsa55,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa56,,,,srs02,parentreport_56,,,,,,,,srsa56,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa57,,,,srs02,parentreport_57,,,,,,,,srsa57,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa58,,,,srs02,parentreport_58,,,,,,,,srsa58,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa59,,,,srs02,parentreport_59,,,,,,,,srsa59,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa60,,,,srs02,parentreport_60,,,,,,,,srsa60,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa61,,,,srs02,parentreport_61,,,,,,,,srsa61,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa62,,,,srs02,parentreport_62,,,,,,,,srsa62,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa63,,,,srs02,parentreport_63,,,,,,,,srsa63,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa64,,,,srs02,parentreport_64,,,,,,,,srsa64,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa65,,,,srs02,parentreport_65,,,,,,,,srsa65,,
+HCPD,REDCap,hcpdchild hcpd18,,srsa_total_raw,,,,srs02,female_rawscoreall,,,,,,,Please split total raw scores by sex. Females' scores can go in 'female_rawscoreall'. Males' scores can go in 'male_rawscoreall'.,female_rawscoreall,,"studydata['female_rawscoreall']=studydata.srsa_total_raw; studydata.loc[studydata.gender!='F','female_rawscoreall']=''"
+HCPD,REDCap,hcpdchild hcpd18,,dummy18,,,,srs02,male_rawscoreall,,,,,,,Please split total raw scores by sex. Females' scores can go in 'female_rawscoreall'. Males' scores can go in 'male_rawscoreall'.,male_rawscoreall,,"studydata['male_rawscoreall']=studydata.srsa_total_raw; studydata.loc[studydata.gender!='M','male_rawscoreall']=''"
+HCPD,REDCap,hcpdchild hcpd18,,srsa_total_tscore,,,,srs02,male_tscoreall,,,,,,,Please split total T-scores by sex. Males' scores can go in 'male_tscoreall'. Females' scores can go in 'female_tscoreall'.,male_tscoreall,,"studydata['male_tscoreall']=studydata.srsa_total_tscore; studydata.loc[studydata.gender!='M','male_tscoreall']=''"
+HCPD,REDCap,hcpdchild hcpd18,,dummy19,,,,srs02,female_tscoreall,,,,,,,Please split total T-scores by sex. Males' scores can go in 'male_tscoreall'. Females' scores can go in 'female_tscoreall'.,female_tscoreall,,"studydata['female_tscoreall']=studydata.srsa_total_tscore; studydata.loc[studydata.gender!='F','female_tscoreall']=''"
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var1,,,,srs02,version_form,,,,,,,"Please use the 'version_form' column to specify a time range of the ""Self report, Past 6 months"" for each row of data.",version_form,,"studydata['version_form']='Self report, Past 6 months'"
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var2,,,,srs02,respond,,,,,,,"Please fill all cells with 999 for this column, unless the respondent is known.",respond,,studydata['respond']='3'
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var3,,,,srs02,respond_detail,,,,,,,"Please fill all cells with 999 for this column, unless the respondent is known.",respond_detail,,studydata['respond_detail']='999'
+HCPD,REDCap,hcpdchild hcpd18,,dummy_var4,,,,srs02,phenotype,,,,,,,"Please specify a cohort/group/diagnosis for participants in this column. If this is not applicable, then please fill each cell with 999.",phenotype,,studydata['phenotype']='999'
