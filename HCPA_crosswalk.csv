@@ -20,20 +20,20 @@ study,source,Inst,dbase,hcp_variable,variable_label,variable_type,variable_optio
 ,REDCap,,hcpa,psqi8,,,,psqi01,psqpi7_2,,,,,,,Please increment 0::3 scale to 1::4.,psqi8,,"psqi5i=pd.to_numeric(studydata.psqi5i,errors='coerce')+1; studydata.psqi5i=psqi5i.fillna(-99).astype(int).astype(str).str.replace('-99','')"
 ,REDCap,,hcpa,psqi9,,,,psqi01,psqi_9,,,,,,,,psqi9,,
 ,REDCap,,hcpa,psqi10,,,,psqi01,parent_sleep20,,,,,,,Please rename this column 'parent_sleep20' to avoid a naming conflict.,parent_sleep20,,studydata['parent_sleep20']=studydata['psqi10']
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_tc,,,,ravlt01,pea_ravlt_sd_tc,,,,,,,,pea_ravlt_sd_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,delay_completion,,,,ravlt01,delay_completion,,,,,,,,delay_completion,,"ravlt.loc[ravlt.delay_completion>1800,'delay_completion']=''"
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,discontinue,,,,ravlt01,discontinue,,,,,,,,discontinue,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,reverse,,,,ravlt01,reverse,,,,,,,,reverse,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_trial_i_tc,,,,ravlt01,pea_ravlt_sd_trial_i_tc,,,,,,,,pea_ravlt_sd_trial_i_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_trial_ii_tc,,,,ravlt01,pea_ravlt_sd_trial_ii_tc,,,,,,,,pea_ravlt_sd_trial_ii_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_trial_iii_tc,,,,ravlt01,pea_ravlt_sd_trial_iii_tc,,,,,,,,pea_ravlt_sd_trial_iii_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_trial_iv_tc,,,,ravlt01,pea_ravlt_sd_trial_iv_tc,,,,,,,,pea_ravlt_sd_trial_iv_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_trial_v_tc,,,,ravlt01,pea_ravlt_sd_trial_v_tc,,,,,,,,pea_ravlt_sd_trial_v_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_listb_tc,,,,ravlt01,pea_ravlt_sd_listb_tc,,,,,,,,pea_ravlt_sd_listb_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,pea_ravlt_sd_trial_vi_tc,,,,ravlt01,pea_ravlt_sd_trial_vi_tc,,,,,,,,pea_ravlt_sd_trial_vi_tc,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,delay_recall_intrusion,,,,ravlt01,delay_recall_intrusion,,,,,,,,delay_recall_intrusion,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,delay_total_intrusion,,,,ravlt01,delay_total_intrusion,,,,,,,,delay_total_intrusion,,
-,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61127E+11,delay_total_repetitions,,,,ravlt01,delay_total_repetitions,,,,,,,,delay_total_repetitions,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_tc,,,,ravlt01,pea_ravlt_sd_tc,,,,,,,,pea_ravlt_sd_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,delay_completion,,,,ravlt01,delay_completion,,,,,,,,delay_completion,,"ravlt.loc[ravlt.delay_completion>1800,'delay_completion']=''"
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,discontinue,,,,ravlt01,discontinue,,,,,,,,discontinue,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,reverse,,,,ravlt01,reverse,,,,,,,,reverse,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_trial_i_tc,,,,ravlt01,pea_ravlt_sd_trial_i_tc,,,,,,,,pea_ravlt_sd_trial_i_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_trial_ii_tc,,,,ravlt01,pea_ravlt_sd_trial_ii_tc,,,,,,,,pea_ravlt_sd_trial_ii_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_trial_iii_tc,,,,ravlt01,pea_ravlt_sd_trial_iii_tc,,,,,,,,pea_ravlt_sd_trial_iii_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_trial_iv_tc,,,,ravlt01,pea_ravlt_sd_trial_iv_tc,,,,,,,,pea_ravlt_sd_trial_iv_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_trial_v_tc,,,,ravlt01,pea_ravlt_sd_trial_v_tc,,,,,,,,pea_ravlt_sd_trial_v_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_listb_tc,,,,ravlt01,pea_ravlt_sd_listb_tc,,,,,,,,pea_ravlt_sd_listb_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,pea_ravlt_sd_trial_vi_tc,,,,ravlt01,pea_ravlt_sd_trial_vi_tc,,,,,,,,pea_ravlt_sd_trial_vi_tc,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,delay_recall_intrusion,,,,ravlt01,delay_recall_intrusion,,,,,,,,delay_recall_intrusion,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,delay_total_intrusion,,,,ravlt01,delay_total_intrusion,,,,,,,,delay_total_intrusion,,
+,box.wustl.edu,Behavioral Data - Snapshots/Q/Q_RAVLT_Snapshot_*.csv,5.61E+11,delay_total_repetitions,,,,ravlt01,delay_total_repetitions,,,,,,,,delay_total_repetitions,,
 ,REDCap,,hcpa,ipaq1,,,,ipaq01,No NDA equivalent - Please withhold this column,,,,,,,"Please withhold this column, but add the code of 0 to the count of days in the companion column (still indicates the activity was not done).",,,
 ,REDCap,,hcpa,ipaq1days,,,,ipaq01,ipaq2,,,,,,,,ipaq1days,,"studydata.loc[studydata.ipaq1=='0','ipaq1days']=0"
 ,REDCap,,hcpa,ipaq2hrs,,,,ipaq01,ipaq3a,,,,,,,,ipaq2hrs,,
@@ -49,46 +49,6 @@ study,source,Inst,dbase,hcp_variable,variable_label,variable_type,variable_optio
 ,REDCap,,hcpa,ipaq7,,,,ipaq01,No NDA equivalent - Please withhold this column,,,,,,,"Please withhold this column, but add the code of 0 to the count of days in the companion column (still indicates the activity was not done).",,,
 ,REDCap,,hcpa,ipaq7hrs,,,,ipaq01,ipaq26a,,,,,,,,ipaq7hrs,,"studydata.loc[studydata.ipaq7=='0','ipaq7days']=0"
 ,REDCap,,hcpa,ipaq7mins,,,,ipaq01,ipaq26a,,,,,,,,ipaq7mins,,
-,REDCap,,hcpa,cb1_1a,,,,facename01,cb1_1a,,,,,,,,cb1_1a,,
-,REDCap,,hcpa,cb1_1a_other,,,,facename01,cb1_1a_other,,,,,,,,cb1_1a_other,,
-,REDCap,,hcpa,cb1_2a,,,,facename01,cb1_2a,,,,,,,,cb1_2a,,
-,REDCap,,hcpa,cb1_2a_other,,,,facename01,cb1_2a_other,,,,,,,,cb1_2a_other,,
-,REDCap,,hcpa,cb1_3a,,,,facename01,cb1_3a,,,,,,,,cb1_3a,,
-,REDCap,,hcpa,cb1_3a_other,,,,facename01,cb1_3a_other,,,,,,,,cb1_3a_other,,
-,REDCap,,hcpa,cb1_4a,,,,facename01,cb1_4a,,,,,,,,cb1_4a,,
-,REDCap,,hcpa,cb1_4a_other,,,,facename01,cb1_4a_other,,,,,,,,cb1_4a_other,,
-,REDCap,,hcpa,cb1_5a,,,,facename01,cb1_5a,,,,,,,,cb1_5a,,
-,REDCap,,hcpa,cb1_5a_other,,,,facename01,cb1_5a_other,,,,,,,,cb1_5a_other,,
-,REDCap,,hcpa,cb1_6a,,,,facename01,cb1_6a,,,,,,,,cb1_6a,,
-,REDCap,,hcpa,cb1_6a_other,,,,facename01,cb1_6a_other,,,,,,,,cb1_6a_other,,
-,REDCap,,hcpa,cb1_7a,,,,facename01,cb1_7a,,,,,,,,cb1_7a,,
-,REDCap,,hcpa,cb1_7a_other,,,,facename01,cb1_7a_other,,,,,,,,cb1_7a_other,,
-,REDCap,,hcpa,cb1_8a,,,,facename01,cb1_8a,,,,,,,,cb1_8a,,
-,REDCap,,hcpa,cb1_8a_other,,,,facename01,cb1_8a_other,,,,,,,,cb1_8a_other,,
-,REDCap,,hcpa,cb1_9a,,,,facename01,cb1_9a,,,,,,,,cb1_9a,,
-,REDCap,,hcpa,cb1_9a_other,,,,facename01,cb1_9a_other,,,,,,,,cb1_9a_other,,
-,REDCap,,hcpa,cb1_10a,,,,facename01,cb1_10a,,,,,,,,cb1_10a,,
-,REDCap,,hcpa,cb1_10a_other,,,,facename01,cb1_10a_other,,,,,,,,cb1_10a_other,,
-,REDCap,,hcpa,cb2_1a,,,,facename01,cb2_1a,,,,,,,,cb2_1a,,
-,REDCap,,hcpa,cb2_1a_other,,,,facename01,cb2_1a_other,,,,,,,,cb2_1a_other,,
-,REDCap,,hcpa,cb2_2a,,,,facename01,cb2_2a,,,,,,,,cb2_2a,,
-,REDCap,,hcpa,cb2_2a_other,,,,facename01,cb2_2a_other,,,,,,,,cb2_2a_other,,
-,REDCap,,hcpa,cb2_3a,,,,facename01,cb2_3a,,,,,,,,cb2_3a,,
-,REDCap,,hcpa,cb2_3a_other,,,,facename01,cb2_3a_other,,,,,,,,cb2_3a_other,,
-,REDCap,,hcpa,cb2_4a,,,,facename01,cb2_4a,,,,,,,,cb2_4a,,
-,REDCap,,hcpa,cb2_4a_other,,,,facename01,cb2_4a_other,,,,,,,,cb2_4a_other,,
-,REDCap,,hcpa,cb2_5a,,,,facename01,cb2_5a,,,,,,,,cb2_5a,,
-,REDCap,,hcpa,cb2_5a_other,,,,facename01,cb2_5a_other,,,,,,,,cb2_5a_other,,
-,REDCap,,hcpa,cb2_6a,,,,facename01,cb2_6a,,,,,,,,cb2_6a,,
-,REDCap,,hcpa,cb2_6a_other,,,,facename01,cb2_6a_other,,,,,,,,cb2_6a_other,,
-,REDCap,,hcpa,cb2_7a,,,,facename01,cb2_7a,,,,,,,,cb2_7a,,
-,REDCap,,hcpa,cb2_7a_other,,,,facename01,cb2_7a_other,,,,,,,,cb2_7a_other,,
-,REDCap,,hcpa,cb2_8a,,,,facename01,cb2_8a,,,,,,,,cb2_8a,,
-,REDCap,,hcpa,cb2_8a_other,,,,facename01,cb2_8a_other,,,,,,,,cb2_8a_other,,
-,REDCap,,hcpa,cb2_9a,,,,facename01,cb2_9a,,,,,,,,cb2_9a,,
-,REDCap,,hcpa,cb2_9a_other,,,,facename01,cb2_9a_other,,,,,,,,cb2_9a_other,,
-,REDCap,,hcpa,cb2_10a,,,,facename01,cb2_10a,,,,,,,,cb2_10a,,
-,REDCap,,hcpa,cb2_10a_other,,,,facename01,cb2_10a_other,,,,,,,,cb2_10a_other,,
 ,REDCap,,hcpa,batlq1,,,,batbil01,batlq1,,,,,,,,batlq1,,
 ,REDCap,,hcpa,batlq1_lc,,,,batbil01,batlq1_lc,,,,,,,,batlq1_lc,,
 ,REDCap,,hcpa,batlq1_lct,,,,batbil01,batlq1_lct,,,,,,,,batlq1_lct,,
@@ -1103,47 +1063,47 @@ study,source,Inst,dbase,hcp_variable,variable_label,variable_type,variable_optio
 ,REDCap,,hcpa,drug6_4,,,,drugscr01,drug1_4,,,,,,,,,1,
 ,REDCap,,hcpa,drug6_5,,,,drugscr01,drug1_5,,,,,,,,,1,
 ,REDCap,,hcpa,drug6_6,,,,drugscr01,drug1_6,,,,,,,,,1,
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_valid,,,,deldisk01,version_form,,,,,,,,K_ER40D_valid_code,1,penn['K_ER40D_valid_code']=penn['K_ER40D.valid_code']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_1mo_200,,,,deldisk01,sv_1mo_200,,,,,,,,K_ER40D_ER40_CR,1,penn['K_ER40D_ER40_CR']=penn['K_ER40D.ER40_CR']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_6mo_200,,,,deldisk01,sv_6mo_200,,,,,,,,K_ER40D_ER40_CRT,1,penn['K_ER40D_ER40_CRT']=penn['K_ER40D.ER40_CRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_1yr_200,,,,deldisk01,sv_1yr_200,,,,,,,,K_ER40D_ER40ANG,1,penn['K_ER40D_ER40ANG']=penn['K_ER40D.ER40ANG']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_3yr_200,,,,deldisk01,sv_3yr_200,,,,,,,,K_ER40D_ER40FEAR,1,penn['K_ER40D_ER40FEAR']=penn['K_ER40D.ER40FEAR']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_5yr_200,,,,deldisk01,sv_5yr_200,,,,,,,,K_ER40D_ER40HAP,1,penn['K_ER40D_ER40HAP']=penn['K_ER40D.ER40HAP']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_10yr_200,,,,deldisk01,sv_10yr_200,,,,,,,,K_ER40D_ER40NOE,1,penn['K_ER40D_ER40NOE']=penn['K_ER40D.ER40NOE']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_1mo_40000,,,,deldisk01,sv_1mo_40000,,,,,,,,K_ER40D_ER40SAD,1,penn['K_ER40D_ER40SAD']=penn['K_ER40D.ER40SAD']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_6mo_40000,,,,deldisk01,sv_6mo_40000,,,,,,,,K_ER40D_ER40ANGRT,1,penn['K_ER40D_ER40ANGRT']=penn['K_ER40D.ER40ANGRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_1yr_40000,,,,deldisk01,sv_1yr_40000,,,,,,,,K_ER40D_ER40FEARRT,1,penn['K_ER40D_ER40FEARRT']=penn['K_ER40D.ER40FEARRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_3yr_40000,,,,deldisk01,sv_3yr_40000,,,,,,,,K_ER40D_ER40HAPRT,1,penn['K_ER40D_ER40HAPRT']=penn['K_ER40D.ER40HAPRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_5yr_40000,,,,deldisk01,sv_5yr_40000,,,,,,,,K_ER40D_ER40NOERT,1,penn['K_ER40D_ER40NOERT']=penn['K_ER40D.ER40NOERT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_SV_10yr_40000,,,,deldisk01,sv_10yr_40000,,,,,,,,K_ER40D_ER40SADRT,1,penn['K_ER40D_ER40SADRT']=penn['K_ER40D.ER40SADRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_AUC_200,,,,deldisk01,auc_200,,,,,,,,K_ER40D_ER40_FPA,1,penn['K_ER40D_ER40_FPA']=penn['K_ER40D.ER40_FPA']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,DDISC_AUC_40000,,,,deldisk01,auc_40000,,,,,,,,K_ER40D_ER40_FPF,1,penn['K_ER40D_ER40_FPF']=penn['K_ER40D.ER40_FPF']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_valid_code,,,,er4001,version_form,,,,,,,,K_ER40D_ER40_FPH,1,penn['K_ER40D_ER40_FPH']=penn['K_ER40D.ER40_FPH']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_CR,,,,er4001,er40_c_cr,,,,,,,,K_ER40D_ER40_FPN,1,penn['K_ER40D_ER40_FPN']=penn['K_ER40D.ER40_FPN']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_CRT,,,,er4001,er40_c_rtcr,,,,,,,,K_ER40D_ER40_FPS,1,penn['K_ER40D_ER40_FPS']=penn['K_ER40D.ER40_FPS']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40ANG,,,,er4001,er40_c_ang,,,,,,,,K_ER40D_ER40_FPART,1,penn['K_ER40D_ER40_FPART']=penn['K_ER40D.ER40_FPART']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40FEAR,,,,er4001,er40_c_fear,,,,,,,,K_ER40D_ER40_FPFRT,1,penn['K_ER40D_ER40_FPFRT']=penn['K_ER40D.ER40_FPFRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40HAP,,,,er4001,er40_c_hap,,,,,,,,K_ER40D_ER40_FPHRT,1,penn['K_ER40D_ER40_FPHRT']=penn['K_ER40D.ER40_FPHRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40NOE,,,,er4001,er40_c_noe,,,,,,,,K_ER40D_ER40_FPNRT,1,penn['K_ER40D_ER40_FPNRT']=penn['K_ER40D.ER40_FPNRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40SAD,,,,er4001,er40_c_sad,,,,,,,,K_ER40D_ER40_FPSRT,1,penn['K_ER40D_ER40_FPSRT']=penn['K_ER40D.ER40_FPSRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40ANGRT,,,,er4001,er40_d_angrt,,,,,,,,K_ER40D_ER40_FC,1,penn['K_ER40D_ER40_FC']=penn['K_ER40D.ER40_FC']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40FEARRT,,,,er4001,er40_d_fearrt,,,,,,,,K_ER40D_ER40_MC,1,penn['K_ER40D_ER40_MC']=penn['K_ER40D.ER40_MC']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40HAPRT,,,,er4001,er40_d_haprt,,,,,,,,K_ER40D_ER40FCRT,1,penn['K_ER40D_ER40FCRT']=penn['K_ER40D.ER40FCRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40NOERT,,,,er4001,er40_d_noert,,,,,,,,K_ER40D_ER40MCRT,1,penn['K_ER40D_ER40MCRT']=penn['K_ER40D.ER40MCRT']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40SADRT,,,,er4001,er40_d_sadrt,,,,,,,,DDISC_valid,1,
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPA,,,,er4001,er40_c_fpa,,,,,,,,DDISC_SV_1mo_200,1,penn['DDISC_SV_1mo_200']=penn['DDISC.SV_1mo_200']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPF,,,,er4001,er40_c_fpf,,,,,,,,DDISC_SV_6mo_200,1,penn['DDISC_SV_6mo_200']=penn['DDISC.SV_6mo_200']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPH,,,,er4001,er40_c_fph,,,,,,,,DDISC_SV_1yr_200,1,penn['DDISC_SV_1yr_200']=penn['DDISC.SV_1yr_200']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPN,,,,er4001,er40_c_fpn,,,,,,,,DDISC_SV_3yr_200,1,penn['DDISC_SV_3yr_200']=penn['DDISC.SV_3yr_200']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPS,,,,er4001,er40_c_fps,,,,,,,,DDISC_SV_5yr_200,1,penn['DDISC_SV_5yr_200']=penn['DDISC.SV_5yr_200']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPART,,,,er4001,er40_c_fpart,,,,,,,,DDISC_SV_10yr_200,1,penn['DDISC_SV_10yr_200']=penn['DDISC.SV_10yr_200']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPFRT,,,,er4001,er40_c_fpfrt,,,,,,,,DDISC_SV_1mo_40000,1,penn['DDISC_SV_1mo_40000']=penn['DDISC.SV_1mo_40000']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPHRT,,,,er4001,er40_c_fphrt,,,,,,,,DDISC_SV_6mo_40000,1,penn['DDISC_SV_6mo_40000']=penn['DDISC.SV_6mo_40000']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPNRT,,,,er4001,er40_c_fpnrt,,,,,,,,DDISC_SV_1yr_40000,1,penn['DDISC_SV_1yr_40000']=penn['DDISC.SV_1yr_40000']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FPSRT,,,,er4001,er40_c_fpsrt,,,,,,,,DDISC_SV_3yr_40000,1,penn['DDISC_SV_3yr_40000']=penn['DDISC.SV_3yr_40000']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_FC,,,,er4001,er40_d_fc,,,,,,,,DDISC_SV_5yr_40000,1,penn['DDISC_SV_5yr_40000']=penn['DDISC.SV_5yr_40000']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40_MC,,,,er4001,er40_d_mc,,,,,,,,DDISC_SV_10yr_40000,1,penn['DDISC_SV_10yr_40000']=penn['DDISC.SV_10yr_40000']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40FCRT,,,,er4001,er40_c_fcrt,,,,,,,,DDISC_AUC_200,1,penn['DDISC_AUC_200']=penn['DDISC.AUC_200']
-,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56288E+11,K_ER40D_ER40MCRT,,,,er4001,er40_c_mcrt,,,,,,,,DDISC_AUC_40000,1,penn['DDISC_AUC_40000']=penn['DDISC.AUC_40000']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_valid,,,,deldisk01,version_form,,,,,,,,K_ER40D_valid_code,1,penn['K_ER40D_valid_code']=penn['K_ER40D.valid_code']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_1mo_200,,,,deldisk01,sv_1mo_200,,,,,,,,K_ER40D_ER40_CR,1,penn['K_ER40D_ER40_CR']=penn['K_ER40D.ER40_CR']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_6mo_200,,,,deldisk01,sv_6mo_200,,,,,,,,K_ER40D_ER40_CRT,1,penn['K_ER40D_ER40_CRT']=penn['K_ER40D.ER40_CRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_1yr_200,,,,deldisk01,sv_1yr_200,,,,,,,,K_ER40D_ER40ANG,1,penn['K_ER40D_ER40ANG']=penn['K_ER40D.ER40ANG']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_3yr_200,,,,deldisk01,sv_3yr_200,,,,,,,,K_ER40D_ER40FEAR,1,penn['K_ER40D_ER40FEAR']=penn['K_ER40D.ER40FEAR']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_5yr_200,,,,deldisk01,sv_5yr_200,,,,,,,,K_ER40D_ER40HAP,1,penn['K_ER40D_ER40HAP']=penn['K_ER40D.ER40HAP']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_10yr_200,,,,deldisk01,sv_10yr_200,,,,,,,,K_ER40D_ER40NOE,1,penn['K_ER40D_ER40NOE']=penn['K_ER40D.ER40NOE']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_1mo_40000,,,,deldisk01,sv_1mo_40000,,,,,,,,K_ER40D_ER40SAD,1,penn['K_ER40D_ER40SAD']=penn['K_ER40D.ER40SAD']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_6mo_40000,,,,deldisk01,sv_6mo_40000,,,,,,,,K_ER40D_ER40ANGRT,1,penn['K_ER40D_ER40ANGRT']=penn['K_ER40D.ER40ANGRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_1yr_40000,,,,deldisk01,sv_1yr_40000,,,,,,,,K_ER40D_ER40FEARRT,1,penn['K_ER40D_ER40FEARRT']=penn['K_ER40D.ER40FEARRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_3yr_40000,,,,deldisk01,sv_3yr_40000,,,,,,,,K_ER40D_ER40HAPRT,1,penn['K_ER40D_ER40HAPRT']=penn['K_ER40D.ER40HAPRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_5yr_40000,,,,deldisk01,sv_5yr_40000,,,,,,,,K_ER40D_ER40NOERT,1,penn['K_ER40D_ER40NOERT']=penn['K_ER40D.ER40NOERT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_SV_10yr_40000,,,,deldisk01,sv_10yr_40000,,,,,,,,K_ER40D_ER40SADRT,1,penn['K_ER40D_ER40SADRT']=penn['K_ER40D.ER40SADRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_AUC_200,,,,deldisk01,auc_200,,,,,,,,K_ER40D_ER40_FPA,1,penn['K_ER40D_ER40_FPA']=penn['K_ER40D.ER40_FPA']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,DDISC_AUC_40000,,,,deldisk01,auc_40000,,,,,,,,K_ER40D_ER40_FPF,1,penn['K_ER40D_ER40_FPF']=penn['K_ER40D.ER40_FPF']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_valid_code,,,,er4001,version_form,,,,,,,,K_ER40D_ER40_FPH,1,penn['K_ER40D_ER40_FPH']=penn['K_ER40D.ER40_FPH']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_CR,,,,er4001,er40_c_cr,,,,,,,,K_ER40D_ER40_FPN,1,penn['K_ER40D_ER40_FPN']=penn['K_ER40D.ER40_FPN']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_CRT,,,,er4001,er40_c_rtcr,,,,,,,,K_ER40D_ER40_FPS,1,penn['K_ER40D_ER40_FPS']=penn['K_ER40D.ER40_FPS']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40ANG,,,,er4001,er40_c_ang,,,,,,,,K_ER40D_ER40_FPART,1,penn['K_ER40D_ER40_FPART']=penn['K_ER40D.ER40_FPART']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40FEAR,,,,er4001,er40_c_fear,,,,,,,,K_ER40D_ER40_FPFRT,1,penn['K_ER40D_ER40_FPFRT']=penn['K_ER40D.ER40_FPFRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40HAP,,,,er4001,er40_c_hap,,,,,,,,K_ER40D_ER40_FPHRT,1,penn['K_ER40D_ER40_FPHRT']=penn['K_ER40D.ER40_FPHRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40NOE,,,,er4001,er40_c_noe,,,,,,,,K_ER40D_ER40_FPNRT,1,penn['K_ER40D_ER40_FPNRT']=penn['K_ER40D.ER40_FPNRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40SAD,,,,er4001,er40_c_sad,,,,,,,,K_ER40D_ER40_FPSRT,1,penn['K_ER40D_ER40_FPSRT']=penn['K_ER40D.ER40_FPSRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40ANGRT,,,,er4001,er40_d_angrt,,,,,,,,K_ER40D_ER40_FC,1,penn['K_ER40D_ER40_FC']=penn['K_ER40D.ER40_FC']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40FEARRT,,,,er4001,er40_d_fearrt,,,,,,,,K_ER40D_ER40_MC,1,penn['K_ER40D_ER40_MC']=penn['K_ER40D.ER40_MC']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40HAPRT,,,,er4001,er40_d_haprt,,,,,,,,K_ER40D_ER40FCRT,1,penn['K_ER40D_ER40FCRT']=penn['K_ER40D.ER40FCRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40NOERT,,,,er4001,er40_d_noert,,,,,,,,K_ER40D_ER40MCRT,1,penn['K_ER40D_ER40MCRT']=penn['K_ER40D.ER40MCRT']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40SADRT,,,,er4001,er40_d_sadrt,,,,,,,,DDISC_valid,1,
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPA,,,,er4001,er40_c_fpa,,,,,,,,DDISC_SV_1mo_200,1,penn['DDISC_SV_1mo_200']=penn['DDISC.SV_1mo_200']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPF,,,,er4001,er40_c_fpf,,,,,,,,DDISC_SV_6mo_200,1,penn['DDISC_SV_6mo_200']=penn['DDISC.SV_6mo_200']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPH,,,,er4001,er40_c_fph,,,,,,,,DDISC_SV_1yr_200,1,penn['DDISC_SV_1yr_200']=penn['DDISC.SV_1yr_200']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPN,,,,er4001,er40_c_fpn,,,,,,,,DDISC_SV_3yr_200,1,penn['DDISC_SV_3yr_200']=penn['DDISC.SV_3yr_200']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPS,,,,er4001,er40_c_fps,,,,,,,,DDISC_SV_5yr_200,1,penn['DDISC_SV_5yr_200']=penn['DDISC.SV_5yr_200']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPART,,,,er4001,er40_c_fpart,,,,,,,,DDISC_SV_10yr_200,1,penn['DDISC_SV_10yr_200']=penn['DDISC.SV_10yr_200']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPFRT,,,,er4001,er40_c_fpfrt,,,,,,,,DDISC_SV_1mo_40000,1,penn['DDISC_SV_1mo_40000']=penn['DDISC.SV_1mo_40000']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPHRT,,,,er4001,er40_c_fphrt,,,,,,,,DDISC_SV_6mo_40000,1,penn['DDISC_SV_6mo_40000']=penn['DDISC.SV_6mo_40000']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPNRT,,,,er4001,er40_c_fpnrt,,,,,,,,DDISC_SV_1yr_40000,1,penn['DDISC_SV_1yr_40000']=penn['DDISC.SV_1yr_40000']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FPSRT,,,,er4001,er40_c_fpsrt,,,,,,,,DDISC_SV_3yr_40000,1,penn['DDISC_SV_3yr_40000']=penn['DDISC.SV_3yr_40000']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_FC,,,,er4001,er40_d_fc,,,,,,,,DDISC_SV_5yr_40000,1,penn['DDISC_SV_5yr_40000']=penn['DDISC.SV_5yr_40000']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40_MC,,,,er4001,er40_d_mc,,,,,,,,DDISC_SV_10yr_40000,1,penn['DDISC_SV_10yr_40000']=penn['DDISC.SV_10yr_40000']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40FCRT,,,,er4001,er40_c_fcrt,,,,,,,,DDISC_AUC_200,1,penn['DDISC_AUC_200']=penn['DDISC.AUC_200']
+,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,5.56E+11,K_ER40D_ER40MCRT,,,,er4001,er40_c_mcrt,,,,,,,,DDISC_AUC_40000,1,penn['DDISC_AUC_40000']=penn['DDISC.AUC_40000']
 ,,,,,,,,,,,,,,,,,,,
 ,box.wustl.edu,Behavioral Data - Snapshots/UPenn CNP/PennCNP_PennCNP_Snapshot_*.csv,,,,,,,,,,,,,,,,,
